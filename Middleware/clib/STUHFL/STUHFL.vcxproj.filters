@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\platform">
+      <UniqueIdentifier>{434176a2-ee71-4a20-8d61-82e6d395ca20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform">
+      <UniqueIdentifier>{df6c5448-4de7-4434-8e00-0b5f5c0bbfb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\device">
+      <UniqueIdentifier>{6b4697fc-5c06-4544-87c5-03264983be58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wrapper">
+      <UniqueIdentifier>{fe959ccb-1d90-42d2-8a16-2b10bab6ca0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wrapper">
+      <UniqueIdentifier>{4dcf12e7-1520-4692-be30-e861a1a5bfe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\device">
+      <UniqueIdentifier>{9612e39f-c837-41bd-8a63-f20e25f4cef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tools">
+      <UniqueIdentifier>{eb4c5ecb-8a9d-4d9c-888e-f51268b32e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tools">
+      <UniqueIdentifier>{e5e844d1-9936-4147-8efe-78150ebe5574}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\stuhfl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_al.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_sl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\platform\stuhfl_bl_win32.h">
+      <Filter>Header Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\platform\stuhfl_platform.h">
+      <Filter>Header Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_evalAPI.h">
+      <Filter>Header Files\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_helpers.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_log.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_dl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_pl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_dl_ST25RU3993.h">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_sl_gb29768.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stuhfl_sl_gen2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\stuhfl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stuhfl_al.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stuhfl_sl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform\stuhfl_bl_win32.c">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform\stuhfl_platform.c">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stuhfl_evalAPI_host.c">
+      <Filter>Source Files\wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stuhfl_helpers.c">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stuhfl_log.c">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stuhfl_dl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stuhfl_pl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

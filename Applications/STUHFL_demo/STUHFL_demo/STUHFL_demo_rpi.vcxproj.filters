@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{859c6bfb-1e67-4451-9c16-5a4d18f94a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ba552eb2-eb9f-415c-8c3f-5f1b4411d9f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="STUHFL_demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="STUHFL_demo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STUHFL_demoBasic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STUHFL_demoEvalAPI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STUHFL_demoInventoryRunner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STUHFL_demoPlayground.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
