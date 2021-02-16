@@ -1,0 +1,1724 @@
+ STUHFL
+
+ Timestamp is 602bfd5b (Tue Feb 16 18:14:03 2021)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00010000H .textbss                DATA
+ 0002:00000000 0001bba0H .text$mn                CODE
+ 0002:0001bba0 00001040H .text$mn$00             CODE
+ 0002:0001cbe0 00001141H .text$x                 CODE
+ 0003:00000000 00000110H .CRT$XCA                DATA
+ 0003:00000110 00000110H .CRT$XCZ                DATA
+ 0003:00000220 00000110H .CRT$XIA                DATA
+ 0003:00000330 00000110H .CRT$XIZ                DATA
+ 0003:00000440 00000110H .CRT$XPA                DATA
+ 0003:00000550 00000110H .CRT$XPZ                DATA
+ 0003:00000660 00000110H .CRT$XTA                DATA
+ 0003:00000770 00000110H .CRT$XTZ                DATA
+ 0003:00000880 00006c00H .rdata                  DATA
+ 0003:00007480 00000110H .rdata$CastGuardVftablesA DATA
+ 0003:00007590 0000010cH .rdata$CastGuardVftablesC DATA
+ 0003:0000769c 00000184H .rdata$zzzdbg           DATA
+ 0003:00007820 00000110H .rtc$IAA                DATA
+ 0003:00007930 000001b0H .rtc$IMZ                DATA
+ 0003:00007ae0 00000110H .rtc$IZZ                DATA
+ 0003:00007bf0 00000110H .rtc$TAA                DATA
+ 0003:00007d00 000001b0H .rtc$TMZ                DATA
+ 0003:00007eb0 00000110H .rtc$TZZ                DATA
+ 0003:00007fc0 000017c0H .xdata                  DATA
+ 0003:00009780 000010e6H .edata                  DATA
+ 0004:00000000 000001a0H .data                   DATA
+ 0004:000001a0 00002760H .bss                    DATA
+ 0005:00000000 000029acH .pdata                  DATA
+ 0006:00000000 000003d0H .idata$5                DATA
+ 0006:000003d0 0000003cH .idata$2                DATA
+ 0006:0000040c 00000014H .idata$3                DATA
+ 0006:00000420 000003d0H .idata$4                DATA
+ 0006:000007f0 0000077dH .idata$6                DATA
+ 0007:00000000 000001b0H .msvcjmc                DATA
+ 0008:00000000 00000151H .00cfg                  DATA
+ 0009:00000000 00000170H .rsrc$01                DATA
+ 0009:00000170 000002ccH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __volatile_metadata        0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       __enc$textbss$begin        0000000180001000     <linker-defined>
+ 0001:00010000       __enc$textbss$end          0000000180011000     <linker-defined>
+ 0002:00000db0       STUHFL_F_Connect_Win32     0000000180011db0 f   stuhfl_bl_win32.obj
+ 0002:00001040       STUHFL_F_Disconnect_Win32  0000000180012040 f   stuhfl_bl_win32.obj
+ 0002:000010f0       STUHFL_F_GetDTR_Win32      00000001800120f0 f   stuhfl_bl_win32.obj
+ 0002:00001200       STUHFL_F_GetRTS_Win32      0000000180012200 f   stuhfl_bl_win32.obj
+ 0002:00001310       STUHFL_F_GetTimeouts_Win32 0000000180012310 f   stuhfl_bl_win32.obj
+ 0002:000013a0       STUHFL_F_RcvRaw_Win32      00000001800123a0 f   stuhfl_bl_win32.obj
+ 0002:00001550       STUHFL_F_Reset_Win32       0000000180012550 f   stuhfl_bl_win32.obj
+ 0002:00001660       STUHFL_F_SetDTR_Win32      0000000180012660 f   stuhfl_bl_win32.obj
+ 0002:00001750       STUHFL_F_SetRTS_Win32      0000000180012750 f   stuhfl_bl_win32.obj
+ 0002:00001840       STUHFL_F_SetTimeouts_Win32 0000000180012840 f   stuhfl_bl_win32.obj
+ 0002:00001980       STUHFL_F_SndRaw_Win32      0000000180012980 f   stuhfl_bl_win32.obj
+ 0002:00001af0       __JustMyCode_Default       0000000180012af0 f i stuhfl_bl_win32.obj
+ 0002:00001b00       getMilliCount              0000000180012b00 f   stuhfl_platform.obj
+ 0002:00001b50       getMilliSpan               0000000180012b50 f   stuhfl_platform.obj
+ 0002:00001bf0       usleep                     0000000180012bf0 f   stuhfl_platform.obj
+ 0002:00001d00       DllMain                    0000000180012d00 f   stuhfl.obj
+ 0002:00001d70       STUHFL_F_GetLibVersion     0000000180012d70 f   stuhfl.obj
+ 0002:00001dc0       STUHFL_F_Start             0000000180012dc0 f   stuhfl_al.obj
+ 0002:00001e90       STUHFL_F_Start_OOP         0000000180012e90 f   stuhfl_al.obj
+ 0002:00002080       STUHFL_F_Stop              0000000180013080 f   stuhfl_al.obj
+ 0002:00002180       threadInventoryFunc        0000000180013180 f   stuhfl_al.obj
+ 0002:00002350       GetParam_RcvPayload_TYPE_ST25RU3993 0000000180013350 f   stuhfl_dl.obj
+ 0002:000046a0       GetParam_SndPayload_TYPE_ST25RU3993 00000001800156a0 f   stuhfl_dl.obj
+ 0002:000052c0       STUHFL_F_Connect           00000001800162c0 f   stuhfl_dl.obj
+ 0002:000053f0       STUHFL_F_Disconnect        00000001800163f0 f   stuhfl_dl.obj
+ 0002:00005490       STUHFL_F_EnterBootloader   0000000180016490 f   stuhfl_dl.obj
+ 0002:00005550       STUHFL_F_ExecuteCmd        0000000180016550 f   stuhfl_dl.obj
+ 0002:00005600       STUHFL_F_GetCtx            0000000180016600 f   stuhfl_dl.obj
+ 0002:00005680       STUHFL_F_GetInfo           0000000180016680 f   stuhfl_dl.obj
+ 0002:00005900       STUHFL_F_GetMultipleParams 0000000180016900 f   stuhfl_dl.obj
+ 0002:000060e0       STUHFL_F_GetParam          00000001800170e0 f   stuhfl_dl.obj
+ 0002:00006160       STUHFL_F_GetParamInfo      0000000180017160 f   stuhfl_dl.obj
+ 0002:000063d0       STUHFL_F_GetRawData        00000001800173d0 f   stuhfl_dl.obj
+ 0002:00006550       STUHFL_F_GetVersion        0000000180017550 f   stuhfl_dl.obj
+ 0002:000069d0       STUHFL_F_GetVersionOld     00000001800179d0 f   stuhfl_dl.obj
+ 0002:00006d40       STUHFL_F_Reboot            0000000180017d40 f   stuhfl_dl.obj
+ 0002:00006e00       STUHFL_F_ReceiveCmdData    0000000180017e00 f   stuhfl_dl.obj
+ 0002:000079d0       STUHFL_F_Reset             00000001800189d0 f   stuhfl_dl.obj
+ 0002:00007ab0       STUHFL_F_SendCmd           0000000180018ab0 f   stuhfl_dl.obj
+ 0002:00008020       STUHFL_F_SetMultipleParams 0000000180019020 f   stuhfl_dl.obj
+ 0002:000087f0       STUHFL_F_SetParam          00000001800197f0 f   stuhfl_dl.obj
+ 0002:00008870       STUHFL_F_Upgrade           0000000180019870 f   stuhfl_dl.obj
+ 0002:00008910       SetParam_RcvPayload_TYPE_ST25RU3993 0000000180019910 f   stuhfl_dl.obj
+ 0002:00008a20       SetParam_SndPayload_TYPE_ST25RU3993 0000000180019a20 f   stuhfl_dl.obj
+ 0002:0000abc0       Connect                    000000018001bbc0 f   stuhfl_evalAPI_host.obj
+ 0002:0000ad50       Disconnect                 000000018001bd50 f   stuhfl_evalAPI_host.obj
+ 0002:0000ada0       EnterBootloader            000000018001bda0 f   stuhfl_evalAPI_host.obj
+ 0002:0000ae20       Gb29768_Erase              000000018001be20 f   stuhfl_evalAPI_host.obj
+ 0002:0000af60       Gb29768_Inventory          000000018001bf60 f   stuhfl_evalAPI_host.obj
+ 0002:0000b160       Gb29768_Kill               000000018001c160 f   stuhfl_evalAPI_host.obj
+ 0002:0000b270       Gb29768_Lock               000000018001c270 f   stuhfl_evalAPI_host.obj
+ 0002:0000b3c0       Gb29768_Read               000000018001c3c0 f   stuhfl_evalAPI_host.obj
+ 0002:0000b570       Gb29768_Sort               000000018001c570 f   stuhfl_evalAPI_host.obj
+ 0002:0000b6a0       Gb29768_Write              000000018001c6a0 f   stuhfl_evalAPI_host.obj
+ 0002:0000b830       Gen2_BlockWrite            000000018001c830 f   stuhfl_evalAPI_host.obj
+ 0002:0000ba20       Gen2_GenericCmd            000000018001ca20 f   stuhfl_evalAPI_host.obj
+ 0002:0000bcb0       Gen2_Inventory             000000018001ccb0 f   stuhfl_evalAPI_host.obj
+ 0002:0000bed0       Gen2_Kill                  000000018001ced0 f   stuhfl_evalAPI_host.obj
+ 0002:0000c040       Gen2_Lock                  000000018001d040 f   stuhfl_evalAPI_host.obj
+ 0002:0000c1e0       Gen2_QueryMeasureRssi      000000018001d1e0 f   stuhfl_evalAPI_host.obj
+ 0002:0000c4a0       Gen2_Read                  000000018001d4a0 f   stuhfl_evalAPI_host.obj
+ 0002:0000c650       Gen2_Select                000000018001d650 f   stuhfl_evalAPI_host.obj
+ 0002:0000c7a0       Gen2_Write                 000000018001d7a0 f   stuhfl_evalAPI_host.obj
+ 0002:0000c950       GetAntennaPower            000000018001d950 f   stuhfl_evalAPI_host.obj
+ 0002:0000ca30       GetBoardInfo               000000018001da30 f   stuhfl_evalAPI_host.obj
+ 0002:0000cb60       GetBoardVersion            000000018001db60 f   stuhfl_evalAPI_host.obj
+ 0002:0000cd50       GetChannelList             000000018001dd50 f   stuhfl_evalAPI_host.obj
+ 0002:0000cf10       GetFreqHop                 000000018001df10 f   stuhfl_evalAPI_host.obj
+ 0002:0000cfc0       GetFreqLBT                 000000018001dfc0 f   stuhfl_evalAPI_host.obj
+ 0002:0000d0b0       GetFreqProfileInfo         000000018001e0b0 f   stuhfl_evalAPI_host.obj
+ 0002:0000d1a0       GetFreqRSSI                000000018001e1a0 f   stuhfl_evalAPI_host.obj
+ 0002:0000d280       GetFreqReflectedPower      000000018001e280 f   stuhfl_evalAPI_host.obj
+ 0002:0000d370       GetGb29768InventoryCfg     000000018001e370 f   stuhfl_evalAPI_host.obj
+ 0002:0000d5d0       GetGb29768ProtocolCfg      000000018001e5d0 f   stuhfl_evalAPI_host.obj
+ 0002:0000d6c0       GetGen2InventoryCfg        000000018001e6c0 f   stuhfl_evalAPI_host.obj
+ 0002:0000e000       GetGen2ProtocolCfg         000000018001f000 f   stuhfl_evalAPI_host.obj
+ 0002:0000e0f0       GetGen2Timings             000000018001f0f0 f   stuhfl_evalAPI_host.obj
+ 0002:0000e1a0       GetPA_Cfg                  000000018001f1a0 f   stuhfl_evalAPI_host.obj
+ 0002:0000e250       GetRegister                000000018001f250 f   stuhfl_evalAPI_host.obj
+ 0002:0000e320       GetRegisterMultiple        000000018001f320 f   stuhfl_evalAPI_host.obj
+ 0002:0000e560       GetRwdCfg                  000000018001f560 f   stuhfl_evalAPI_host.obj
+ 0002:0000e630       GetTuning                  000000018001f630 f   stuhfl_evalAPI_host.obj
+ 0002:0000e720       GetTuningCaps              000000018001f720 f   stuhfl_evalAPI_host.obj
+ 0002:0000e840       GetTuningTableEntry        000000018001f840 f   stuhfl_evalAPI_host.obj
+ 0002:0000eb00       GetTuningTableInfo         000000018001fb00 f   stuhfl_evalAPI_host.obj
+ 0002:0000ebd0       GetTxRxCfg                 000000018001fbd0 f   stuhfl_evalAPI_host.obj
+ 0002:0000ecc0       InventoryRunnerStart       000000018001fcc0 f   stuhfl_evalAPI_host.obj
+ 0002:0000ee70       InventoryRunnerStop        000000018001fe70 f   stuhfl_evalAPI_host.obj
+ 0002:0000ef00       Reboot                     000000018001ff00 f   stuhfl_evalAPI_host.obj
+ 0002:0000ef80       SetAntennaPower            000000018001ff80 f   stuhfl_evalAPI_host.obj
+ 0002:0000f110       SetChannelList             0000000180020110 f   stuhfl_evalAPI_host.obj
+ 0002:0000f2d0       SetFreqContMod             00000001800202d0 f   stuhfl_evalAPI_host.obj
+ 0002:0000f480       SetFreqHop                 0000000180020480 f   stuhfl_evalAPI_host.obj
+ 0002:0000f530       SetFreqLBT                 0000000180020530 f   stuhfl_evalAPI_host.obj
+ 0002:0000f620       SetFreqProfile             0000000180020620 f   stuhfl_evalAPI_host.obj
+ 0002:0000f6d0       SetFreqProfileAdd2Custom   00000001800206d0 f   stuhfl_evalAPI_host.obj
+ 0002:0000f7a0       SetGb29768InventoryCfg     00000001800207a0 f   stuhfl_evalAPI_host.obj
+ 0002:0000fa00       SetGb29768ProtocolCfg      0000000180020a00 f   stuhfl_evalAPI_host.obj
+ 0002:0000faf0       SetGen2InventoryCfg        0000000180020af0 f   stuhfl_evalAPI_host.obj
+ 0002:00010430       SetGen2ProtocolCfg         0000000180021430 f   stuhfl_evalAPI_host.obj
+ 0002:00010520       SetGen2Timings             0000000180021520 f   stuhfl_evalAPI_host.obj
+ 0002:000105d0       SetPA_Cfg                  00000001800215d0 f   stuhfl_evalAPI_host.obj
+ 0002:00010680       SetRegister                0000000180021680 f   stuhfl_evalAPI_host.obj
+ 0002:00010750       SetRegisterMultiple        0000000180021750 f   stuhfl_evalAPI_host.obj
+ 0002:00010990       SetRwdCfg                  0000000180021990 f   stuhfl_evalAPI_host.obj
+ 0002:00010a60       SetTuning                  0000000180021a60 f   stuhfl_evalAPI_host.obj
+ 0002:00010b50       SetTuningCaps              0000000180021b50 f   stuhfl_evalAPI_host.obj
+ 0002:00010c70       SetTuningTableDefault      0000000180021c70 f   stuhfl_evalAPI_host.obj
+ 0002:00010d40       SetTuningTableEmpty        0000000180021d40 f   stuhfl_evalAPI_host.obj
+ 0002:00010dd0       SetTuningTableEntry        0000000180021dd0 f   stuhfl_evalAPI_host.obj
+ 0002:00011090       SetTuningTableSave2Flash   0000000180022090 f   stuhfl_evalAPI_host.obj
+ 0002:00011120       SetTxRxCfg                 0000000180022120 f   stuhfl_evalAPI_host.obj
+ 0002:00011210       Tune                       0000000180022210 f   stuhfl_evalAPI_host.obj
+ 0002:000113c0       TuneChannel                00000001800223c0 f   stuhfl_evalAPI_host.obj
+ 0002:00011580       __local_stdio_printf_options 0000000180022580 f i stuhfl_evalAPI_host.obj
+ 0002:000115d0       _finishedCallback          00000001800225d0 f   stuhfl_evalAPI_host.obj
+ 0002:00011650       snprintf                   0000000180022650 f i stuhfl_evalAPI_host.obj
+ 0002:00011740       vsnprintf                  0000000180022740 f i stuhfl_evalAPI_host.obj
+ 0002:00011820       addTlv16                   0000000180022820 f   stuhfl_helpers.obj
+ 0002:00011910       addTlv32                   0000000180022910 f   stuhfl_helpers.obj
+ 0002:00011a00       addTlv8                    0000000180022a00 f   stuhfl_helpers.obj
+ 0002:00011ae0       addTlvExt                  0000000180022ae0 f   stuhfl_helpers.obj
+ 0002:00011c60       addTlvExt2                 0000000180022c60 f   stuhfl_helpers.obj
+ 0002:00011e70       byteArray2HexString        0000000180022e70 f   stuhfl_helpers.obj
+ 0002:00011fb0       getTlv16                   0000000180022fb0 f   stuhfl_helpers.obj
+ 0002:00012080       getTlv32                   0000000180023080 f   stuhfl_helpers.obj
+ 0002:00012160       getTlv8                    0000000180023160 f   stuhfl_helpers.obj
+ 0002:00012250       getTlvExt                  0000000180023250 f   stuhfl_helpers.obj
+ 0002:00012430       getTlvLen                  0000000180023430 f   stuhfl_helpers.obj
+ 0002:00012560       getTlvTag                  0000000180023560 f   stuhfl_helpers.obj
+ 0002:000125d0       STUHFL_F_DisableLog        00000001800235d0 f   stuhfl_log.obj
+ 0002:00012630       STUHFL_F_EnableLog         0000000180023630 f   stuhfl_log.obj
+ 0002:000126d0       STUHFL_F_EnableLog_OOP     00000001800236d0 f   stuhfl_log.obj
+ 0002:000127e0       STUHFL_F_IsLogEnabled      00000001800237e0 f   stuhfl_log.obj
+ 0002:00012890       STUHFL_F_IsLogLevelSupported 0000000180023890 f   stuhfl_log.obj
+ 0002:00012910       STUHFL_F_LogAppend         0000000180023910 f   stuhfl_log.obj
+ 0002:00012c00       STUHFL_F_LogClear          0000000180023c00 f   stuhfl_log.obj
+ 0002:00012cf0       STUHFL_F_LogFlush          0000000180023cf0 f   stuhfl_log.obj
+ 0002:00012ef0       STUHFL_F_LogLevel2Idx      0000000180023ef0 f   stuhfl_log.obj
+ 0002:00013030       STUHFL_F_LogLevel2Txt      0000000180024030 f   stuhfl_log.obj
+ 0002:000131c0       STUHFL_F_Connect_Dispatcher 00000001800241c0 f   stuhfl_pl.obj
+ 0002:00013400       STUHFL_F_Disconnect_Dispatcher 0000000180024400 f   stuhfl_pl.obj
+ 0002:00013460       STUHFL_F_GetParam_Dispatcher 0000000180024460 f   stuhfl_pl.obj
+ 0002:00013790       STUHFL_F_Get_RcvCmd        0000000180024790 f   stuhfl_pl.obj
+ 0002:00013810       STUHFL_F_Get_RcvPayloadPtr 0000000180024810 f   stuhfl_pl.obj
+ 0002:00013870       STUHFL_F_Get_RcvStatus     0000000180024870 f   stuhfl_pl.obj
+ 0002:00013900       STUHFL_F_Get_SndPayloadPtr 0000000180024900 f   stuhfl_pl.obj
+ 0002:00013960       STUHFL_F_RcvRaw_Dispatcher 0000000180024960 f   stuhfl_pl.obj
+ 0002:000139e0       STUHFL_F_Rcv_Dispatcher    00000001800249e0 f   stuhfl_pl.obj
+ 0002:00013f40       STUHFL_F_Reset_Dispatcher  0000000180024f40 f   stuhfl_pl.obj
+ 0002:00013fb0       STUHFL_F_SetParam_Dispatcher 0000000180024fb0 f   stuhfl_pl.obj
+ 0002:00014320       STUHFL_F_SndRaw_Dispatcher 0000000180025320 f   stuhfl_pl.obj
+ 0002:000143a0       STUHFL_F_Snd_Dispatcher    00000001800253a0 f   stuhfl_pl.obj
+ 0002:00014540       encodeSndFrame             0000000180025540 f   stuhfl_pl.obj
+ 0002:00014920       STUHFL_F_Gb29768_Erase     0000000180025920 f   stuhfl_sl.obj
+ 0002:00014a70       STUHFL_F_Gb29768_Inventory 0000000180025a70 f   stuhfl_sl.obj
+ 0002:00014c80       STUHFL_F_Gb29768_Kill      0000000180025c80 f   stuhfl_sl.obj
+ 0002:00014d90       STUHFL_F_Gb29768_Lock      0000000180025d90 f   stuhfl_sl.obj
+ 0002:00014ee0       STUHFL_F_Gb29768_Read      0000000180025ee0 f   stuhfl_sl.obj
+ 0002:000150a0       STUHFL_F_Gb29768_Sort      00000001800260a0 f   stuhfl_sl.obj
+ 0002:000151e0       STUHFL_F_Gb29768_Write     00000001800261e0 f   stuhfl_sl.obj
+ 0002:00015380       STUHFL_F_Gen2_BlockWrite   0000000180026380 f   stuhfl_sl.obj
+ 0002:00015580       STUHFL_F_Gen2_GenericCmd   0000000180026580 f   stuhfl_sl.obj
+ 0002:00015820       STUHFL_F_Gen2_Inventory    0000000180026820 f   stuhfl_sl.obj
+ 0002:00015a50       STUHFL_F_Gen2_Kill         0000000180026a50 f   stuhfl_sl.obj
+ 0002:00015bc0       STUHFL_F_Gen2_Lock         0000000180026bc0 f   stuhfl_sl.obj
+ 0002:00015d70       STUHFL_F_Gen2_QueryMeasureRssi 0000000180026d70 f   stuhfl_sl.obj
+ 0002:00016040       STUHFL_F_Gen2_Read         0000000180027040 f   stuhfl_sl.obj
+ 0002:00016200       STUHFL_F_Gen2_Select       0000000180027200 f   stuhfl_sl.obj
+ 0002:00016350       STUHFL_F_Gen2_Write        0000000180027350 f   stuhfl_sl.obj
+ 0002:00016504       CreateFileA                0000000180027504 f   kernel32:KERNEL32.dll
+ 0002:0001650a       ReadFile                   000000018002750a f   kernel32:KERNEL32.dll
+ 0002:00016510       WriteFile                  0000000180027510 f   kernel32:KERNEL32.dll
+ 0002:00016516       CloseHandle                0000000180027516 f   kernel32:KERNEL32.dll
+ 0002:0001651c       ClearCommError             000000018002751c f   kernel32:KERNEL32.dll
+ 0002:00016522       SetupComm                  0000000180027522 f   kernel32:KERNEL32.dll
+ 0002:00016528       EscapeCommFunction         0000000180027528 f   kernel32:KERNEL32.dll
+ 0002:0001652e       GetCommState               000000018002752e f   kernel32:KERNEL32.dll
+ 0002:00016534       GetCommTimeouts            0000000180027534 f   kernel32:KERNEL32.dll
+ 0002:0001653a       PurgeComm                  000000018002753a f   kernel32:KERNEL32.dll
+ 0002:00016540       SetCommState               0000000180027540 f   kernel32:KERNEL32.dll
+ 0002:00016546       SetCommTimeouts            0000000180027546 f   kernel32:KERNEL32.dll
+ 0002:0001654c       WaitForSingleObject        000000018002754c f   kernel32:KERNEL32.dll
+ 0002:00016552       SetWaitableTimer           0000000180027552 f   kernel32:KERNEL32.dll
+ 0002:00016558       GetTickCount               0000000180027558 f   kernel32:KERNEL32.dll
+ 0002:0001655e       CreateWaitableTimerA       000000018002755e f   kernel32:KERNEL32.dll
+ 0002:00016564       CreateThread               0000000180027564 f   kernel32:KERNEL32.dll
+ 0002:00016570       _RTC_AllocaHelper          0000000180027570 f   MSVCRTD:stack.obj
+ 0002:000165c0       _RTC_CheckStackVars        00000001800275c0 f   MSVCRTD:stack.obj
+ 0002:00016670       _RTC_CheckStackVars2       0000000180027670 f   MSVCRTD:stack.obj
+ 0002:000167c0       _CRT_RTC_INIT              00000001800277c0 f   MSVCRTD:init.obj
+ 0002:000167d0       _CRT_RTC_INITW             00000001800277d0 f   MSVCRTD:init.obj
+ 0002:000167e0       _RTC_InitBase              00000001800277e0 f   MSVCRTD:init.obj
+ 0002:00016830       _RTC_Shutdown              0000000180027830 f   MSVCRTD:init.obj
+ 0002:00016860       __CheckForDebuggerJustMyCode 0000000180027860 f   MSVCRTD:debugger_jmc.obj
+ 0002:000168b0       __GSHandlerCheck           00000001800278b0 f   MSVCRTD:gshandler.obj
+ 0002:00016900       __GSHandlerCheckCommon     0000000180027900 f   MSVCRTD:gshandler.obj
+ 0002:00016a50       __security_check_cookie    0000000180027a50 f   MSVCRTD:amdsecgs.obj
+ 0002:00016f80       _CRT_INIT                  0000000180027f80 f   MSVCRTD:dll_dllmain.obj
+ 0002:00016fc0       _DllMainCRTStartup         0000000180027fc0 f   MSVCRTD:dll_dllmain.obj
+ 0002:000170c0       ?_RTC_AllocaFailure@@YAXPEAXPEAU_RTC_ALLOCA_NODE@@H@Z 00000001800280c0 f   MSVCRTD:error.obj
+ 0002:00017270       ?_RTC_Failure@@YAXPEAXH@Z  0000000180028270 f   MSVCRTD:error.obj
+ 0002:000172e0       ?_RTC_StackFailure@@YAXPEAXPEBD@Z 00000001800282e0 f   MSVCRTD:error.obj
+ 0002:00017820       _RTC_UninitUse             0000000180028820 f   MSVCRTD:error.obj
+ 0002:00017920       _vsprintf_s_l              0000000180028920 f i MSVCRTD:error.obj
+ 0002:000179a0       sprintf_s                  00000001800289a0 f i MSVCRTD:error.obj
+ 0002:000179d0       ?_RTC_GetErrorFunc@@YAP6AHHPEBDH00ZZPEBX@Z 00000001800289d0 f   MSVCRTD:userapi.obj
+ 0002:000179e0       ?_RTC_GetErrorFuncW@@YAP6AHHPEB_WH00ZZPEBX@Z 00000001800289e0 f   MSVCRTD:userapi.obj
+ 0002:000179f0       _RTC_GetErrDesc            00000001800289f0 f   MSVCRTD:userapi.obj
+ 0002:00017a10       _RTC_NumErrors             0000000180028a10 f   MSVCRTD:userapi.obj
+ 0002:00017a20       _RTC_SetErrorFunc          0000000180028a20 f   MSVCRTD:userapi.obj
+ 0002:00017a40       _RTC_SetErrorFuncW         0000000180028a40 f   MSVCRTD:userapi.obj
+ 0002:00017a60       _RTC_SetErrorType          0000000180028a60 f   MSVCRTD:userapi.obj
+ 0002:00017a90       __raise_securityfailure    0000000180028a90 f   MSVCRTD:gs_report.obj
+ 0002:00017ae0       __report_gsfailure         0000000180028ae0 f   MSVCRTD:gs_report.obj
+ 0002:00017bf0       __report_rangecheckfailure 0000000180028bf0 f   MSVCRTD:gs_report.obj
+ 0002:00017c10       __report_securityfailure   0000000180028c10 f   MSVCRTD:gs_report.obj
+ 0002:00017ce0       __report_securityfailureEx 0000000180028ce0 f   MSVCRTD:gs_report.obj
+ 0002:000180d0       __security_init_cookie     00000001800290d0 f   MSVCRTD:gs_support.obj
+ 0002:00018170       ?__scrt_initialize_type_info@@YAXXZ 0000000180029170 f   MSVCRTD:tncleanup.obj
+ 0002:00018190       ?__scrt_uninitialize_type_info@@YAXXZ 0000000180029190 f   MSVCRTD:tncleanup.obj
+ 0002:000181b0       __local_stdio_scanf_options 00000001800291b0 f i MSVCRTD:default_local_stdio_options.obj
+ 0002:000181c0       __scrt_initialize_default_local_stdio_options 00000001800291c0 f   MSVCRTD:default_local_stdio_options.obj
+ 0002:00018220       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000180029220 f i MSVCRTD:utility.obj
+ 0002:00018340       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 0000000180029340 f i MSVCRTD:utility.obj
+ 0002:00018410       NtCurrentTeb               0000000180029410 f i MSVCRTD:utility.obj
+ 0002:00018420       __scrt_acquire_startup_lock 0000000180029420 f   MSVCRTD:utility.obj
+ 0002:000184a0       __scrt_dllmain_after_initialize_c 00000001800294a0 f   MSVCRTD:utility.obj
+ 0002:000184e0       __scrt_dllmain_before_initialize_c 00000001800294e0 f   MSVCRTD:utility.obj
+ 0002:00018510       __scrt_dllmain_crt_thread_attach 0000000180029510 f   MSVCRTD:utility.obj
+ 0002:00018550       __scrt_dllmain_crt_thread_detach 0000000180029550 f   MSVCRTD:utility.obj
+ 0002:00018570       __scrt_dllmain_exception_filter 0000000180029570 f   MSVCRTD:utility.obj
+ 0002:000185f0       __scrt_dllmain_uninitialize_c 00000001800295f0 f   MSVCRTD:utility.obj
+ 0002:00018630       __scrt_dllmain_uninitialize_critical 0000000180029630 f   MSVCRTD:utility.obj
+ 0002:00018650       __scrt_initialize_crt      0000000180029650 f   MSVCRTD:utility.obj
+ 0002:000186b0       __scrt_initialize_onexit_tables 00000001800296b0 f   MSVCRTD:utility.obj
+ 0002:00018800       __scrt_is_nonwritable_in_current_image 0000000180029800 f   MSVCRTD:utility.obj
+ 0002:000188b0       __scrt_release_startup_lock 00000001800298b0 f   MSVCRTD:utility.obj
+ 0002:000188f0       __scrt_uninitialize_crt    00000001800298f0 f   MSVCRTD:utility.obj
+ 0002:00018940       _onexit                    0000000180029940 f   MSVCRTD:utility.obj
+ 0002:000189e0       at_quick_exit              00000001800299e0 f   MSVCRTD:utility.obj
+ 0002:00018a40       atexit                     0000000180029a40 f   MSVCRTD:utility.obj
+ 0002:00018a80       __scrt_get_dyn_tls_init_callback 0000000180029a80 f   MSVCRTD:dyn_tls_init.obj
+ 0002:00018a90       __crt_debugger_hook        0000000180029a90 f   MSVCRTD:utility_desktop.obj
+ 0002:00018ab0       __scrt_fastfail            0000000180029ab0 f   MSVCRTD:utility_desktop.obj
+ 0002:00018cb0       __scrt_get_show_window_mode 0000000180029cb0 f   MSVCRTD:utility_desktop.obj
+ 0002:00018d20       __scrt_initialize_mta      0000000180029d20 f   MSVCRTD:utility_desktop.obj
+ 0002:00018d40       __scrt_initialize_winrt    0000000180029d40 f   MSVCRTD:utility_desktop.obj
+ 0002:00018d50       __scrt_is_managed_app      0000000180029d50 f   MSVCRTD:utility_desktop.obj
+ 0002:00018e20       __scrt_set_unhandled_exception_filter 0000000180029e20 f   MSVCRTD:utility_desktop.obj
+ 0002:00018e40       __scrt_stub_for_initialize_mta 0000000180029e40 f   MSVCRTD:utility_desktop.obj
+ 0002:00018e40       __scrt_exe_initialize_mta  0000000180029e40 f   MSVCRTD:utility_desktop.obj
+ 0002:00018e50       __scrt_unhandled_exception_filter 0000000180029e50 f   MSVCRTD:utility_desktop.obj
+ 0002:00018f10       _RTC_Initialize            0000000180029f10 f   MSVCRTD:initsect.obj
+ 0002:00018f70       _RTC_Terminate             0000000180029f70 f   MSVCRTD:initsect.obj
+ 0002:00018fd0       _guard_check_icall_nop     0000000180029fd0 f i MSVCRTD:guard_support.obj
+ 0002:00018fe0       ReadNoFence64              0000000180029fe0 f i MSVCRTD:guard_support.obj
+ 0002:00019010       ReadPointerNoFence         000000018002a010 f i MSVCRTD:guard_support.obj
+ 0002:00019030       __castguard_check_failure_debugbreak 000000018002a030 f i MSVCRTD:guard_support.obj
+ 0002:00019060       __castguard_check_failure_fastfail 000000018002a060 f i MSVCRTD:guard_support.obj
+ 0002:00019090       __castguard_check_failure_nop 000000018002a090 f i MSVCRTD:guard_support.obj
+ 0002:000190a0       __castguard_check_failure_os_handled 000000018002a0a0 f i MSVCRTD:guard_support.obj
+ 0002:00019190       __castguard_slow_path_check_debugbreak 000000018002a190 f i MSVCRTD:guard_support.obj
+ 0002:000191e0       __castguard_slow_path_check_fastfail 000000018002a1e0 f i MSVCRTD:guard_support.obj
+ 0002:00019240       __castguard_slow_path_check_nop 000000018002a240 f i MSVCRTD:guard_support.obj
+ 0002:00019260       __castguard_slow_path_check_os_handled 000000018002a260 f i MSVCRTD:guard_support.obj
+ 0002:00019370       _guard_icall_checks_enforced 000000018002a370 f i MSVCRTD:guard_support.obj
+ 0002:000193c0       _guard_rf_checks_enforced  000000018002a3c0 f i MSVCRTD:guard_support.obj
+ 0002:00019a20       ?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z 000000018002aa20 f   MSVCRTD:pdblkup.obj
+ 0002:00019ee0       __isa_available_init       000000018002aee0 f   MSVCRTD:cpu_disp.obj
+ 0002:0001a360       _get_startup_argv_mode     000000018002b360 f   MSVCRTD:argv_mode.obj
+ 0002:0001a370       __scrt_is_ucrt_dll_in_use  000000018002b370 f   MSVCRTD:ucrt_detection.obj
+ 0002:0001a3a0       memset                     000000018002b3a0 f   vcruntimed:VCRUNTIME140D.dll
+ 0002:0001a3a6       memcpy                     000000018002b3a6 f   vcruntimed:VCRUNTIME140D.dll
+ 0002:0001a3ac       __C_specific_handler       000000018002b3ac f   vcruntimed:VCRUNTIME140D.dll
+ 0002:0001a3b2       __C_specific_handler_noexcept 000000018002b3b2 f   vcruntimed:VCRUNTIME140D.dll
+ 0002:0001a3b8       __std_type_info_destroy_list 000000018002b3b8 f   vcruntimed:VCRUNTIME140D.dll
+ 0002:0001a3be       __current_exception        000000018002b3be f   vcruntimed:VCRUNTIME140D.dll
+ 0002:0001a3c4       __current_exception_context 000000018002b3c4 f   vcruntimed:VCRUNTIME140D.dll
+ 0002:0001a3ca       __vcrt_GetModuleFileNameW  000000018002b3ca f   vcruntimed:VCRUNTIME140D.dll
+ 0002:0001a3d0       __vcrt_GetModuleHandleW    000000018002b3d0 f   vcruntimed:VCRUNTIME140D.dll
+ 0002:0001a3d6       __vcrt_LoadLibraryExW      000000018002b3d6 f   vcruntimed:VCRUNTIME140D.dll
+ 0002:0001a3dc       strlen                     000000018002b3dc f   ucrtd:ucrtbased.dll
+ 0002:0001a3e2       __stdio_common_vsprintf    000000018002b3e2 f   ucrtd:ucrtbased.dll
+ 0002:0001a3e8       _CrtDbgReport              000000018002b3e8 f   ucrtd:ucrtbased.dll
+ 0002:0001a3ee       _CrtDbgReportW             000000018002b3ee f   ucrtd:ucrtbased.dll
+ 0002:0001a3f4       _initterm                  000000018002b3f4 f   ucrtd:ucrtbased.dll
+ 0002:0001a3fa       _initterm_e                000000018002b3fa f   ucrtd:ucrtbased.dll
+ 0002:0001a400       strcpy_s                   000000018002b400 f   ucrtd:ucrtbased.dll
+ 0002:0001a406       strcat_s                   000000018002b406 f   ucrtd:ucrtbased.dll
+ 0002:0001a40c       __stdio_common_vsprintf_s  000000018002b40c f   ucrtd:ucrtbased.dll
+ 0002:0001a412       _seh_filter_dll            000000018002b412 f   ucrtd:ucrtbased.dll
+ 0002:0001a418       _configure_narrow_argv     000000018002b418 f   ucrtd:ucrtbased.dll
+ 0002:0001a41e       _initialize_narrow_environment 000000018002b41e f   ucrtd:ucrtbased.dll
+ 0002:0001a424       _initialize_onexit_table   000000018002b424 f   ucrtd:ucrtbased.dll
+ 0002:0001a42a       _register_onexit_function  000000018002b42a f   ucrtd:ucrtbased.dll
+ 0002:0001a430       _execute_onexit_table      000000018002b430 f   ucrtd:ucrtbased.dll
+ 0002:0001a436       _crt_atexit                000000018002b436 f   ucrtd:ucrtbased.dll
+ 0002:0001a43c       _crt_at_quick_exit         000000018002b43c f   ucrtd:ucrtbased.dll
+ 0002:0001a442       _cexit                     000000018002b442 f   ucrtd:ucrtbased.dll
+ 0002:0001a448       terminate                  000000018002b448 f   ucrtd:ucrtbased.dll
+ 0002:0001a44e       _wmakepath_s               000000018002b44e f   ucrtd:ucrtbased.dll
+ 0002:0001a454       _wsplitpath_s              000000018002b454 f   ucrtd:ucrtbased.dll
+ 0002:0001a45a       wcscpy_s                   000000018002b45a f   ucrtd:ucrtbased.dll
+ 0002:0001a460       GetCurrentThreadId         000000018002b460 f   kernel32:KERNEL32.dll
+ 0002:0001a466       IsDebuggerPresent          000000018002b466 f   kernel32:KERNEL32.dll
+ 0002:0001a46c       RaiseException             000000018002b46c f   kernel32:KERNEL32.dll
+ 0002:0001a472       MultiByteToWideChar        000000018002b472 f   kernel32:KERNEL32.dll
+ 0002:0001a478       WideCharToMultiByte        000000018002b478 f   kernel32:KERNEL32.dll
+ 0002:0001a47e       RtlCaptureContext          000000018002b47e f   kernel32:KERNEL32.dll
+ 0002:0001a484       RtlLookupFunctionEntry     000000018002b484 f   kernel32:KERNEL32.dll
+ 0002:0001a48a       RtlVirtualUnwind           000000018002b48a f   kernel32:KERNEL32.dll
+ 0002:0001a490       UnhandledExceptionFilter   000000018002b490 f   kernel32:KERNEL32.dll
+ 0002:0001a496       SetUnhandledExceptionFilter 000000018002b496 f   kernel32:KERNEL32.dll
+ 0002:0001a49c       GetCurrentProcess          000000018002b49c f   kernel32:KERNEL32.dll
+ 0002:0001a4a2       TerminateProcess           000000018002b4a2 f   kernel32:KERNEL32.dll
+ 0002:0001a4a8       IsProcessorFeaturePresent  000000018002b4a8 f   kernel32:KERNEL32.dll
+ 0002:0001a4ae       QueryPerformanceCounter    000000018002b4ae f   kernel32:KERNEL32.dll
+ 0002:0001a4b4       GetCurrentProcessId        000000018002b4b4 f   kernel32:KERNEL32.dll
+ 0002:0001a4ba       GetSystemTimeAsFileTime    000000018002b4ba f   kernel32:KERNEL32.dll
+ 0002:0001a4c0       InitializeSListHead        000000018002b4c0 f   kernel32:KERNEL32.dll
+ 0002:0001a4c6       GetStartupInfoW            000000018002b4c6 f   kernel32:KERNEL32.dll
+ 0002:0001a4cc       GetModuleHandleW           000000018002b4cc f   kernel32:KERNEL32.dll
+ 0002:0001a4d2       GetLastError               000000018002b4d2 f   kernel32:KERNEL32.dll
+ 0002:0001a4d8       HeapAlloc                  000000018002b4d8 f   kernel32:KERNEL32.dll
+ 0002:0001a4de       HeapFree                   000000018002b4de f   kernel32:KERNEL32.dll
+ 0002:0001a4e4       GetProcessHeap             000000018002b4e4 f   kernel32:KERNEL32.dll
+ 0002:0001a4ea       VirtualQuery               000000018002b4ea f   kernel32:KERNEL32.dll
+ 0002:0001a4f0       FreeLibrary                000000018002b4f0 f   kernel32:KERNEL32.dll
+ 0002:0001a4f6       GetProcAddress             000000018002b4f6 f   kernel32:KERNEL32.dll
+ 0002:0001a500       __scrt_stub_for_acrt_initialize 000000018002b500 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a500       __acrt_initialize          000000018002b500 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a500       __vcrt_initialize          000000018002b500 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a510       __vcrt_thread_attach       000000018002b510 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a510       __scrt_stub_for_acrt_thread_attach 000000018002b510 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a510       __acrt_thread_attach       000000018002b510 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a520       __vcrt_thread_detach       000000018002b520 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a520       __scrt_stub_for_acrt_thread_detach 000000018002b520 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a520       __acrt_thread_detach       000000018002b520 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a530       __acrt_uninitialize        000000018002b530 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a530       __scrt_stub_for_acrt_uninitialize 000000018002b530 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a530       __vcrt_uninitialize        000000018002b530 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a540       __vcrt_uninitialize_critical 000000018002b540 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a540       __acrt_uninitialize_critical 000000018002b540 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a540       __scrt_stub_for_acrt_uninitialize_critical 000000018002b540 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a550       _is_c_termination_complete 000000018002b550 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001a550       __scrt_stub_for_is_c_termination_complete 000000018002b550 f   MSVCRTD:ucrt_stubs.obj
+ 0002:0001bbb0       _guard_dispatch_icall_nop  000000018002cbb0 f   MSVCRTD:guard_dispatch.obj
+ 0002:0001bbd0       _guard_xfg_dispatch_icall_nop 000000018002cbd0 f   MSVCRTD:guard_xfg_dispatch.obj
+ 0003:00000000       __xc_a                     000000018002f000     MSVCRTD:initializers.obj
+ 0003:00000110       __xc_z                     000000018002f110     MSVCRTD:initializers.obj
+ 0003:00000220       __xi_a                     000000018002f220     MSVCRTD:initializers.obj
+ 0003:00000330       __xi_z                     000000018002f330     MSVCRTD:initializers.obj
+ 0003:00000440       __xp_a                     000000018002f440     MSVCRTD:initializers.obj
+ 0003:00000550       __xp_z                     000000018002f550     MSVCRTD:initializers.obj
+ 0003:00000660       __xt_a                     000000018002f660     MSVCRTD:initializers.obj
+ 0003:00000770       __xt_z                     000000018002f770     MSVCRTD:initializers.obj
+ 0003:00001760       ??_C@_0DF@NHKBIDO@STUHFL_F_GetRawData?$CI?$CKdata?5?$DN?50x?$CF@ 0000000180030760     stuhfl_dl.obj
+ 0003:000017a0       ??_C@_0HB@LDAMIINJ@STUHFL_F_Connect?$CIdevice?5?$DN?50x?$CFx?0@ 00000001800307a0     stuhfl_dl.obj
+ 0003:00001828       ??_C@_0CH@GABNGKPN@STUHFL_F_GetCtx?$CI?$CJ?5?4?4?5deviceCtx?5@ 0000000180030828     stuhfl_dl.obj
+ 0003:00001858       ??_C@_0CE@FNOPCDGM@STUHFL_F_Reset?$CIresetType?5?$DN?5?$CFd?$CJ?5@ 0000000180030858     stuhfl_dl.obj
+ 0003:00001888       ??_C@_0CL@DPFBLBBB@STUHFL_F_Disconnect?$CIdeviceCtx?5?$DN@ 0000000180030888     stuhfl_dl.obj
+ 0003:000018c0       ??_C@_0GO@OGIIMNBD@STUHFL_F_GetParamInfo?$CIparam?5?$DN?50@ 00000001800308c0     stuhfl_dl.obj
+ 0003:00001948       ??_C@_0DK@FIPNLMP@STUHFL_F_SetMultipleParams?$CIpara@ 0000000180030948     stuhfl_dl.obj
+ 0003:00001990       ??_C@_08FMGFPKAG@?5Port?3?$CFs@ 0000000180030990     stuhfl_dl.obj
+ 0003:000019a0       ??_C@_0N@EBLJLOJA@?5BaudRate?3?$CFs@ 00000001800309a0     stuhfl_dl.obj
+ 0003:000019b0       ??_C@_0P@PMAEFKC@?5RdTimeout?3?$CFd?5@ 00000001800309b0     stuhfl_dl.obj
+ 0003:000019c8       ??_C@_0P@ILGDCLMP@?5WdTimeout?3?$CFd?5@ 00000001800309c8     stuhfl_dl.obj
+ 0003:000019e0       ??_C@_08GCLHJMI@?5DTR?3?$CFd?5@ 00000001800309e0     stuhfl_dl.obj
+ 0003:000019f0       ??_C@_08HHKDJCMB@?5RTS?3?$CFd?5@ 00000001800309f0     stuhfl_dl.obj
+ 0003:000019fc       ??_C@_06PJIOKAFJ@?$CJ?5?$DN?5?$CFd@ 00000001800309fc     stuhfl_dl.obj
+ 0003:00001a08       ??_C@_0DK@MNMDLBDN@STUHFL_F_GetMultipleParams?$CIpara@ 0000000180030a08     stuhfl_dl.obj
+ 0003:00001a50       ??_C@_0N@EEDKDKAG@?5BaudRate?3?$CFd@ 0000000180030a50     stuhfl_dl.obj
+ 0003:00001a60       ??_C@_0DE@ILNIKILA@STUHFL_F_SendCmd?$CIcmd?5?$DN?50x?$CFx?0?5sn@ 0000000180030a60     stuhfl_dl.obj
+ 0003:00001aa0       ??_C@_0DH@EIOJAOEE@STUHFL_F_ReceiveCmd?$CIcmd?5?$DN?50x?$CFx?0@ 0000000180030aa0     stuhfl_dl.obj
+ 0003:00001ae8       ??_C@_0DC@MHMEJJDD@STUHFL_F_GetVersionOld?$CIswVersio@ 0000000180030ae8     stuhfl_dl.obj
+ 0003:00001b30       ??_C@_0EL@CEHBMBJM@STUHFL_F_GetVersion?$CIswVersion?5?$DN@ 0000000180030b30     stuhfl_dl.obj
+ 0003:00001b90       ??_C@_0DA@EKMGHIDG@STUHFL_F_GetInfo?$CIswInfo?5?$DN?5?$CFs?0?5h@ 0000000180030b90     stuhfl_dl.obj
+ 0003:00001bd0       ??_C@_0DI@ILDPBAJM@STUHFL_F_Upgrade?$CIfwData?5?$DN?50x?$CFx?0@ 0000000180030bd0     stuhfl_dl.obj
+ 0003:00001c18       ??_C@_0CA@JAKODGMH@STUHFL_F_EnterBootloader?$CI?$CJ?5?$DN?5?$CFd@ 0000000180030c18     stuhfl_dl.obj
+ 0003:00001c40       ??_C@_0BH@OJAFHCFH@STUHFL_F_Reboot?$CI?$CJ?5?$DN?5?$CFd@ 0000000180030c40     stuhfl_dl.obj
+ 0003:00001c60       ??_C@_0CG@GHJDNJKP@?5Register?$CIaddr?3?50x?$CF02x?0?5data?3?50@ 0000000180030c60     stuhfl_dl.obj
+ 0003:00001c90       ??_C@_0CD@JKPNPDLG@?5RwdCfg?$CIid?3?50x?$CF02x?0?5value?3?50x?$CF0@ 0000000180030c90     stuhfl_dl.obj
+ 0003:00001cc0       ??_C@_0DH@HJMACLNN@?5AntennaPower?$CImode?3?50x?$CF02x?5time@ 0000000180030cc0     stuhfl_dl.obj
+ 0003:00001d10       ??_C@_0HG@GFLHNAKN@?5ChannelList?$CIantenna?3?5?$CFd?0?5nFreq@ 0000000180030d10     stuhfl_dl.obj
+ 0003:00001da0       ??_C@_0BG@BFKEFHJG@?$CFd?3?$HL?$CFd?0?5?$CI?$CFd?0?$CFd?0?$CFd?$CJ?$HN?0?5@ 0000000180030da0     stuhfl_dl.obj
+ 0003:00001dc0       ??_C@_0BK@FCHDFGJL@?5FreqProfile?$CIprofile?3?5?$CFd?$CJ@ 0000000180030dc0     stuhfl_dl.obj
+ 0003:00001de0       ??_C@_0DB@KGJHDOMF@?5ProfileAdd2Custom?$CIclearList?3?5?$CF@ 0000000180030de0     stuhfl_dl.obj
+ 0003:00001e20       ??_C@_0BN@PLBPKKCI@?5FreqHop?$CImaxSendingTime?3?5?$CFd?$CJ@ 0000000180030e20     stuhfl_dl.obj
+ 0003:00001e50       ??_C@_0FC@CMAIDPAH@?5FreqLBT?$CIlisteningTime?3?5?$CFd?0?5idl@ 0000000180030e50     stuhfl_dl.obj
+ 0003:00001ec0       ??_C@_0FK@KBBIKEDO@?5FreqContMod?$CIfrequency?3?5?$CFd?0?5ena@ 0000000180030ec0     stuhfl_dl.obj
+ 0003:00001f30       ??_C@_0BL@LMNGBKBK@?5SetGen2Timings?$CIT4Min?3?5?$CFd?$CJ@ 0000000180030f30     stuhfl_dl.obj
+ 0003:00001f50       ??_C@_0DL@FGHFOOMN@?5Gen2ProtocolCfg?$CItari?3?5?$CFd?0?5blf?3@ 0000000180030f50     stuhfl_dl.obj
+ 0003:00001f98       ??_C@_0DM@IEKJMOJK@?5Gb29768ProtocolCfg?$CItc?3?5?$CFd?0?5blf@ 0000000180030f98     stuhfl_dl.obj
+ 0003:00001fe0       ??_C@_0FO@HEOIONMF@?5TxRxCfg?$CItxOutputLevel?3?5?$CFd?0?5rxS@ 0000000180030fe0     stuhfl_dl.obj
+ 0003:00002050       ??_C@_0BJ@GLHPFEJM@?5PA_Cfg?$CIuseExternal?3?5?$CFd?$CJ@ 0000000180031050     stuhfl_dl.obj
+ 0003:00002070       ??_C@_0BOD@GAPELIG@?5Gen2InventoryCfg?$CIfastInv?3?5?$CFd?0?5@ 0000000180031070     stuhfl_dl.obj
+ 0003:000022c0       ??_C@_0BEP@DIBHCKEG@?5Gb29768InventoryCfg?$CIreadTID?3?5?$CF@ 00000001800312c0     stuhfl_dl.obj
+ 0003:00002460       ??_C@_0EK@PLLAHEKC@?5TuningCaps?$CIantenna?3?5?$CFd?0?5channe@ 0000000180031460     stuhfl_dl.obj
+ 0003:000024b8       ??_C@_0DC@NNHOILAG@?5Tuning?$CIantenna?3?5?$CFd?0?5cin?3?5?$CFd?0?5c@ 00000001800314b8     stuhfl_dl.obj
+ 0003:00002500       ??_C@_0FE@NBIPKDKH@?5TuningTableEntry?$CIentry?3?5?$CFd?0?5fr@ 0000000180031500     stuhfl_dl.obj
+ 0003:00002568       ??_C@_0CL@DFKLOFMO@?5TuningTableDefault?$CIprofile?3?5?$CFd@ 0000000180031568     stuhfl_dl.obj
+ 0003:000025a0       ??_C@_0BJ@OCPNADEI@?5TuningTableSave2Flash?$CI?$CJ@ 00000001800315a0     stuhfl_dl.obj
+ 0003:000025c0       ??_C@_0BE@OLNCPOOL@?5TuningTableClear?$CI?$CJ@ 00000001800315c0     stuhfl_dl.obj
+ 0003:000025d8       ??_C@_0DF@PJNJCMJL@?5FreqRSSI?$CIfrequency?3?5?$CFd?0?5rssiLo@ 00000001800315d8     stuhfl_dl.obj
+ 0003:00002620       ??_C@_0FK@HBGMEOCC@?5FreqReflectedPower?$CIfrequency?3?5@ 0000000180031620     stuhfl_dl.obj
+ 0003:00002690       ??_C@_0EO@DHHMABEI@?5FreqProfileInfo?$CIprofile?3?5?$CFd?0?5m@ 0000000180031690     stuhfl_dl.obj
+ 0003:000026f0       ??_C@_0BL@DMBANHLM@?5GetGen2Timings?$CIT4Min?3?5?$CFd?$CJ@ 00000001800316f0     stuhfl_dl.obj
+ 0003:00002710       ??_C@_0EG@GIBKPCCI@?5Tuning?$CIantenna?3?5?$CFd?0?5channelLis@ 0000000180031710     stuhfl_dl.obj
+ 0003:00002768       ??_C@_0CO@IBMBGCIF@?5TuningTableInfo?$CIprofile?3?5?$CFd?0?5n@ 0000000180031768     stuhfl_dl.obj
+ 0003:00003498       ??_C@_0BH@JAPCOPIN@Connect?$CIPort?3?5?$CFs?$CJ?5?$DN?5?$CFd@ 0000000180032498     stuhfl_evalAPI_host.obj
+ 0003:000034c0       ??_C@_0EG@JLADHOAG@GetBoardVersion?$CIswVersion?3?5?$CFd?4?$CF@ 00000001800324c0     stuhfl_evalAPI_host.obj
+ 0003:00003518       ??_C@_0CM@OOBJGPIA@GetBoardInfo?$CISW?5Info?3?5?$CFs?0?5HW?5In@ 0000000180032518     stuhfl_evalAPI_host.obj
+ 0003:00003550       ??_C@_08LFPFJDNJ@Reboot?$CI?$CJ@ 0000000180032550     stuhfl_evalAPI_host.obj
+ 0003:00003560       ??_C@_0BC@NBOALPBF@EnterBootloader?$CI?$CJ@ 0000000180032560     stuhfl_evalAPI_host.obj
+ 0003:00003578       ??_C@_0CN@IHGPCJJP@SetRegister?$CIaddr?3?50x?$CF02x?0?5data?3@ 0000000180032578     stuhfl_evalAPI_host.obj
+ 0003:000035b0       ??_C@_0O@GDONLFG@?$FL?$CF02X?0?5?$CF02X?$FN?5@ 00000001800325b0     stuhfl_evalAPI_host.obj
+ 0003:000035c0       ??_C@_0CD@HEKNHPGD@SetRegister?$CI?$FLaddr?0?5data?$FN?3?5?$CFs?$CJ?5?$DN@ 00000001800325c0     stuhfl_evalAPI_host.obj
+ 0003:000035f0       ??_C@_0CN@FNGICBCC@GetRegister?$CIaddr?3?50x?$CF02x?0?5data?3@ 00000001800325f0     stuhfl_evalAPI_host.obj
+ 0003:00003628       ??_C@_0CD@LDMNGIIK@GetRegister?$CI?$FLaddr?0?5data?$FN?3?5?$CFs?$CJ?5?$DN@ 0000000180032628     stuhfl_evalAPI_host.obj
+ 0003:00003658       ??_C@_0CK@CMGNGDHL@SetRwdCfg?$CIid?3?50x?$CF02x?0?5value?3?50x@ 0000000180032658     stuhfl_evalAPI_host.obj
+ 0003:00003690       ??_C@_0CK@NGCOBDGO@GetRwdCfg?$CIid?3?50x?$CF02x?0?5value?3?50x@ 0000000180032690     stuhfl_evalAPI_host.obj
+ 0003:000036c8       ??_C@_0DO@CFGIOPGG@SetAntennaPower?$CImode?3?50x?$CF02x?5ti@ 00000001800326c8     stuhfl_evalAPI_host.obj
+ 0003:00003718       ??_C@_0DO@CKPFECKK@GetAntennaPower?$CImode?3?50x?$CF02x?5ti@ 0000000180032718     stuhfl_evalAPI_host.obj
+ 0003:00003770       ??_C@_0HI@DILBNAIE@SetChannelList?$CIantenna?3?5?$CFd?0?5nFr@ 0000000180032770     stuhfl_evalAPI_host.obj
+ 0003:00003800       ??_C@_0CB@CKLBKIH@SetFreqProfile?$CIprofile?3?5?$CFd?$CJ?5?$DN?5?$CF@ 0000000180032800     stuhfl_evalAPI_host.obj
+ 0003:00003828       ??_C@_0DM@NDICDPGL@SetFreqProfileAdd2Custom?$CIclearL@ 0000000180032828     stuhfl_evalAPI_host.obj
+ 0003:00003870       ??_C@_0CE@HCODBPMB@SetFreqHop?$CImaxSendingTime?3?5?$CFd?$CJ?5@ 0000000180032870     stuhfl_evalAPI_host.obj
+ 0003:000038a0       ??_C@_0FJ@FLFEMJME@SetFreqLBT?$CIlisteningTime?3?5?$CFd?0?5i@ 00000001800328a0     stuhfl_evalAPI_host.obj
+ 0003:00003910       ??_C@_0GB@IJBHCIDE@SetFreqContMod?$CIfrequency?3?5?$CFd?0?5e@ 0000000180032910     stuhfl_evalAPI_host.obj
+ 0003:00003990       ??_C@_0HI@LHLLKGFP@GetChannelList?$CIantenna?3?5?$CFd?0?5nFr@ 0000000180032990     stuhfl_evalAPI_host.obj
+ 0003:00003a20       ??_C@_0DM@CGOFFDGF@GetFreqRSSI?$CIfrequency?3?5?$CFd?0?5rssi@ 0000000180032a20     stuhfl_evalAPI_host.obj
+ 0003:00003a70       ??_C@_0GB@HMDMCMGJ@GetFreqReflectedPower?$CIfrequency@ 0000000180032a70     stuhfl_evalAPI_host.obj
+ 0003:00003af0       ??_C@_0FF@NOLOKBOO@GetFreqProfileInfo?$CIprofile?3?5?$CFd?0@ 0000000180032af0     stuhfl_evalAPI_host.obj
+ 0003:00003b58       ??_C@_0CE@KLPCCFAK@GetFreqHop?$CImaxSendingTime?3?5?$CFd?$CJ?5@ 0000000180032b58     stuhfl_evalAPI_host.obj
+ 0003:00003b90       ??_C@_0FJ@OFKHLOGA@GetFreqLBT?$CIlisteningTime?3?5?$CFd?0?5i@ 0000000180032b90     stuhfl_evalAPI_host.obj
+ 0003:00003c00       ??_C@_0BP@FPAJEILG@SetGen2Timings?$CIT4Min?3?5?$CFd?$CJ?5?$DN?5?$CFd@ 0000000180032c00     stuhfl_evalAPI_host.obj
+ 0003:00003c30       ??_C@_0EC@MEMELKKN@SetGen2ProtocolCfg?$CItari?3?5?$CFd?0?5bl@ 0000000180032c30     stuhfl_evalAPI_host.obj
+ 0003:00003c80       ??_C@_0ED@INBBDCDP@SetGb29768ProtocolCfg?$CItc?3?5?$CFd?0?5b@ 0000000180032c80     stuhfl_evalAPI_host.obj
+ 0003:00003cd0       ??_C@_0GF@NJLKAHCP@SetTxRxCfg?$CItxOutputLevel?3?5?$CFd?0?5r@ 0000000180032cd0     stuhfl_evalAPI_host.obj
+ 0003:00003d50       ??_C@_0CA@FEGKKMMF@SetPA_Cfg?$CIuseExternal?3?5?$CFd?$CJ?5?$DN?5?$CFd@ 0000000180032d50     stuhfl_evalAPI_host.obj
+ 0003:00003d80       ??_C@_0BOK@ENNACJEK@SetGen2InventoryCfg?$CIfastInv?3?5?$CFd@ 0000000180032d80     stuhfl_evalAPI_host.obj
+ 0003:00003fd0       ??_C@_0BFG@LOLPLJMM@SetGb29768InventoryCfg?$CIreadTID?3@ 0000000180032fd0     stuhfl_evalAPI_host.obj
+ 0003:00004170       ??_C@_0BP@IKOIGGOC@GetGen2Timings?$CIT4Min?3?5?$CFd?$CJ?5?$DN?5?$CFd@ 0000000180033170     stuhfl_evalAPI_host.obj
+ 0003:000041a0       ??_C@_0EC@HNKPMMOG@GetGen2ProtocolCfg?$CItari?3?5?$CFd?0?5bl@ 00000001800331a0     stuhfl_evalAPI_host.obj
+ 0003:000041f0       ??_C@_0ED@GMKGMBFB@GetGb29768ProtocolCfg?$CItc?3?5?$CFd?0?5b@ 00000001800331f0     stuhfl_evalAPI_host.obj
+ 0003:00004240       ??_C@_0GF@OIOODKN@GetTxRxCfg?$CItxOutputLevel?3?5?$CFd?0?5r@ 0000000180033240     stuhfl_evalAPI_host.obj
+ 0003:000042c0       ??_C@_0CA@DILJNIAG@GetPA_Cfg?$CIuseExternal?3?5?$CFd?$CJ?5?$DN?5?$CFd@ 00000001800332c0     stuhfl_evalAPI_host.obj
+ 0003:000042f0       ??_C@_0BOK@CENAJCHC@GetGen2InventoryCfg?$CIfastInv?3?5?$CFd@ 00000001800332f0     stuhfl_evalAPI_host.obj
+ 0003:00004540       ??_C@_0BFG@FHJEDMJL@GetGb29768InventoryCfg?$CIreadTID?3@ 0000000180033540     stuhfl_evalAPI_host.obj
+ 0003:000046e0       ??_C@_0DJ@HJGHNCFD@SetTuning?$CIantenna?3?5?$CFd?0?5cin?3?5?$CFd?0@ 00000001800336e0     stuhfl_evalAPI_host.obj
+ 0003:00004730       ??_C@_0HB@PHMOKHGI@SetTuningTableEntry?$CIentry?3?5?$CFd?0?5@ 0000000180033730     stuhfl_evalAPI_host.obj
+ 0003:000047b8       ??_C@_0DC@OAGDNOIL@SetTuningTableDefault?$CIprofile?3?5@ 00000001800337b8     stuhfl_evalAPI_host.obj
+ 0003:000047f8       ??_C@_0CA@HGDFKOKL@SetTuningTableSave2Flash?$CI?$CJ?5?$DN?5?$CFd@ 00000001800337f8     stuhfl_evalAPI_host.obj
+ 0003:00004820       ??_C@_0BL@EOMGOPPG@SetTuningTableEmpty?$CI?$CJ?5?$DN?5?$CFd@ 0000000180033820     stuhfl_evalAPI_host.obj
+ 0003:00004840       ??_C@_0FB@FKMJDKHH@SetTuningCaps?$CIantenna?3?5?$CFd?0?5chan@ 0000000180033840     stuhfl_evalAPI_host.obj
+ 0003:000048a8       ??_C@_0DJ@EKBALLMC@GetTuning?$CIantenna?3?5?$CFd?0?5cin?3?5?$CFd?0@ 00000001800338a8     stuhfl_evalAPI_host.obj
+ 0003:000048f0       ??_C@_0HC@MJGJDFPM@GetTuningTableEntry?$CIentry?3?5?$CFd?0?5@ 00000001800338f0     stuhfl_evalAPI_host.obj
+ 0003:00004978       ??_C@_0DF@FBCBONNG@GetTuningTableInfo?$CIprofile?3?5?$CFd?0@ 0000000180033978     stuhfl_evalAPI_host.obj
+ 0003:000049c0       ??_C@_0FB@FMBGBJIP@GetTuningCaps?$CIantenna?3?5?$CFd?0?5chan@ 00000001800339c0     stuhfl_evalAPI_host.obj
+ 0003:00004a28       ??_C@_0DC@HMGBMGBJ@Tune?$CIalgo?3?5?$CFd?0?5doFalsePositiveD@ 0000000180033a28     stuhfl_evalAPI_host.obj
+ 0003:00004a70       ??_C@_0FL@EAMLAEI@TuneChannel?$CIenableFPD?3?5?$CFd?0?5save@ 0000000180033a70     stuhfl_evalAPI_host.obj
+ 0003:00004ae0       ??_C@_0BEF@OKDDBKCP@Gen2_Inventory?$CIrssiMode?3?5?$CFd?0?5ro@ 0000000180033ae0     stuhfl_evalAPI_host.obj
+ 0003:00004c70       ??_C@_0IC@HBCBOHMF@Gen2_Select?$CImode?3?5?$CFd?0?5target?3?5?$CF@ 0000000180033c70     stuhfl_evalAPI_host.obj
+ 0003:00004d10       ??_C@_0FA@IPMKCFMN@Gen2_Read?$CImemBank?3?5?$CFd?0?5wordPtr?3@ 0000000180033d10     stuhfl_evalAPI_host.obj
+ 0003:00004d70       ??_C@_0FJ@CBLIJDOH@Gen2_Write?$CImemBank?3?5?$CFd?0?5wordPtr@ 0000000180033d70     stuhfl_evalAPI_host.obj
+ 0003:00004de0       ??_C@_0GF@NACFABB@Gen2_BlockWrite?$CImemBank?3?5?$CFd?0?5wo@ 0000000180033de0     stuhfl_evalAPI_host.obj
+ 0003:00004e60       ??_C@_0DI@ECFPCPNB@Gen2_Lock?$CImask?3?50x?$CFs?0?5pwd?3?50x?$CFs@ 0000000180033e60     stuhfl_evalAPI_host.obj
+ 0003:00004eb0       ??_C@_0EA@GBKJJOCM@Gen2_Kill?$CIpwd?3?50x?$CFs?0?5rfu?3?5?$CFd?0?5r@ 0000000180033eb0     stuhfl_evalAPI_host.obj
+ 0003:00004f00       ??_C@_0KF@ECHKMOPG@Gen2_GenericCmd?$CIpwd?3?50x?$CFs?0?5cmd?3@ 0000000180033f00     stuhfl_evalAPI_host.obj
+ 0003:00004fd0       ??_C@_0JI@GPIMILGC@STUHFL_F_Gen2_QueryMeasureRssi?$CI@ 0000000180033fd0     stuhfl_evalAPI_host.obj
+ 0003:00005090       ??_C@_0BEB@CLNAMIBL@Gb29768_Inventory?$CIrssiMode?3?5?$CFd?0@ 0000000180034090     stuhfl_evalAPI_host.obj
+ 0003:00005220       ??_C@_0HG@IBHJOPDG@Gb29768_Sort?$CImode?3?5?$CFd?0?5target?3?5@ 0000000180034220     stuhfl_evalAPI_host.obj
+ 0003:000052b0       ??_C@_0FD@PDACJNOC@Gb29768_Read?$CImemBank?3?5?$CFd?0?5wordP@ 00000001800342b0     stuhfl_evalAPI_host.obj
+ 0003:00005320       ??_C@_0EK@LMIHEBPK@Gb29768_Write?$CImemBank?3?5?$CFd?0?5word@ 0000000180034320     stuhfl_evalAPI_host.obj
+ 0003:00005380       ??_C@_0FJ@CAMNILFD@Gb29768_Lock?$CIstorageArea?3?50x?$CF02@ 0000000180034380     stuhfl_evalAPI_host.obj
+ 0003:000053f0       ??_C@_0BN@KAHJLCHM@Gb29768_Kill?$CIpwd?3?50x?$CFs?$CJ?5?$DN?5?$CFd@ 00000001800343f0     stuhfl_evalAPI_host.obj
+ 0003:00005420       ??_C@_0EN@DECPLCCK@Gb29768_Erase?$CIstorageArea?3?5?$CFd?0?5@ 0000000180034420     stuhfl_evalAPI_host.obj
+ 0003:00005480       ??_C@_0IC@BLPHEDN@InventoryRunnerStart?$CIrssiMode?3?5@ 0000000180034480     stuhfl_evalAPI_host.obj
+ 0003:00005520       ??_C@_0BL@BCDHJABF@InventoryRunnerStop?$CI?$CJ?5?$DN?5?$CFd@ 0000000180034520     stuhfl_evalAPI_host.obj
+ 0003:00005540       ??_C@_04JFFKLGJF@?$CF02X@  0000000180034540     stuhfl_helpers.obj
+ 0003:000055c4       ??_C@_01JPJNBJEM@I@        00000001800345c4     stuhfl_log.obj
+ 0003:000055c8       ??_C@_01ELNMCGJD@W@        00000001800345c8     stuhfl_log.obj
+ 0003:000055cc       ??_C@_01CKDDGHAB@D@        00000001800345cc     stuhfl_log.obj
+ 0003:000055d0       ??_C@_01DDCIFGEA@E@        00000001800345d0     stuhfl_log.obj
+ 0003:000055d4       ??_C@_02CNCKMBBD@AL@       00000001800345d4     stuhfl_log.obj
+ 0003:000055d8       ??_C@_02DCIILGAN@SL@       00000001800345d8     stuhfl_log.obj
+ 0003:000055dc       ??_C@_02CLOBADPI@DL@       00000001800345dc     stuhfl_log.obj
+ 0003:000055e0       ??_C@_02DAMOAIFE@PL@       00000001800345e0     stuhfl_log.obj
+ 0003:000055e4       ??_C@_02JPINBHIC@EA@       00000001800345e4     stuhfl_log.obj
+ 0003:000055e7       ??_C@_00CNPNBAHC@@         00000001800345e7     stuhfl_log.obj
+ 0003:000055e8       ??_C@_01EEMJAFIK@?6@       00000001800345e8     stuhfl_log.obj
+ 0003:00005d08       ??_C@_0BD@IPPMGAEF@Tx?5?$DO?$DO?$DO?5?$CI?$CF04d?$CJ?50x?$CFs@ 0000000180034d08     stuhfl_pl.obj
+ 0003:00005d20       ??_C@_0CJ@BIEDGEDP@Rx?5?$DM?$DM?$DM?5?$CI?$CF04d?$CJ?5?4?4?5no?5data?5packet@ 0000000180034d20     stuhfl_pl.obj
+ 0003:00005d58       ??_C@_0DL@PBBOCDL@Rx?5?$DM?$DM?$DM?5?$CI?$CF04d?$CJ?5?4?4?5unknown?5comman@ 0000000180034d58     stuhfl_pl.obj
+ 0003:00005da0       ??_C@_0EM@GLMCCOLB@Rx?5?$DM?$DM?$DM?5?$CI?$CF04d?$CJ?5?4?4?5receive?5length@ 0000000180034da0     stuhfl_pl.obj
+ 0003:00005e00       ??_C@_0BD@NMGIDLAJ@Rx?5?$DM?$DM?$DM?5?$CI?$CF04d?$CJ?50x?$CFs@ 0000000180034e00     stuhfl_pl.obj
+ 0003:00005e18       ??_C@_0BI@MEIJNAIM@SetParam?3?5RdTimeout?3?$CFd?5@ 0000000180034e18     stuhfl_pl.obj
+ 0003:00005e38       ??_C@_0BI@FEMIMHOG@SetParam?3?5WrTimeout?3?$CFd?5@ 0000000180034e38     stuhfl_pl.obj
+ 0003:00005e58       ??_C@_0BC@GHAILNCG@SetParam?3?5DTR?3?$CFd?5@ 0000000180034e58     stuhfl_pl.obj
+ 0003:00005e70       ??_C@_0BC@BGIAFGCP@SetParam?3?5RTS?3?$CFd?5@ 0000000180034e70     stuhfl_pl.obj
+ 0003:00005e88       ??_C@_0BI@NCOEDBOO@GetParam?3?5RdTimeout?3?$CFd?5@ 0000000180034e88     stuhfl_pl.obj
+ 0003:00005ea8       ??_C@_0BI@ECKFCGIE@GetParam?3?5WrTimeout?3?$CFd?5@ 0000000180034ea8     stuhfl_pl.obj
+ 0003:00005ec8       ??_C@_0BC@ECADDGDI@GetParam?3?5DTR?3?$CFd?5@ 0000000180034ec8     stuhfl_pl.obj
+ 0003:00005ee0       ??_C@_0BC@DDILNNDB@GetParam?3?5RTS?3?$CFd?5@ 0000000180034ee0     stuhfl_pl.obj
+ 0003:00006500       ??_C@_0IP@FPKDMGKI@Gen2_QueryMeasureRssi?$CIfrequency@ 0000000180035500     stuhfl_sl.obj
+ 0003:000065b0       _pDefaultRawDllMain        00000001800355b0     MSVCRTD:dll_dllmain.obj
+ 0003:000065b0       _pRawDllMain               00000001800355b0     MSVCRTD:dll_dllmain.obj
+ 0003:000066a0       ??_C@_0NN@JMPELKLB@The?5value?5of?5ESP?5was?5not?5proper@ 00000001800356a0     MSVCRTD:error.obj
+ 0003:000067b0       ??_C@_0BBN@ELNNILBE@A?5cast?5to?5a?5smaller?5data?5type?5h@ 00000001800357b0     MSVCRTD:error.obj
+ 0003:00006908       ??_C@_0BN@BPOGFMJL@Stack?5memory?5was?5corrupted?$AN?6@ 0000000180035908     MSVCRTD:error.obj
+ 0003:00006930       ??_C@_0DG@DAJCDLPN@A?5local?5variable?5was?5used?5befor@ 0000000180035930     MSVCRTD:error.obj
+ 0003:00006970       ??_C@_0CM@JMIDGKLA@Stack?5memory?5around?5_alloca?5was@ 0000000180035970     MSVCRTD:error.obj
+ 0003:000069a8       ??_C@_0BO@CHIONIOI@Unknown?5Runtime?5Check?5Error?$AN?6@ 00000001800359a8     MSVCRTD:error.obj
+ 0003:000069d0       ??_C@_1GM@CNOOJIHC@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE@ 00000001800359d0     MSVCRTD:error.obj
+ 0003:00006a60       ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5@ 0000000180035a60     MSVCRTD:error.obj
+ 0003:00006ab0       ??_C@_0BB@PFFGGCJP@Unknown?5Filename@ 0000000180035ab0     MSVCRTD:error.obj
+ 0003:00006ac8       ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name@ 0000000180035ac8     MSVCRTD:error.obj
+ 0003:00006ae0       ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs@ 0000000180035ae0     MSVCRTD:error.obj
+ 0003:00006b08       ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5va@ 0000000180035b08     MSVCRTD:error.obj
+ 0003:00006b38       ??_C@_05MKKEDADM@?$CF?42X?5@ 0000000180035b38     MSVCRTD:error.obj
+ 0003:00006b40       ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memor@ 0000000180035b40     MSVCRTD:error.obj
+ 0003:00006b98       ??_C@_02LLMPMKNF@?$DO?5@   0000000180035b98     MSVCRTD:error.obj
+ 0003:00006ba0       ??_C@_08OMAHNMHJ@?6Data?3?5?$DM@ 0000000180035ba0     MSVCRTD:error.obj
+ 0003:00006bb0       ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5@ 0000000180035bb0     MSVCRTD:error.obj
+ 0003:00006be8       ??_C@_07DFDJCKFN@?6Size?3?5@ 0000000180035be8     MSVCRTD:error.obj
+ 0003:00006bf8       ??_C@_0N@MHFFIMFG@?6Address?3?50x@ 0000000180035bf8     MSVCRTD:error.obj
+ 0003:00006c10       ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memor@ 0000000180035c10     MSVCRTD:error.obj
+ 0003:00006c68       ??_C@_0BK@ODNDAGKB@?$CFs?$CFs?$CFp?$CFs?$CFzd?$CFs?$CFd?$CFs?$CFs?$CFs?$CFs?$CFs@ 0000000180035c68     MSVCRTD:error.obj
+ 0003:00006c88       ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5withou@ 0000000180035c88     MSVCRTD:error.obj
+ 0003:00006cf8       ??_C@_0BJ@HEGAHDFO@Stack?5pointer?5corruption@ 0000000180035cf8     MSVCRTD:userapi.obj
+ 0003:00006d18       ??_C@_0CK@FEGOIOPB@Cast?5to?5smaller?5type?5causing?5lo@ 0000000180035d18     MSVCRTD:userapi.obj
+ 0003:00006d50       ??_C@_0BI@CIGMDCBH@Stack?5memory?5corruption@ 0000000180035d50     MSVCRTD:userapi.obj
+ 0003:00006d70       ??_C@_0CK@CNLNOEPB@Local?5variable?5used?5before?5init@ 0000000180035d70     MSVCRTD:userapi.obj
+ 0003:00006da8       ??_C@_0BP@OGBCLIBO@Stack?5around?5_alloca?5corrupted@ 0000000180035da8     MSVCRTD:userapi.obj
+ 0003:00006e50       ??_C@_1EI@MLPKHBGE@?$AAa?$AAp?$AAi?$AA?9?$AAm?$AAs?$AA?9?$AAw?$AAi?$AAn?$AA?9?$AAc?$AAo?$AAr?$AAe@ 0000000180035e50     MSVCRTD:pdblkup.obj
+ 0003:00006ea8       ??_C@_1BK@JHLNAEJL@?$AAa?$AAd?$AAv?$AAa?$AAp?$AAi?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl@ 0000000180035ea8     MSVCRTD:pdblkup.obj
+ 0003:00006ec8       ??_C@_0O@COHOBMLB@RegOpenKeyExW@ 0000000180035ec8     MSVCRTD:pdblkup.obj
+ 0003:00006ed8       ??_C@_0BB@GLNAEDBD@RegQueryValueExW@ 0000000180035ed8     MSVCRTD:pdblkup.obj
+ 0003:00006ef0       ??_C@_0M@HLOHPNFA@RegCloseKey@ 0000000180035ef0     MSVCRTD:pdblkup.obj
+ 0003:00006f00       ??_C@_1HE@EBEAGLFB@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAW?$AAo?$AAw?$AA6?$AA4?$AA3@ 0000000180035f00     MSVCRTD:pdblkup.obj
+ 0003:00006f90       ??_C@_1BG@EABPBLLF@?$AAP?$AAr?$AAo?$AAd?$AAu?$AAc?$AAt?$AAD?$AAi?$AAr@ 0000000180035f90     MSVCRTD:pdblkup.obj
+ 0003:00006fd8       ??_C@_1BC@JINFINNJ@?$AAM?$AAS?$AAP?$AAD?$AAB?$AA1?$AA4?$AA0@ 0000000180035fd8     MSVCRTD:pdblkup.obj
+ 0003:00006ff0       ??_C@_0BB@KCIACLNC@PDBOpenValidate5@ 0000000180035ff0     MSVCRTD:pdblkup.obj
+ 0003:00007004       ??_C@_01KDCPPGHE@r@        0000000180036004     MSVCRTD:pdblkup.obj
+ 0003:00007040       _load_config_used          0000000180036040     MSVCRTD:loadcfg.obj
+ 0003:00007480       __CastGuardVftablesStart   0000000180036480     MSVCRTD:guard_support.obj
+ 0003:00007590       __CastGuardVftablesEnd     0000000180036590     MSVCRTD:guard_support.obj
+ 0003:00007820       __rtc_iaa                  0000000180036820     MSVCRTD:initsect.obj
+ 0003:00007ae0       __rtc_izz                  0000000180036ae0     MSVCRTD:initsect.obj
+ 0003:00007bf0       __rtc_taa                  0000000180036bf0     MSVCRTD:initsect.obj
+ 0003:00007eb0       __rtc_tzz                  0000000180036eb0     MSVCRTD:initsect.obj
+ 0004:00000024       sndDataLen                 000000018003a024     stuhfl_evalAPI_host.obj
+ 0004:00000028       rcvDataLen                 000000018003a028     stuhfl_evalAPI_host.obj
+ 0004:0000002c       mode                       000000018003a02c     stuhfl_pl.obj
+ 0004:00000030       __security_cookie_complement 000000018003a030     MSVCRTD:gs_cookie.obj
+ 0004:00000038       __security_cookie          000000018003a038     MSVCRTD:gs_cookie.obj
+ 0004:00000048       ?_RTC_ErrorLevels@@3PAHA   000000018003a048     MSVCRTD:error.obj
+ 0004:00000060       __scrt_native_dllmain_reason 000000018003a060     MSVCRTD:utility.obj
+ 0004:00000068       __isa_available            000000018003a068     MSVCRTD:cpu_disp.obj
+ 0004:0000006c       __isa_enabled              000000018003a06c     MSVCRTD:cpu_disp.obj
+ 0004:00000070       __memcpy_nt_iters          000000018003a070     MSVCRTD:cpu_disp.obj
+ 0004:00000078       __memset_nt_iters          000000018003a078     MSVCRTD:cpu_disp.obj
+ 0004:00000090       __scrt_ucrt_dll_is_in_use  000000018003a090     MSVCRTD:ucrt_stubs.obj
+ 0004:000001f8       device                     000000018003a1f8     stuhfl_evalAPI_host.obj
+ 0004:00000200       invRunnerId                000000018003a200     stuhfl_evalAPI_host.obj
+ 0004:00000208       callerFinishedCallback     000000018003a208     stuhfl_evalAPI_host.obj
+ 0004:00000408       sndID                      000000018003a408     stuhfl_pl.obj
+ 0004:0000040c       rcvID                      000000018003a40c     stuhfl_pl.obj
+ 0004:00000498       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 000000018003a498     MSVCRTD:error.obj
+ 0004:00000b50       ?__type_info_root_node@@3U__type_info_node@@A 000000018003ab50     MSVCRTD:tncleanup.obj
+ 0004:00000b68       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 000000018003ab68     MSVCRTD:default_local_stdio_options.obj
+ 0004:00000b78       __scrt_current_native_startup_state 000000018003ab78     MSVCRTD:utility.obj
+ 0004:00000b80       __scrt_native_startup_lock 000000018003ab80     MSVCRTD:utility.obj
+ 0004:00000bd0       __scrt_debugger_hook_flag  000000018003abd0     MSVCRTD:utility_desktop.obj
+ 0004:00000bd8       __castguard_check_failure_os_handled_fptr 000000018003abd8     MSVCRTD:guard_support.obj
+ 0004:00000bf4       __favor                    000000018003abf4     MSVCRTD:cpu_disp.obj
+ 0004:00000bf8       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 000000018003abf8     <common>
+ 0004:000010e0       rcvData                    000000018003b0e0     <common>
+ 0004:000020e0       sndData                    000000018003c0e0     <common>
+ 0004:000028e0       __dyn_tls_init_callback    000000018003c8e0     <common>
+ 0004:000028f4       __DebuggerCurrentSteppingThreadId 000000018003c8f4     <common>
+ 0006:00000000       __imp_CreateFileA          0000000180040000     kernel32:KERNEL32.dll
+ 0006:00000008       __imp_ReadFile             0000000180040008     kernel32:KERNEL32.dll
+ 0006:00000010       __imp_WriteFile            0000000180040010     kernel32:KERNEL32.dll
+ 0006:00000018       __imp_CloseHandle          0000000180040018     kernel32:KERNEL32.dll
+ 0006:00000020       __imp_ClearCommError       0000000180040020     kernel32:KERNEL32.dll
+ 0006:00000028       __imp_SetupComm            0000000180040028     kernel32:KERNEL32.dll
+ 0006:00000030       __imp_EscapeCommFunction   0000000180040030     kernel32:KERNEL32.dll
+ 0006:00000038       __imp_GetCommState         0000000180040038     kernel32:KERNEL32.dll
+ 0006:00000040       __imp_GetCommTimeouts      0000000180040040     kernel32:KERNEL32.dll
+ 0006:00000048       __imp_PurgeComm            0000000180040048     kernel32:KERNEL32.dll
+ 0006:00000050       __imp_SetCommState         0000000180040050     kernel32:KERNEL32.dll
+ 0006:00000058       __imp_SetCommTimeouts      0000000180040058     kernel32:KERNEL32.dll
+ 0006:00000060       __imp_WaitForSingleObject  0000000180040060     kernel32:KERNEL32.dll
+ 0006:00000068       __imp_SetWaitableTimer     0000000180040068     kernel32:KERNEL32.dll
+ 0006:00000070       __imp_GetTickCount         0000000180040070     kernel32:KERNEL32.dll
+ 0006:00000078       __imp_CreateWaitableTimerA 0000000180040078     kernel32:KERNEL32.dll
+ 0006:00000080       __imp_CreateThread         0000000180040080     kernel32:KERNEL32.dll
+ 0006:00000088       __imp_FreeLibrary          0000000180040088     kernel32:KERNEL32.dll
+ 0006:00000090       __imp_VirtualQuery         0000000180040090     kernel32:KERNEL32.dll
+ 0006:00000098       __imp_GetProcessHeap       0000000180040098     kernel32:KERNEL32.dll
+ 0006:000000a0       __imp_HeapFree             00000001800400a0     kernel32:KERNEL32.dll
+ 0006:000000a8       __imp_HeapAlloc            00000001800400a8     kernel32:KERNEL32.dll
+ 0006:000000b0       __imp_GetLastError         00000001800400b0     kernel32:KERNEL32.dll
+ 0006:000000b8       __imp_GetModuleHandleW     00000001800400b8     kernel32:KERNEL32.dll
+ 0006:000000c0       __imp_GetStartupInfoW      00000001800400c0     kernel32:KERNEL32.dll
+ 0006:000000c8       __imp_InitializeSListHead  00000001800400c8     kernel32:KERNEL32.dll
+ 0006:000000d0       __imp_GetSystemTimeAsFileTime 00000001800400d0     kernel32:KERNEL32.dll
+ 0006:000000d8       __imp_GetCurrentProcessId  00000001800400d8     kernel32:KERNEL32.dll
+ 0006:000000e0       __imp_QueryPerformanceCounter 00000001800400e0     kernel32:KERNEL32.dll
+ 0006:000000e8       __imp_IsProcessorFeaturePresent 00000001800400e8     kernel32:KERNEL32.dll
+ 0006:000000f0       __imp_TerminateProcess     00000001800400f0     kernel32:KERNEL32.dll
+ 0006:000000f8       __imp_GetCurrentProcess    00000001800400f8     kernel32:KERNEL32.dll
+ 0006:00000100       __imp_SetUnhandledExceptionFilter 0000000180040100     kernel32:KERNEL32.dll
+ 0006:00000108       __imp_UnhandledExceptionFilter 0000000180040108     kernel32:KERNEL32.dll
+ 0006:00000110       __imp_RtlVirtualUnwind     0000000180040110     kernel32:KERNEL32.dll
+ 0006:00000118       __imp_RtlLookupFunctionEntry 0000000180040118     kernel32:KERNEL32.dll
+ 0006:00000120       __imp_RtlCaptureContext    0000000180040120     kernel32:KERNEL32.dll
+ 0006:00000128       __imp_WideCharToMultiByte  0000000180040128     kernel32:KERNEL32.dll
+ 0006:00000130       __imp_MultiByteToWideChar  0000000180040130     kernel32:KERNEL32.dll
+ 0006:00000138       __imp_GetProcAddress       0000000180040138     kernel32:KERNEL32.dll
+ 0006:00000140       __imp_RaiseException       0000000180040140     kernel32:KERNEL32.dll
+ 0006:00000148       __imp_IsDebuggerPresent    0000000180040148     kernel32:KERNEL32.dll
+ 0006:00000150       __imp_GetCurrentThreadId   0000000180040150     kernel32:KERNEL32.dll
+ 0006:00000158       \177KERNEL32_NULL_THUNK_DATA 0000000180040158     kernel32:KERNEL32.dll
+ 0006:000001f0       __imp___C_specific_handler 00000001800401f0     vcruntimed:VCRUNTIME140D.dll
+ 0006:000001f8       __imp___C_specific_handler_noexcept 00000001800401f8     vcruntimed:VCRUNTIME140D.dll
+ 0006:00000200       __imp___std_type_info_destroy_list 0000000180040200     vcruntimed:VCRUNTIME140D.dll
+ 0006:00000208       __imp___current_exception  0000000180040208     vcruntimed:VCRUNTIME140D.dll
+ 0006:00000210       __imp___current_exception_context 0000000180040210     vcruntimed:VCRUNTIME140D.dll
+ 0006:00000218       __imp___vcrt_GetModuleFileNameW 0000000180040218     vcruntimed:VCRUNTIME140D.dll
+ 0006:00000220       __imp___vcrt_GetModuleHandleW 0000000180040220     vcruntimed:VCRUNTIME140D.dll
+ 0006:00000228       __imp_memset               0000000180040228     vcruntimed:VCRUNTIME140D.dll
+ 0006:00000230       __imp___vcrt_LoadLibraryExW 0000000180040230     vcruntimed:VCRUNTIME140D.dll
+ 0006:00000238       __imp_memcpy               0000000180040238     vcruntimed:VCRUNTIME140D.dll
+ 0006:00000240       \177VCRUNTIME140D_NULL_THUNK_DATA 0000000180040240     vcruntimed:VCRUNTIME140D.dll
+ 0006:000002a8       __imp__seh_filter_dll      00000001800402a8     ucrtd:ucrtbased.dll
+ 0006:000002b0       __imp___stdio_common_vsprintf_s 00000001800402b0     ucrtd:ucrtbased.dll
+ 0006:000002b8       __imp_strcat_s             00000001800402b8     ucrtd:ucrtbased.dll
+ 0006:000002c0       __imp_strcpy_s             00000001800402c0     ucrtd:ucrtbased.dll
+ 0006:000002c8       __imp__initialize_onexit_table 00000001800402c8     ucrtd:ucrtbased.dll
+ 0006:000002d0       __imp__initterm            00000001800402d0     ucrtd:ucrtbased.dll
+ 0006:000002d8       __imp__CrtDbgReportW       00000001800402d8     ucrtd:ucrtbased.dll
+ 0006:000002e0       __imp__CrtDbgReport        00000001800402e0     ucrtd:ucrtbased.dll
+ 0006:000002e8       __imp___stdio_common_vsprintf 00000001800402e8     ucrtd:ucrtbased.dll
+ 0006:000002f0       __imp_strlen               00000001800402f0     ucrtd:ucrtbased.dll
+ 0006:000002f8       __imp__initialize_narrow_environment 00000001800402f8     ucrtd:ucrtbased.dll
+ 0006:00000300       __imp__register_onexit_function 0000000180040300     ucrtd:ucrtbased.dll
+ 0006:00000308       __imp_wcscpy_s             0000000180040308     ucrtd:ucrtbased.dll
+ 0006:00000310       __imp__wsplitpath_s        0000000180040310     ucrtd:ucrtbased.dll
+ 0006:00000318       __imp__wmakepath_s         0000000180040318     ucrtd:ucrtbased.dll
+ 0006:00000320       __imp_terminate            0000000180040320     ucrtd:ucrtbased.dll
+ 0006:00000328       __imp__cexit               0000000180040328     ucrtd:ucrtbased.dll
+ 0006:00000330       __imp__crt_at_quick_exit   0000000180040330     ucrtd:ucrtbased.dll
+ 0006:00000338       __imp__crt_atexit          0000000180040338     ucrtd:ucrtbased.dll
+ 0006:00000340       __imp__initterm_e          0000000180040340     ucrtd:ucrtbased.dll
+ 0006:00000348       __imp__execute_onexit_table 0000000180040348     ucrtd:ucrtbased.dll
+ 0006:00000350       __imp__configure_narrow_argv 0000000180040350     ucrtd:ucrtbased.dll
+ 0006:00000358       \177ucrtbased_NULL_THUNK_DATA 0000000180040358     ucrtd:ucrtbased.dll
+ 0006:000003d0       __IMPORT_DESCRIPTOR_KERNEL32 00000001800403d0     kernel32:KERNEL32.dll
+ 0006:000003e4       __IMPORT_DESCRIPTOR_VCRUNTIME140D 00000001800403e4     vcruntimed:VCRUNTIME140D.dll
+ 0006:000003f8       __IMPORT_DESCRIPTOR_ucrtbased 00000001800403f8     ucrtd:ucrtbased.dll
+ 0006:0000040c       __NULL_IMPORT_DESCRIPTOR   000000018004040c     kernel32:KERNEL32.dll
+ 0008:00000000       __guard_check_icall_fptr   0000000180042000     MSVCRTD:guard_support.obj
+ 0008:00000010       __guard_xfg_check_icall_fptr 0000000180042010     MSVCRTD:guard_support.obj
+ 0008:00000020       __guard_dispatch_icall_fptr 0000000180042020     MSVCRTD:guard_support.obj
+ 0008:00000030       __guard_xfg_dispatch_icall_fptr 0000000180042030     MSVCRTD:guard_support.obj
+ 0008:00000040       __guard_xfg_table_dispatch_icall_fptr 0000000180042040     MSVCRTD:guard_support.obj
+
+ entry point at        0002:0000001e
+
+ Static symbols
+
+ 0000:fffbb000       .debug$S                   0000000180000000     STUHFL.exp
+ 0003:fffd1000       $unwind$__local_stdio_printf_options 0000000180000000     stuhfl_helpers.obj
+ 0003:fffd1000       $unwind$snprintf           0000000180000000     stuhfl_helpers.obj
+ 0003:fffd1000       $unwind$vsnprintf          0000000180000000     stuhfl_helpers.obj
+ 0003:fffd1000       snprintf$rtcName$0         0000000180000000     stuhfl_helpers.obj
+ 0003:fffd1000       $unwind$__local_stdio_printf_options 0000000180000000     stuhfl_log.obj
+ 0003:fffd1000       $unwind$vsnprintf          0000000180000000     stuhfl_log.obj
+ 0000:fffbf000       __guard_ehcont_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRTD:dll_dllmain.obj
+ 0000:fffbf000       __guard_fids_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRTD:dll_dllmain.obj
+ 0000:fffbf000       __guard_ehcont_?notify_debugger@@YAXAEBUtagEXCEPTION_VISUALCPP_DEBUG_INFO@@@Z 0000000180000000     MSVCRTD:error.obj
+ 0000:fffbf000       __guard_fids__             0000000180000000     MSVCRTD:guard_support.obj
+ 0000:fffbf000       __guard_fids__             0000000180000000     MSVCRTD:guard_support.obj
+ 0000:fffbf000       __guard_fids__guard_icall_checks_enforced 0000000180000000     MSVCRTD:guard_support.obj
+ 0000:fffbf000       __guard_fids__CRT_RTC_INIT 0000000180000000     MSVCRTD:init.obj
+ 0000:fffbf000       __guard_fids__CRT_RTC_INITW 0000000180000000     MSVCRTD:init.obj
+ 0000:fffbf000       __guard_ehcont___scrt_is_nonwritable_in_current_image 0000000180000000     MSVCRTD:utility.obj
+ 0000:fffbf000       __guard_fids___scrt_set_unhandled_exception_filter 0000000180000000     MSVCRTD:utility_desktop.obj
+ 0000:fffbb000       .debug$S                   0000000180000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     vcruntimed:VCRUNTIME140D.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     ucrtd:ucrtbased.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffbb000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0003:fffd1010       snprintf$rtcVarDesc        0000000180000010     stuhfl_helpers.obj
+ 0003:fffd1050       snprintf$rtcFrameData      0000000180000050     stuhfl_helpers.obj
+ 0002:00003ef0       $LN53                      0000000180014ef0     stuhfl_dl.obj
+ 0002:00004fa8       $LN26                      0000000180015fa8     stuhfl_dl.obj
+ 0002:00005f30       $LN39                      0000000180016f30     stuhfl_dl.obj
+ 0002:00007604       $LN59                      0000000180018604     stuhfl_dl.obj
+ 0002:00007620       $LN58                      0000000180018620     stuhfl_dl.obj
+ 0002:00007720       $LN57                      0000000180018720     stuhfl_dl.obj
+ 0002:00007ea8       $LN39                      0000000180018ea8     stuhfl_dl.obj
+ 0002:00008640       $LN39                      0000000180019640     stuhfl_dl.obj
+ 0002:000089b0       $LN8                       00000001800199b0     stuhfl_dl.obj
+ 0002:000089b8       $LN7                       00000001800199b8     stuhfl_dl.obj
+ 0002:0000a460       $LN35                      000000018001b460     stuhfl_dl.obj
+ 0002:00016a40       $$000000                   0000000180027a40     MSVCRTD:amdsecgs.obj
+ 0002:00016a80       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180027a80 f   MSVCRTD:dll_dllmain.obj
+ 0002:00016b30       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 0000000180027b30 f   MSVCRTD:dll_dllmain.obj
+ 0002:00016cc0       ?dllmain_crt_process_detach@@YAH_N@Z 0000000180027cc0 f   MSVCRTD:dll_dllmain.obj
+ 0002:00016d80       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180027d80 f   MSVCRTD:dll_dllmain.obj
+ 0002:00016f10       ?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180027f10 f   MSVCRTD:dll_dllmain.obj
+ 0002:00017010       ?DebuggerProbe@@YA_NK@Z    0000000180028010 f   MSVCRTD:error.obj
+ 0002:00017060       ?DebuggerRuntime@@YA_NKHPEAXPEB_W@Z 0000000180028060 f   MSVCRTD:error.obj
+ 0002:000173f0       ?_getMemBlockDataString@@YAXPEAD0PEBD_K@Z 00000001800283f0 f   MSVCRTD:error.obj
+ 0002:000174d0       ?_strlen_priv@@YA_KPEBD@Z  00000001800284d0 f   MSVCRTD:error.obj
+ 0002:000174f0       ?failwithmessage@@YAXPEAXHHPEBD@Z 00000001800284f0 f   MSVCRTD:error.obj
+ 0002:000177f0       ?notify_debugger@@YAXAEBUtagEXCEPTION_VISUALCPP_DEBUG_INFO@@@Z 00000001800287f0 f   MSVCRTD:error.obj
+ 0002:00017e40       capture_current_context    0000000180028e40 f   MSVCRTD:gs_report.obj
+ 0002:00017f00       capture_previous_context   0000000180028f00 f   MSVCRTD:gs_report.obj
+ 0002:00017fe0       __get_entropy              0000000180028fe0 f   MSVCRTD:gs_support.obj
+ 0002:00018240       ?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 0000000180029240 f   MSVCRTD:utility.obj
+ 0002:00018360       ?is_potentially_valid_image_base@@YA_NQEAX@Z 0000000180029360 f   MSVCRTD:utility.obj
+ 0002:00019100       __castguard_compat_check   000000018002a100 f   MSVCRTD:guard_support.obj
+ 0002:000192e0       __castguard_slow_path_compat_check 000000018002a2e0 f   MSVCRTD:guard_support.obj
+ 0002:000193d0       ?GetPdbDll@@YAPEAUHINSTANCE__@@XZ 000000018002a3d0 f   MSVCRTD:pdblkup.obj
+ 0002:00019570       ?GetPdbDllFromInstallPath@@YAPEAUHINSTANCE__@@XZ 000000018002a570 f   MSVCRTD:pdblkup.obj
+ 0002:000198d0       ?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z 000000018002a8d0 f   MSVCRTD:pdblkup.obj
+ 0002:0001bba0       $$000000                   000000018002cba0     MSVCRTD:guard_dispatch.obj
+ 0002:0001bbc0       $$000000                   000000018002cbc0     MSVCRTD:guard_xfg_dispatch.obj
+ 0002:0001cbe0       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018002dbe0 f   MSVCRTD:dll_dllmain.obj
+ 0002:0001cc00       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018002dc00 f   MSVCRTD:dll_dllmain.obj
+ 0002:0001cc1a       ?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018002dc1a f   MSVCRTD:dll_dllmain.obj
+ 0002:0001cc40       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018002dc40 f   MSVCRTD:dll_dllmain.obj
+ 0002:0001cca0       ?filt$0@?0??notify_debugger@@YAXAEBUtagEXCEPTION_VISUALCPP_DEBUG_INFO@@@Z@4HA 000000018002dca0 f   MSVCRTD:error.obj
+ 0002:0001ccd0       __scrt_is_nonwritable_in_current_image$filt$0 000000018002dcd0 f   MSVCRTD:utility.obj
+ 0003:00000880       STUHFL_F_Connect_Win32$rtcName$0 000000018002f880     stuhfl_bl_win32.obj
+ 0003:00000884       STUHFL_F_Connect_Win32$rtcName$1 000000018002f884     stuhfl_bl_win32.obj
+ 0003:00000890       STUHFL_F_Connect_Win32$rtcVarDesc 000000018002f890     stuhfl_bl_win32.obj
+ 0003:00000910       STUHFL_F_Connect_Win32$rtcFrameData 000000018002f910     stuhfl_bl_win32.obj
+ 0003:00000940       STUHFL_F_Reset_Win32$rtcName$0 000000018002f940     stuhfl_bl_win32.obj
+ 0003:00000948       STUHFL_F_Reset_Win32$rtcName$1 000000018002f948     stuhfl_bl_win32.obj
+ 0003:00000960       STUHFL_F_Reset_Win32$rtcVarDesc 000000018002f960     stuhfl_bl_win32.obj
+ 0003:000009e0       STUHFL_F_Reset_Win32$rtcFrameData 000000018002f9e0     stuhfl_bl_win32.obj
+ 0003:00000a20       STUHFL_F_SndRaw_Win32$rtcName$0 000000018002fa20     stuhfl_bl_win32.obj
+ 0003:00000a30       STUHFL_F_SndRaw_Win32$rtcVarDesc 000000018002fa30     stuhfl_bl_win32.obj
+ 0003:00000a70       STUHFL_F_SndRaw_Win32$rtcFrameData 000000018002fa70     stuhfl_bl_win32.obj
+ 0003:00000aa0       STUHFL_F_RcvRaw_Win32$rtcName$0 000000018002faa0     stuhfl_bl_win32.obj
+ 0003:00000ab0       STUHFL_F_RcvRaw_Win32$rtcVarDesc 000000018002fab0     stuhfl_bl_win32.obj
+ 0003:00000af0       STUHFL_F_RcvRaw_Win32$rtcFrameData 000000018002faf0     stuhfl_bl_win32.obj
+ 0003:00000b20       STUHFL_F_GetDTR_Win32$rtcName$0 000000018002fb20     stuhfl_bl_win32.obj
+ 0003:00000b30       STUHFL_F_GetDTR_Win32$rtcVarDesc 000000018002fb30     stuhfl_bl_win32.obj
+ 0003:00000b70       STUHFL_F_GetDTR_Win32$rtcFrameData 000000018002fb70     stuhfl_bl_win32.obj
+ 0003:00000ba0       STUHFL_F_GetRTS_Win32$rtcName$0 000000018002fba0     stuhfl_bl_win32.obj
+ 0003:00000bb0       STUHFL_F_GetRTS_Win32$rtcVarDesc 000000018002fbb0     stuhfl_bl_win32.obj
+ 0003:00000bf0       STUHFL_F_GetRTS_Win32$rtcFrameData 000000018002fbf0     stuhfl_bl_win32.obj
+ 0003:00000c20       STUHFL_F_SetTimeouts_Win32$rtcName$0 000000018002fc20     stuhfl_bl_win32.obj
+ 0003:00000c30       STUHFL_F_SetTimeouts_Win32$rtcVarDesc 000000018002fc30     stuhfl_bl_win32.obj
+ 0003:00000c70       STUHFL_F_SetTimeouts_Win32$rtcFrameData 000000018002fc70     stuhfl_bl_win32.obj
+ 0003:00000ca0       usleep$rtcName$0           000000018002fca0     stuhfl_platform.obj
+ 0003:00000cb0       usleep$rtcVarDesc          000000018002fcb0     stuhfl_platform.obj
+ 0003:00000cf0       usleep$rtcFrameData        000000018002fcf0     stuhfl_platform.obj
+ 0003:00000d20       STUHFL_F_SetMultipleParams$rtcName$0 000000018002fd20     stuhfl_dl.obj
+ 0003:00000d30       STUHFL_F_SetMultipleParams$rtcName$1 000000018002fd30     stuhfl_dl.obj
+ 0003:00000d40       STUHFL_F_SetMultipleParams$rtcName$2 000000018002fd40     stuhfl_dl.obj
+ 0003:00000d50       STUHFL_F_SetMultipleParams$rtcName$3 000000018002fd50     stuhfl_dl.obj
+ 0003:00000d60       STUHFL_F_SetMultipleParams$rtcVarDesc 000000018002fd60     stuhfl_dl.obj
+ 0003:00000e60       STUHFL_F_SetMultipleParams$rtcFrameData 000000018002fe60     stuhfl_dl.obj
+ 0003:00000ec0       STUHFL_F_GetMultipleParams$rtcName$0 000000018002fec0     stuhfl_dl.obj
+ 0003:00000ed0       STUHFL_F_GetMultipleParams$rtcName$1 000000018002fed0     stuhfl_dl.obj
+ 0003:00000ee0       STUHFL_F_GetMultipleParams$rtcName$2 000000018002fee0     stuhfl_dl.obj
+ 0003:00000ef0       STUHFL_F_GetMultipleParams$rtcName$3 000000018002fef0     stuhfl_dl.obj
+ 0003:00000f00       STUHFL_F_GetMultipleParams$rtcVarDesc 000000018002ff00     stuhfl_dl.obj
+ 0003:00001000       STUHFL_F_GetMultipleParams$rtcFrameData 0000000180030000     stuhfl_dl.obj
+ 0003:00001060       STUHFL_F_ReceiveCmdData$rtcName$0 0000000180030060     stuhfl_dl.obj
+ 0003:00001070       STUHFL_F_ReceiveCmdData$rtcName$1 0000000180030070     stuhfl_dl.obj
+ 0003:00001074       STUHFL_F_ReceiveCmdData$rtcName$2 0000000180030074     stuhfl_dl.obj
+ 0003:00001080       STUHFL_F_ReceiveCmdData$rtcVarDesc 0000000180030080     stuhfl_dl.obj
+ 0003:00001140       STUHFL_F_ReceiveCmdData$rtcFrameData 0000000180030140     stuhfl_dl.obj
+ 0003:00001180       STUHFL_F_GetVersionOld$rtcName$0 0000000180030180     stuhfl_dl.obj
+ 0003:00001190       STUHFL_F_GetVersionOld$rtcName$1 0000000180030190     stuhfl_dl.obj
+ 0003:000011a0       STUHFL_F_GetVersionOld$rtcVarDesc 00000001800301a0     stuhfl_dl.obj
+ 0003:00001220       STUHFL_F_GetVersionOld$rtcFrameData 0000000180030220     stuhfl_dl.obj
+ 0003:00001260       STUHFL_F_GetVersion$rtcName$0 0000000180030260     stuhfl_dl.obj
+ 0003:00001270       STUHFL_F_GetVersion$rtcName$1 0000000180030270     stuhfl_dl.obj
+ 0003:0000127c       STUHFL_F_GetVersion$rtcName$3 000000018003027c     stuhfl_dl.obj
+ 0003:00001280       STUHFL_F_GetVersion$rtcName$2 0000000180030280     stuhfl_dl.obj
+ 0003:0000128c       STUHFL_F_GetVersion$rtcName$4 000000018003028c     stuhfl_dl.obj
+ 0003:00001290       STUHFL_F_GetVersion$rtcVarDesc 0000000180030290     stuhfl_dl.obj
+ 0003:000013d0       STUHFL_F_GetVersion$rtcFrameData 00000001800303d0     stuhfl_dl.obj
+ 0003:00001430       STUHFL_F_GetInfo$rtcName$0 0000000180030430     stuhfl_dl.obj
+ 0003:00001440       STUHFL_F_GetInfo$rtcName$1 0000000180030440     stuhfl_dl.obj
+ 0003:00001444       STUHFL_F_GetInfo$rtcName$2 0000000180030444     stuhfl_dl.obj
+ 0003:00001450       STUHFL_F_GetInfo$rtcVarDesc 0000000180030450     stuhfl_dl.obj
+ 0003:00001510       STUHFL_F_GetInfo$rtcFrameData 0000000180030510     stuhfl_dl.obj
+ 0003:00001550       STUHFL_F_GetRawData$rtcName$0 0000000180030550     stuhfl_dl.obj
+ 0003:00001560       STUHFL_F_GetRawData$rtcVarDesc 0000000180030560     stuhfl_dl.obj
+ 0003:000015a0       STUHFL_F_GetRawData$rtcFrameData 00000001800305a0     stuhfl_dl.obj
+ 0003:000015d0       SetParam_SndPayload_TYPE_ST25RU3993$rtcName$0 00000001800305d0     stuhfl_dl.obj
+ 0003:000015e0       SetParam_SndPayload_TYPE_ST25RU3993$rtcVarDesc 00000001800305e0     stuhfl_dl.obj
+ 0003:00001620       SetParam_SndPayload_TYPE_ST25RU3993$rtcFrameData 0000000180030620     stuhfl_dl.obj
+ 0003:00001650       GetParam_RcvPayload_TYPE_ST25RU3993$rtcName$0 0000000180030650     stuhfl_dl.obj
+ 0003:00001654       GetParam_RcvPayload_TYPE_ST25RU3993$rtcName$1 0000000180030654     stuhfl_dl.obj
+ 0003:00001658       GetParam_RcvPayload_TYPE_ST25RU3993$rtcName$2 0000000180030658     stuhfl_dl.obj
+ 0003:00001660       GetParam_RcvPayload_TYPE_ST25RU3993$rtcVarDesc 0000000180030660     stuhfl_dl.obj
+ 0003:00001720       GetParam_RcvPayload_TYPE_ST25RU3993$rtcFrameData 0000000180030720     stuhfl_dl.obj
+ 0003:000027a0       snprintf$rtcName$0         00000001800317a0     stuhfl_evalAPI_host.obj
+ 0003:000027b0       snprintf$rtcVarDesc        00000001800317b0     stuhfl_evalAPI_host.obj
+ 0003:000027f0       snprintf$rtcFrameData      00000001800317f0     stuhfl_evalAPI_host.obj
+ 0003:00002820       Connect$rtcName$0          0000000180031820     stuhfl_evalAPI_host.obj
+ 0003:00002830       Connect$rtcVarDesc         0000000180031830     stuhfl_evalAPI_host.obj
+ 0003:00002870       Connect$rtcFrameData       0000000180031870     stuhfl_evalAPI_host.obj
+ 0003:000028a0       SetRegisterMultiple$rtcName$0 00000001800318a0     stuhfl_evalAPI_host.obj
+ 0003:000028a8       SetRegisterMultiple$rtcName$1 00000001800318a8     stuhfl_evalAPI_host.obj
+ 0003:000028b0       SetRegisterMultiple$rtcVarDesc 00000001800318b0     stuhfl_evalAPI_host.obj
+ 0003:00002930       SetRegisterMultiple$rtcFrameData 0000000180031930     stuhfl_evalAPI_host.obj
+ 0003:00002960       GetRegisterMultiple$rtcName$0 0000000180031960     stuhfl_evalAPI_host.obj
+ 0003:00002968       GetRegisterMultiple$rtcName$1 0000000180031968     stuhfl_evalAPI_host.obj
+ 0003:00002970       GetRegisterMultiple$rtcVarDesc 0000000180031970     stuhfl_evalAPI_host.obj
+ 0003:000029f0       GetRegisterMultiple$rtcFrameData 00000001800319f0     stuhfl_evalAPI_host.obj
+ 0003:00002a20       SetAntennaPower$rtcName$0  0000000180031a20     stuhfl_evalAPI_host.obj
+ 0003:00002a30       SetAntennaPower$rtcName$1  0000000180031a30     stuhfl_evalAPI_host.obj
+ 0003:00002a40       SetAntennaPower$rtcVarDesc 0000000180031a40     stuhfl_evalAPI_host.obj
+ 0003:00002ac0       SetAntennaPower$rtcFrameData 0000000180031ac0     stuhfl_evalAPI_host.obj
+ 0003:00002b00       SetFreqContMod$rtcName$0   0000000180031b00     stuhfl_evalAPI_host.obj
+ 0003:00002b10       SetFreqContMod$rtcName$1   0000000180031b10     stuhfl_evalAPI_host.obj
+ 0003:00002b20       SetFreqContMod$rtcVarDesc  0000000180031b20     stuhfl_evalAPI_host.obj
+ 0003:00002ba0       SetFreqContMod$rtcFrameData 0000000180031ba0     stuhfl_evalAPI_host.obj
+ 0003:00002be0       SetTuningTableEntry$rtcName$0 0000000180031be0     stuhfl_evalAPI_host.obj
+ 0003:00002bf0       SetTuningTableEntry$rtcVarDesc 0000000180031bf0     stuhfl_evalAPI_host.obj
+ 0003:00002c30       SetTuningTableEntry$rtcFrameData 0000000180031c30     stuhfl_evalAPI_host.obj
+ 0003:00002c60       GetTuningTableEntry$rtcName$0 0000000180031c60     stuhfl_evalAPI_host.obj
+ 0003:00002c70       GetTuningTableEntry$rtcVarDesc 0000000180031c70     stuhfl_evalAPI_host.obj
+ 0003:00002cb0       GetTuningTableEntry$rtcFrameData 0000000180031cb0     stuhfl_evalAPI_host.obj
+ 0003:00002ce0       Tune$rtcName$0             0000000180031ce0     stuhfl_evalAPI_host.obj
+ 0003:00002cf0       Tune$rtcName$1             0000000180031cf0     stuhfl_evalAPI_host.obj
+ 0003:00002d00       Tune$rtcVarDesc            0000000180031d00     stuhfl_evalAPI_host.obj
+ 0003:00002d80       Tune$rtcFrameData          0000000180031d80     stuhfl_evalAPI_host.obj
+ 0003:00002dc0       TuneChannel$rtcName$0      0000000180031dc0     stuhfl_evalAPI_host.obj
+ 0003:00002dd0       TuneChannel$rtcName$1      0000000180031dd0     stuhfl_evalAPI_host.obj
+ 0003:00002de0       TuneChannel$rtcVarDesc     0000000180031de0     stuhfl_evalAPI_host.obj
+ 0003:00002e60       TuneChannel$rtcFrameData   0000000180031e60     stuhfl_evalAPI_host.obj
+ 0003:00002ea0       Gen2_Read$rtcName$0        0000000180031ea0     stuhfl_evalAPI_host.obj
+ 0003:00002eb0       Gen2_Read$rtcVarDesc       0000000180031eb0     stuhfl_evalAPI_host.obj
+ 0003:00002ef0       Gen2_Read$rtcFrameData     0000000180031ef0     stuhfl_evalAPI_host.obj
+ 0003:00002f20       Gen2_Write$rtcName$0       0000000180031f20     stuhfl_evalAPI_host.obj
+ 0003:00002f30       Gen2_Write$rtcVarDesc      0000000180031f30     stuhfl_evalAPI_host.obj
+ 0003:00002f70       Gen2_Write$rtcFrameData    0000000180031f70     stuhfl_evalAPI_host.obj
+ 0003:00002fa0       Gen2_BlockWrite$rtcName$0  0000000180031fa0     stuhfl_evalAPI_host.obj
+ 0003:00002fb0       Gen2_BlockWrite$rtcVarDesc 0000000180031fb0     stuhfl_evalAPI_host.obj
+ 0003:00002ff0       Gen2_BlockWrite$rtcFrameData 0000000180031ff0     stuhfl_evalAPI_host.obj
+ 0003:00003020       Gen2_Lock$rtcName$0        0000000180032020     stuhfl_evalAPI_host.obj
+ 0003:00003030       Gen2_Lock$rtcVarDesc       0000000180032030     stuhfl_evalAPI_host.obj
+ 0003:00003070       Gen2_Lock$rtcFrameData     0000000180032070     stuhfl_evalAPI_host.obj
+ 0003:000030a0       Gen2_Kill$rtcName$0        00000001800320a0     stuhfl_evalAPI_host.obj
+ 0003:000030b0       Gen2_Kill$rtcVarDesc       00000001800320b0     stuhfl_evalAPI_host.obj
+ 0003:000030f0       Gen2_Kill$rtcFrameData     00000001800320f0     stuhfl_evalAPI_host.obj
+ 0003:00003120       Gen2_GenericCmd$rtcName$0  0000000180032120     stuhfl_evalAPI_host.obj
+ 0003:00003130       Gen2_GenericCmd$rtcVarDesc 0000000180032130     stuhfl_evalAPI_host.obj
+ 0003:00003170       Gen2_GenericCmd$rtcFrameData 0000000180032170     stuhfl_evalAPI_host.obj
+ 0003:000031a0       Gen2_QueryMeasureRssi$rtcName$0 00000001800321a0     stuhfl_evalAPI_host.obj
+ 0003:000031b0       Gen2_QueryMeasureRssi$rtcVarDesc 00000001800321b0     stuhfl_evalAPI_host.obj
+ 0003:000031f0       Gen2_QueryMeasureRssi$rtcFrameData 00000001800321f0     stuhfl_evalAPI_host.obj
+ 0003:00003220       Gb29768_Read$rtcName$0     0000000180032220     stuhfl_evalAPI_host.obj
+ 0003:00003230       Gb29768_Read$rtcVarDesc    0000000180032230     stuhfl_evalAPI_host.obj
+ 0003:00003270       Gb29768_Read$rtcFrameData  0000000180032270     stuhfl_evalAPI_host.obj
+ 0003:000032a0       Gb29768_Write$rtcName$0    00000001800322a0     stuhfl_evalAPI_host.obj
+ 0003:000032b0       Gb29768_Write$rtcVarDesc   00000001800322b0     stuhfl_evalAPI_host.obj
+ 0003:000032f0       Gb29768_Write$rtcFrameData 00000001800322f0     stuhfl_evalAPI_host.obj
+ 0003:00003320       Gb29768_Lock$rtcName$0     0000000180032320     stuhfl_evalAPI_host.obj
+ 0003:00003330       Gb29768_Lock$rtcVarDesc    0000000180032330     stuhfl_evalAPI_host.obj
+ 0003:00003370       Gb29768_Lock$rtcFrameData  0000000180032370     stuhfl_evalAPI_host.obj
+ 0003:000033a0       Gb29768_Kill$rtcName$0     00000001800323a0     stuhfl_evalAPI_host.obj
+ 0003:000033b0       Gb29768_Kill$rtcVarDesc    00000001800323b0     stuhfl_evalAPI_host.obj
+ 0003:000033f0       Gb29768_Kill$rtcFrameData  00000001800323f0     stuhfl_evalAPI_host.obj
+ 0003:00003420       Gb29768_Erase$rtcName$0    0000000180032420     stuhfl_evalAPI_host.obj
+ 0003:00003430       Gb29768_Erase$rtcVarDesc   0000000180032430     stuhfl_evalAPI_host.obj
+ 0003:00003470       Gb29768_Erase$rtcFrameData 0000000180032470     stuhfl_evalAPI_host.obj
+ 0003:00005550       STUHFL_F_LogAppend$rtcName$0 0000000180034550     stuhfl_log.obj
+ 0003:00005560       STUHFL_F_LogAppend$rtcVarDesc 0000000180034560     stuhfl_log.obj
+ 0003:000055a0       STUHFL_F_LogAppend$rtcFrameData 00000001800345a0     stuhfl_log.obj
+ 0003:000055f0       STUHFL_F_Connect_Dispatcher$rtcName$0 00000001800345f0     stuhfl_pl.obj
+ 0003:000055f8       STUHFL_F_Connect_Dispatcher$rtcName$1 00000001800345f8     stuhfl_pl.obj
+ 0003:00005600       STUHFL_F_Connect_Dispatcher$rtcVarDesc 0000000180034600     stuhfl_pl.obj
+ 0003:00005680       STUHFL_F_Connect_Dispatcher$rtcFrameData 0000000180034680     stuhfl_pl.obj
+ 0003:000056b0       STUHFL_F_Snd_Dispatcher$rtcName$0 00000001800346b0     stuhfl_pl.obj
+ 0003:000056b8       STUHFL_F_Snd_Dispatcher$rtcName$1 00000001800346b8     stuhfl_pl.obj
+ 0003:000056c0       STUHFL_F_Snd_Dispatcher$rtcVarDesc 00000001800346c0     stuhfl_pl.obj
+ 0003:00005740       STUHFL_F_Snd_Dispatcher$rtcFrameData 0000000180034740     stuhfl_pl.obj
+ 0003:00005770       STUHFL_F_Rcv_Dispatcher$rtcName$0 0000000180034770     stuhfl_pl.obj
+ 0003:00005778       STUHFL_F_Rcv_Dispatcher$rtcName$1 0000000180034778     stuhfl_pl.obj
+ 0003:0000577c       STUHFL_F_Rcv_Dispatcher$rtcName$2 000000018003477c     stuhfl_pl.obj
+ 0003:00005780       STUHFL_F_Rcv_Dispatcher$rtcVarDesc 0000000180034780     stuhfl_pl.obj
+ 0003:00005840       STUHFL_F_Rcv_Dispatcher$rtcFrameData 0000000180034840     stuhfl_pl.obj
+ 0003:00005880       STUHFL_F_SetParam_Dispatcher$rtcName$0 0000000180034880     stuhfl_pl.obj
+ 0003:00005890       STUHFL_F_SetParam_Dispatcher$rtcName$1 0000000180034890     stuhfl_pl.obj
+ 0003:0000589c       STUHFL_F_SetParam_Dispatcher$rtcName$4 000000018003489c     stuhfl_pl.obj
+ 0003:000058a0       STUHFL_F_SetParam_Dispatcher$rtcName$2 00000001800348a0     stuhfl_pl.obj
+ 0003:000058ac       STUHFL_F_SetParam_Dispatcher$rtcName$5 00000001800348ac     stuhfl_pl.obj
+ 0003:000058b0       STUHFL_F_SetParam_Dispatcher$rtcName$3 00000001800348b0     stuhfl_pl.obj
+ 0003:000058c0       STUHFL_F_SetParam_Dispatcher$rtcVarDesc 00000001800348c0     stuhfl_pl.obj
+ 0003:00005a40       STUHFL_F_SetParam_Dispatcher$rtcFrameData 0000000180034a40     stuhfl_pl.obj
+ 0003:00005ab0       STUHFL_F_GetParam_Dispatcher$rtcName$0 0000000180034ab0     stuhfl_pl.obj
+ 0003:00005ac0       STUHFL_F_GetParam_Dispatcher$rtcName$1 0000000180034ac0     stuhfl_pl.obj
+ 0003:00005ad0       STUHFL_F_GetParam_Dispatcher$rtcName$2 0000000180034ad0     stuhfl_pl.obj
+ 0003:00005ae0       STUHFL_F_GetParam_Dispatcher$rtcName$3 0000000180034ae0     stuhfl_pl.obj
+ 0003:00005af0       STUHFL_F_GetParam_Dispatcher$rtcName$4 0000000180034af0     stuhfl_pl.obj
+ 0003:00005b00       STUHFL_F_GetParam_Dispatcher$rtcName$5 0000000180034b00     stuhfl_pl.obj
+ 0003:00005b10       STUHFL_F_GetParam_Dispatcher$rtcVarDesc 0000000180034b10     stuhfl_pl.obj
+ 0003:00005c90       STUHFL_F_GetParam_Dispatcher$rtcFrameData 0000000180034c90     stuhfl_pl.obj
+ 0003:00005f00       STUHFL_F_Gen2_Read$rtcName$0 0000000180034f00     stuhfl_sl.obj
+ 0003:00005f10       STUHFL_F_Gen2_Read$rtcVarDesc 0000000180034f10     stuhfl_sl.obj
+ 0003:00005f50       STUHFL_F_Gen2_Read$rtcFrameData 0000000180034f50     stuhfl_sl.obj
+ 0003:00005f80       STUHFL_F_Gen2_Write$rtcName$0 0000000180034f80     stuhfl_sl.obj
+ 0003:00005f90       STUHFL_F_Gen2_Write$rtcVarDesc 0000000180034f90     stuhfl_sl.obj
+ 0003:00005fd0       STUHFL_F_Gen2_Write$rtcFrameData 0000000180034fd0     stuhfl_sl.obj
+ 0003:00006000       STUHFL_F_Gen2_BlockWrite$rtcName$0 0000000180035000     stuhfl_sl.obj
+ 0003:00006010       STUHFL_F_Gen2_BlockWrite$rtcVarDesc 0000000180035010     stuhfl_sl.obj
+ 0003:00006050       STUHFL_F_Gen2_BlockWrite$rtcFrameData 0000000180035050     stuhfl_sl.obj
+ 0003:00006080       STUHFL_F_Gen2_Lock$rtcName$0 0000000180035080     stuhfl_sl.obj
+ 0003:00006090       STUHFL_F_Gen2_Lock$rtcVarDesc 0000000180035090     stuhfl_sl.obj
+ 0003:000060d0       STUHFL_F_Gen2_Lock$rtcFrameData 00000001800350d0     stuhfl_sl.obj
+ 0003:00006100       STUHFL_F_Gen2_Kill$rtcName$0 0000000180035100     stuhfl_sl.obj
+ 0003:00006110       STUHFL_F_Gen2_Kill$rtcVarDesc 0000000180035110     stuhfl_sl.obj
+ 0003:00006150       STUHFL_F_Gen2_Kill$rtcFrameData 0000000180035150     stuhfl_sl.obj
+ 0003:00006180       STUHFL_F_Gen2_GenericCmd$rtcName$0 0000000180035180     stuhfl_sl.obj
+ 0003:00006190       STUHFL_F_Gen2_GenericCmd$rtcVarDesc 0000000180035190     stuhfl_sl.obj
+ 0003:000061d0       STUHFL_F_Gen2_GenericCmd$rtcFrameData 00000001800351d0     stuhfl_sl.obj
+ 0003:00006200       STUHFL_F_Gen2_QueryMeasureRssi$rtcName$0 0000000180035200     stuhfl_sl.obj
+ 0003:00006210       STUHFL_F_Gen2_QueryMeasureRssi$rtcVarDesc 0000000180035210     stuhfl_sl.obj
+ 0003:00006250       STUHFL_F_Gen2_QueryMeasureRssi$rtcFrameData 0000000180035250     stuhfl_sl.obj
+ 0003:00006280       STUHFL_F_Gb29768_Read$rtcName$0 0000000180035280     stuhfl_sl.obj
+ 0003:00006290       STUHFL_F_Gb29768_Read$rtcVarDesc 0000000180035290     stuhfl_sl.obj
+ 0003:000062d0       STUHFL_F_Gb29768_Read$rtcFrameData 00000001800352d0     stuhfl_sl.obj
+ 0003:00006300       STUHFL_F_Gb29768_Write$rtcName$0 0000000180035300     stuhfl_sl.obj
+ 0003:00006310       STUHFL_F_Gb29768_Write$rtcVarDesc 0000000180035310     stuhfl_sl.obj
+ 0003:00006350       STUHFL_F_Gb29768_Write$rtcFrameData 0000000180035350     stuhfl_sl.obj
+ 0003:00006380       STUHFL_F_Gb29768_Lock$rtcName$0 0000000180035380     stuhfl_sl.obj
+ 0003:00006390       STUHFL_F_Gb29768_Lock$rtcVarDesc 0000000180035390     stuhfl_sl.obj
+ 0003:000063d0       STUHFL_F_Gb29768_Lock$rtcFrameData 00000001800353d0     stuhfl_sl.obj
+ 0003:00006400       STUHFL_F_Gb29768_Kill$rtcName$0 0000000180035400     stuhfl_sl.obj
+ 0003:00006410       STUHFL_F_Gb29768_Kill$rtcVarDesc 0000000180035410     stuhfl_sl.obj
+ 0003:00006450       STUHFL_F_Gb29768_Kill$rtcFrameData 0000000180035450     stuhfl_sl.obj
+ 0003:00006480       STUHFL_F_Gb29768_Erase$rtcName$0 0000000180035480     stuhfl_sl.obj
+ 0003:00006490       STUHFL_F_Gb29768_Erase$rtcVarDesc 0000000180035490     stuhfl_sl.obj
+ 0003:000064d0       STUHFL_F_Gb29768_Erase$rtcFrameData 00000001800354d0     stuhfl_sl.obj
+ 0003:000065c0       ?_RTC_ErrorMessages@@3QBQEBDB 00000001800355c0     MSVCRTD:error.obj
+ 0003:000065f0       ?_RTC_NoFalsePositives@@3QBHB 00000001800355f0     MSVCRTD:error.obj
+ 0003:00006608       ?stack_premsg@@3QBDB       0000000180035608     MSVCRTD:error.obj
+ 0003:00006628       ?stack_postmsg@@3QBDB      0000000180035628     MSVCRTD:error.obj
+ 0003:00006640       ?uninit_premsg@@3QBDB      0000000180035640     MSVCRTD:error.obj
+ 0003:00006650       ?uninit_postmsg@@3QBDB     0000000180035650     MSVCRTD:error.obj
+ 0003:00006cc8       ?_RTC_errlist@@3QBQEBDB    0000000180035cc8     MSVCRTD:userapi.obj
+ 0003:00006dd0       GS_ExceptionPointers       0000000180035dd0     MSVCRTD:gs_report.obj
+ 0003:00006de8       ?debugCrtFileName@@3QB_WB  0000000180035de8     MSVCRTD:pdblkup.obj
+ 0003:00006e10       ?mspdbName@@3QB_WB         0000000180035e10     MSVCRTD:pdblkup.obj
+ 0003:00006fb0       ?dllExt@?1??GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z@4QB_WB 0000000180035fb0     MSVCRTD:pdblkup.obj
+ 0003:00006fc0       ?mspdbFilename@?1??GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z@4QB_WB 0000000180035fc0     MSVCRTD:pdblkup.obj
+ 0003:00007930       _RTC_InitBase.rtc$IMZ      0000000180036930     stuhfl_bl_win32.obj
+ 0003:00007940       _RTC_InitBase.rtc$IMZ      0000000180036940     stuhfl_platform.obj
+ 0003:00007950       _RTC_InitBase.rtc$IMZ      0000000180036950     stuhfl.obj
+ 0003:00007960       _RTC_InitBase.rtc$IMZ      0000000180036960     stuhfl_al.obj
+ 0003:00007970       _RTC_InitBase.rtc$IMZ      0000000180036970     stuhfl_dl.obj
+ 0003:00007980       _RTC_InitBase.rtc$IMZ      0000000180036980     stuhfl_evalAPI_host.obj
+ 0003:00007990       _RTC_InitBase.rtc$IMZ      0000000180036990     stuhfl_helpers.obj
+ 0003:000079a0       _RTC_InitBase.rtc$IMZ      00000001800369a0     stuhfl_log.obj
+ 0003:000079b0       _RTC_InitBase.rtc$IMZ      00000001800369b0     stuhfl_pl.obj
+ 0003:000079c0       _RTC_InitBase.rtc$IMZ      00000001800369c0     stuhfl_sl.obj
+ 0003:00007d00       _RTC_Shutdown.rtc$TMZ      0000000180036d00     stuhfl_bl_win32.obj
+ 0003:00007d10       _RTC_Shutdown.rtc$TMZ      0000000180036d10     stuhfl_platform.obj
+ 0003:00007d20       _RTC_Shutdown.rtc$TMZ      0000000180036d20     stuhfl.obj
+ 0003:00007d30       _RTC_Shutdown.rtc$TMZ      0000000180036d30     stuhfl_al.obj
+ 0003:00007d40       _RTC_Shutdown.rtc$TMZ      0000000180036d40     stuhfl_dl.obj
+ 0003:00007d50       _RTC_Shutdown.rtc$TMZ      0000000180036d50     stuhfl_evalAPI_host.obj
+ 0003:00007d60       _RTC_Shutdown.rtc$TMZ      0000000180036d60     stuhfl_helpers.obj
+ 0003:00007d70       _RTC_Shutdown.rtc$TMZ      0000000180036d70     stuhfl_log.obj
+ 0003:00007d80       _RTC_Shutdown.rtc$TMZ      0000000180036d80     stuhfl_pl.obj
+ 0003:00007d90       _RTC_Shutdown.rtc$TMZ      0000000180036d90     stuhfl_sl.obj
+ 0003:00007fc0       $unwind$STUHFL_F_Connect_Win32 0000000180036fc0     stuhfl_bl_win32.obj
+ 0003:00007fdc       $unwind$STUHFL_F_Reset_Win32 0000000180036fdc     stuhfl_bl_win32.obj
+ 0003:00007ff8       $unwind$STUHFL_F_Disconnect_Win32 0000000180036ff8     stuhfl_bl_win32.obj
+ 0003:0000800c       $unwind$STUHFL_F_SndRaw_Win32 000000018003700c     stuhfl_bl_win32.obj
+ 0003:00008028       $unwind$STUHFL_F_RcvRaw_Win32 0000000180037028     stuhfl_bl_win32.obj
+ 0003:00008044       $unwind$STUHFL_F_SetDTR_Win32 0000000180037044     stuhfl_bl_win32.obj
+ 0003:00008058       $unwind$STUHFL_F_GetDTR_Win32 0000000180037058     stuhfl_bl_win32.obj
+ 0003:00008074       $unwind$STUHFL_F_SetRTS_Win32 0000000180037074     stuhfl_bl_win32.obj
+ 0003:00008088       $unwind$STUHFL_F_GetRTS_Win32 0000000180037088     stuhfl_bl_win32.obj
+ 0003:000080a4       $unwind$STUHFL_F_SetTimeouts_Win32 00000001800370a4     stuhfl_bl_win32.obj
+ 0003:000080c0       $unwind$STUHFL_F_GetTimeouts_Win32 00000001800370c0     stuhfl_bl_win32.obj
+ 0003:000080d4       $unwind$usleep             00000001800370d4     stuhfl_platform.obj
+ 0003:000080f0       $unwind$getMilliCount      00000001800370f0     stuhfl_platform.obj
+ 0003:00008104       $unwind$getMilliSpan       0000000180037104     stuhfl_platform.obj
+ 0003:00008118       $unwind$STUHFL_F_GetLibVersion 0000000180037118     stuhfl.obj
+ 0003:0000812c       $unwind$DllMain            000000018003712c     stuhfl.obj
+ 0003:00008140       $unwind$STUHFL_F_Start     0000000180037140     stuhfl_al.obj
+ 0003:00008154       $unwind$STUHFL_F_Start_OOP 0000000180037154     stuhfl_al.obj
+ 0003:00008168       $unwind$STUHFL_F_Stop      0000000180037168     stuhfl_al.obj
+ 0003:0000817c       $unwind$threadInventoryFunc 000000018003717c     stuhfl_al.obj
+ 0003:00008190       $unwind$STUHFL_F_Connect   0000000180037190     stuhfl_dl.obj
+ 0003:000081a4       $unwind$STUHFL_F_Disconnect 00000001800371a4     stuhfl_dl.obj
+ 0003:000081b8       $unwind$STUHFL_F_GetCtx    00000001800371b8     stuhfl_dl.obj
+ 0003:000081cc       $unwind$STUHFL_F_Reset     00000001800371cc     stuhfl_dl.obj
+ 0003:000081e0       $unwind$STUHFL_F_SetParam  00000001800371e0     stuhfl_dl.obj
+ 0003:000081f4       $unwind$STUHFL_F_GetParam  00000001800371f4     stuhfl_dl.obj
+ 0003:00008208       $unwind$STUHFL_F_GetParamInfo 0000000180037208     stuhfl_dl.obj
+ 0003:0000821c       $unwind$STUHFL_F_SetMultipleParams 000000018003721c     stuhfl_dl.obj
+ 0003:00008238       $unwind$STUHFL_F_GetMultipleParams 0000000180037238     stuhfl_dl.obj
+ 0003:00008254       $unwind$STUHFL_F_SendCmd   0000000180037254     stuhfl_dl.obj
+ 0003:00008268       $unwind$STUHFL_F_ReceiveCmdData 0000000180037268     stuhfl_dl.obj
+ 0003:00008284       $unwind$STUHFL_F_ExecuteCmd 0000000180037284     stuhfl_dl.obj
+ 0003:00008298       $unwind$STUHFL_F_GetVersionOld 0000000180037298     stuhfl_dl.obj
+ 0003:000082b4       $unwind$STUHFL_F_GetVersion 00000001800372b4     stuhfl_dl.obj
+ 0003:000082d0       $unwind$STUHFL_F_GetInfo   00000001800372d0     stuhfl_dl.obj
+ 0003:000082ec       $unwind$STUHFL_F_Upgrade   00000001800372ec     stuhfl_dl.obj
+ 0003:00008300       $unwind$STUHFL_F_EnterBootloader 0000000180037300     stuhfl_dl.obj
+ 0003:00008314       $unwind$STUHFL_F_Reboot    0000000180037314     stuhfl_dl.obj
+ 0003:00008328       $unwind$STUHFL_F_GetRawData 0000000180037328     stuhfl_dl.obj
+ 0003:00008344       $unwind$SetParam_SndPayload_TYPE_ST25RU3993 0000000180037344     stuhfl_dl.obj
+ 0003:00008364       $unwind$SetParam_RcvPayload_TYPE_ST25RU3993 0000000180037364     stuhfl_dl.obj
+ 0003:00008378       $unwind$GetParam_SndPayload_TYPE_ST25RU3993 0000000180037378     stuhfl_dl.obj
+ 0003:0000838c       $unwind$GetParam_RcvPayload_TYPE_ST25RU3993 000000018003738c     stuhfl_dl.obj
+ 0003:000083ac       $unwind$__local_stdio_printf_options 00000001800373ac     stuhfl_evalAPI_host.obj
+ 0003:000083c0       $unwind$vsnprintf          00000001800373c0     stuhfl_evalAPI_host.obj
+ 0003:000083d4       $unwind$snprintf           00000001800373d4     stuhfl_evalAPI_host.obj
+ 0003:000083f0       $unwind$Connect            00000001800373f0     stuhfl_evalAPI_host.obj
+ 0003:0000840c       $unwind$Disconnect         000000018003740c     stuhfl_evalAPI_host.obj
+ 0003:00008420       $unwind$GetBoardVersion    0000000180037420     stuhfl_evalAPI_host.obj
+ 0003:00008434       $unwind$GetBoardInfo       0000000180037434     stuhfl_evalAPI_host.obj
+ 0003:00008448       $unwind$Reboot             0000000180037448     stuhfl_evalAPI_host.obj
+ 0003:0000845c       $unwind$EnterBootloader    000000018003745c     stuhfl_evalAPI_host.obj
+ 0003:00008470       $unwind$SetRegister        0000000180037470     stuhfl_evalAPI_host.obj
+ 0003:00008484       $unwind$SetRegisterMultiple 0000000180037484     stuhfl_evalAPI_host.obj
+ 0003:000084a0       $unwind$GetRegister        00000001800374a0     stuhfl_evalAPI_host.obj
+ 0003:000084b4       $unwind$GetRegisterMultiple 00000001800374b4     stuhfl_evalAPI_host.obj
+ 0003:000084d0       $unwind$SetRwdCfg          00000001800374d0     stuhfl_evalAPI_host.obj
+ 0003:000084e4       $unwind$GetRwdCfg          00000001800374e4     stuhfl_evalAPI_host.obj
+ 0003:000084f8       $unwind$SetAntennaPower    00000001800374f8     stuhfl_evalAPI_host.obj
+ 0003:00008514       $unwind$GetAntennaPower    0000000180037514     stuhfl_evalAPI_host.obj
+ 0003:00008528       $unwind$SetFreqProfile     0000000180037528     stuhfl_evalAPI_host.obj
+ 0003:0000853c       $unwind$SetFreqProfileAdd2Custom 000000018003753c     stuhfl_evalAPI_host.obj
+ 0003:00008550       $unwind$SetChannelList     0000000180037550     stuhfl_evalAPI_host.obj
+ 0003:00008564       $unwind$SetFreqHop         0000000180037564     stuhfl_evalAPI_host.obj
+ 0003:00008578       $unwind$SetFreqLBT         0000000180037578     stuhfl_evalAPI_host.obj
+ 0003:0000858c       $unwind$SetFreqContMod     000000018003758c     stuhfl_evalAPI_host.obj
+ 0003:000085a8       $unwind$GetFreqRSSI        00000001800375a8     stuhfl_evalAPI_host.obj
+ 0003:000085bc       $unwind$GetFreqReflectedPower 00000001800375bc     stuhfl_evalAPI_host.obj
+ 0003:000085d0       $unwind$GetFreqProfileInfo 00000001800375d0     stuhfl_evalAPI_host.obj
+ 0003:000085e4       $unwind$GetChannelList     00000001800375e4     stuhfl_evalAPI_host.obj
+ 0003:000085f8       $unwind$GetFreqHop         00000001800375f8     stuhfl_evalAPI_host.obj
+ 0003:0000860c       $unwind$GetFreqLBT         000000018003760c     stuhfl_evalAPI_host.obj
+ 0003:00008620       $unwind$SetGen2Timings     0000000180037620     stuhfl_evalAPI_host.obj
+ 0003:00008634       $unwind$SetGen2ProtocolCfg 0000000180037634     stuhfl_evalAPI_host.obj
+ 0003:00008648       $unwind$SetGb29768ProtocolCfg 0000000180037648     stuhfl_evalAPI_host.obj
+ 0003:0000865c       $unwind$SetTxRxCfg         000000018003765c     stuhfl_evalAPI_host.obj
+ 0003:00008670       $unwind$SetPA_Cfg          0000000180037670     stuhfl_evalAPI_host.obj
+ 0003:00008684       $unwind$SetGen2InventoryCfg 0000000180037684     stuhfl_evalAPI_host.obj
+ 0003:0000869c       $unwind$SetGb29768InventoryCfg 000000018003769c     stuhfl_evalAPI_host.obj
+ 0003:000086b4       $unwind$GetGen2Timings     00000001800376b4     stuhfl_evalAPI_host.obj
+ 0003:000086c8       $unwind$GetGen2ProtocolCfg 00000001800376c8     stuhfl_evalAPI_host.obj
+ 0003:000086dc       $unwind$GetGb29768ProtocolCfg 00000001800376dc     stuhfl_evalAPI_host.obj
+ 0003:000086f0       $unwind$GetTxRxCfg         00000001800376f0     stuhfl_evalAPI_host.obj
+ 0003:00008704       $unwind$GetPA_Cfg          0000000180037704     stuhfl_evalAPI_host.obj
+ 0003:00008718       $unwind$GetGen2InventoryCfg 0000000180037718     stuhfl_evalAPI_host.obj
+ 0003:00008730       $unwind$GetGb29768InventoryCfg 0000000180037730     stuhfl_evalAPI_host.obj
+ 0003:00008748       $unwind$SetTuning          0000000180037748     stuhfl_evalAPI_host.obj
+ 0003:0000875c       $unwind$SetTuningCaps      000000018003775c     stuhfl_evalAPI_host.obj
+ 0003:00008770       $unwind$SetTuningTableEntry 0000000180037770     stuhfl_evalAPI_host.obj
+ 0003:0000878c       $unwind$SetTuningTableDefault 000000018003778c     stuhfl_evalAPI_host.obj
+ 0003:000087a0       $unwind$SetTuningTableSave2Flash 00000001800377a0     stuhfl_evalAPI_host.obj
+ 0003:000087b4       $unwind$SetTuningTableEmpty 00000001800377b4     stuhfl_evalAPI_host.obj
+ 0003:000087c8       $unwind$GetTuning          00000001800377c8     stuhfl_evalAPI_host.obj
+ 0003:000087dc       $unwind$GetTuningCaps      00000001800377dc     stuhfl_evalAPI_host.obj
+ 0003:000087f0       $unwind$GetTuningTableEntry 00000001800377f0     stuhfl_evalAPI_host.obj
+ 0003:0000880c       $unwind$GetTuningTableInfo 000000018003780c     stuhfl_evalAPI_host.obj
+ 0003:00008820       $unwind$Tune               0000000180037820     stuhfl_evalAPI_host.obj
+ 0003:0000883c       $unwind$TuneChannel        000000018003783c     stuhfl_evalAPI_host.obj
+ 0003:00008858       $unwind$Gen2_Inventory     0000000180037858     stuhfl_evalAPI_host.obj
+ 0003:00008870       $unwind$Gen2_Select        0000000180037870     stuhfl_evalAPI_host.obj
+ 0003:00008884       $unwind$Gen2_Read          0000000180037884     stuhfl_evalAPI_host.obj
+ 0003:000088a0       $unwind$Gen2_Write         00000001800378a0     stuhfl_evalAPI_host.obj
+ 0003:000088bc       $unwind$Gen2_BlockWrite    00000001800378bc     stuhfl_evalAPI_host.obj
+ 0003:000088d8       $unwind$Gen2_Lock          00000001800378d8     stuhfl_evalAPI_host.obj
+ 0003:000088f4       $unwind$Gen2_Kill          00000001800378f4     stuhfl_evalAPI_host.obj
+ 0003:00008910       $unwind$Gen2_GenericCmd    0000000180037910     stuhfl_evalAPI_host.obj
+ 0003:0000892c       $unwind$Gen2_QueryMeasureRssi 000000018003792c     stuhfl_evalAPI_host.obj
+ 0003:00008948       $unwind$Gb29768_Inventory  0000000180037948     stuhfl_evalAPI_host.obj
+ 0003:0000895c       $unwind$Gb29768_Sort       000000018003795c     stuhfl_evalAPI_host.obj
+ 0003:00008970       $unwind$Gb29768_Read       0000000180037970     stuhfl_evalAPI_host.obj
+ 0003:0000898c       $unwind$Gb29768_Write      000000018003798c     stuhfl_evalAPI_host.obj
+ 0003:000089a8       $unwind$Gb29768_Lock       00000001800379a8     stuhfl_evalAPI_host.obj
+ 0003:000089c4       $unwind$Gb29768_Kill       00000001800379c4     stuhfl_evalAPI_host.obj
+ 0003:000089e0       $unwind$Gb29768_Erase      00000001800379e0     stuhfl_evalAPI_host.obj
+ 0003:000089fc       $unwind$InventoryRunnerStart 00000001800379fc     stuhfl_evalAPI_host.obj
+ 0003:00008a10       $unwind$InventoryRunnerStop 0000000180037a10     stuhfl_evalAPI_host.obj
+ 0003:00008a24       $unwind$_finishedCallback  0000000180037a24     stuhfl_evalAPI_host.obj
+ 0003:00008a38       $unwind$addTlv8            0000000180037a38     stuhfl_helpers.obj
+ 0003:00008a4c       $unwind$addTlv16           0000000180037a4c     stuhfl_helpers.obj
+ 0003:00008a60       $unwind$addTlv32           0000000180037a60     stuhfl_helpers.obj
+ 0003:00008a74       $unwind$addTlvExt          0000000180037a74     stuhfl_helpers.obj
+ 0003:00008a88       $unwind$addTlvExt2         0000000180037a88     stuhfl_helpers.obj
+ 0003:00008a9c       $unwind$getTlv8            0000000180037a9c     stuhfl_helpers.obj
+ 0003:00008ab0       $unwind$getTlv16           0000000180037ab0     stuhfl_helpers.obj
+ 0003:00008ac4       $unwind$getTlv32           0000000180037ac4     stuhfl_helpers.obj
+ 0003:00008ad8       $unwind$getTlvExt          0000000180037ad8     stuhfl_helpers.obj
+ 0003:00008aec       $unwind$getTlvTag          0000000180037aec     stuhfl_helpers.obj
+ 0003:00008b00       $unwind$getTlvLen          0000000180037b00     stuhfl_helpers.obj
+ 0003:00008b14       $unwind$byteArray2HexString 0000000180037b14     stuhfl_helpers.obj
+ 0003:00008b28       $unwind$STUHFL_F_EnableLog 0000000180037b28     stuhfl_log.obj
+ 0003:00008b3c       $unwind$STUHFL_F_EnableLog_OOP 0000000180037b3c     stuhfl_log.obj
+ 0003:00008b50       $unwind$STUHFL_F_DisableLog 0000000180037b50     stuhfl_log.obj
+ 0003:00008b64       $unwind$STUHFL_F_IsLogEnabled 0000000180037b64     stuhfl_log.obj
+ 0003:00008b78       $unwind$STUHFL_F_IsLogLevelSupported 0000000180037b78     stuhfl_log.obj
+ 0003:00008b8c       $unwind$STUHFL_F_LogLevel2Txt 0000000180037b8c     stuhfl_log.obj
+ 0003:00008ba0       $unwind$STUHFL_F_LogLevel2Idx 0000000180037ba0     stuhfl_log.obj
+ 0003:00008bb4       $unwind$STUHFL_F_LogClear  0000000180037bb4     stuhfl_log.obj
+ 0003:00008bc8       $unwind$STUHFL_F_LogAppend 0000000180037bc8     stuhfl_log.obj
+ 0003:00008be4       $unwind$STUHFL_F_LogFlush  0000000180037be4     stuhfl_log.obj
+ 0003:00008bf8       $unwind$STUHFL_F_Connect_Dispatcher 0000000180037bf8     stuhfl_pl.obj
+ 0003:00008c14       $unwind$STUHFL_F_Disconnect_Dispatcher 0000000180037c14     stuhfl_pl.obj
+ 0003:00008c28       $unwind$STUHFL_F_Reset_Dispatcher 0000000180037c28     stuhfl_pl.obj
+ 0003:00008c3c       $unwind$STUHFL_F_Snd_Dispatcher 0000000180037c3c     stuhfl_pl.obj
+ 0003:00008c58       $unwind$STUHFL_F_Rcv_Dispatcher 0000000180037c58     stuhfl_pl.obj
+ 0003:00008c74       $unwind$STUHFL_F_SndRaw_Dispatcher 0000000180037c74     stuhfl_pl.obj
+ 0003:00008c88       $unwind$STUHFL_F_RcvRaw_Dispatcher 0000000180037c88     stuhfl_pl.obj
+ 0003:00008c9c       $unwind$STUHFL_F_SetParam_Dispatcher 0000000180037c9c     stuhfl_pl.obj
+ 0003:00008cb8       $unwind$STUHFL_F_GetParam_Dispatcher 0000000180037cb8     stuhfl_pl.obj
+ 0003:00008cd4       $unwind$STUHFL_F_Get_SndPayloadPtr 0000000180037cd4     stuhfl_pl.obj
+ 0003:00008ce8       $unwind$STUHFL_F_Get_RcvCmd 0000000180037ce8     stuhfl_pl.obj
+ 0003:00008cfc       $unwind$STUHFL_F_Get_RcvStatus 0000000180037cfc     stuhfl_pl.obj
+ 0003:00008d10       $unwind$STUHFL_F_Get_RcvPayloadPtr 0000000180037d10     stuhfl_pl.obj
+ 0003:00008d24       $unwind$encodeSndFrame     0000000180037d24     stuhfl_pl.obj
+ 0003:00008d38       $unwind$STUHFL_F_Gen2_Inventory 0000000180037d38     stuhfl_sl.obj
+ 0003:00008d50       $unwind$STUHFL_F_Gen2_Select 0000000180037d50     stuhfl_sl.obj
+ 0003:00008d64       $unwind$STUHFL_F_Gen2_Read 0000000180037d64     stuhfl_sl.obj
+ 0003:00008d80       $unwind$STUHFL_F_Gen2_Write 0000000180037d80     stuhfl_sl.obj
+ 0003:00008d9c       $unwind$STUHFL_F_Gen2_BlockWrite 0000000180037d9c     stuhfl_sl.obj
+ 0003:00008db8       $unwind$STUHFL_F_Gen2_Lock 0000000180037db8     stuhfl_sl.obj
+ 0003:00008dd4       $unwind$STUHFL_F_Gen2_Kill 0000000180037dd4     stuhfl_sl.obj
+ 0003:00008df0       $unwind$STUHFL_F_Gen2_GenericCmd 0000000180037df0     stuhfl_sl.obj
+ 0003:00008e0c       $unwind$STUHFL_F_Gen2_QueryMeasureRssi 0000000180037e0c     stuhfl_sl.obj
+ 0003:00008e28       $unwind$STUHFL_F_Gb29768_Inventory 0000000180037e28     stuhfl_sl.obj
+ 0003:00008e3c       $unwind$STUHFL_F_Gb29768_Sort 0000000180037e3c     stuhfl_sl.obj
+ 0003:00008e50       $unwind$STUHFL_F_Gb29768_Read 0000000180037e50     stuhfl_sl.obj
+ 0003:00008e6c       $unwind$STUHFL_F_Gb29768_Write 0000000180037e6c     stuhfl_sl.obj
+ 0003:00008e88       $unwind$STUHFL_F_Gb29768_Lock 0000000180037e88     stuhfl_sl.obj
+ 0003:00008ea4       $unwind$STUHFL_F_Gb29768_Kill 0000000180037ea4     stuhfl_sl.obj
+ 0003:00008ec0       $unwind$STUHFL_F_Gb29768_Erase 0000000180037ec0     stuhfl_sl.obj
+ 0003:00008edc       $unwind$_RTC_CheckStackVars 0000000180037edc     MSVCRTD:stack.obj
+ 0003:00008ef0       $chain$0$_RTC_CheckStackVars 0000000180037ef0     MSVCRTD:stack.obj
+ 0003:00008f08       $chain$1$_RTC_CheckStackVars 0000000180037f08     MSVCRTD:stack.obj
+ 0003:00008f1c       $unwind$_RTC_CheckStackVars2 0000000180037f1c     MSVCRTD:stack.obj
+ 0003:00008f2c       $chain$1$_RTC_CheckStackVars2 0000000180037f2c     MSVCRTD:stack.obj
+ 0003:00008f48       $chain$2$_RTC_CheckStackVars2 0000000180037f48     MSVCRTD:stack.obj
+ 0003:00008f60       $chain$3$_RTC_CheckStackVars2 0000000180037f60     MSVCRTD:stack.obj
+ 0003:00008f78       $chain$4$_RTC_CheckStackVars2 0000000180037f78     MSVCRTD:stack.obj
+ 0003:00008f8c       $chain$5$_RTC_CheckStackVars2 0000000180037f8c     MSVCRTD:stack.obj
+ 0003:00008fa0       $chain$6$_RTC_CheckStackVars2 0000000180037fa0     MSVCRTD:stack.obj
+ 0003:00008fb4       $unwind$_RTC_AllocaHelper  0000000180037fb4     MSVCRTD:stack.obj
+ 0003:00008fbc       $chain$0$_RTC_AllocaHelper 0000000180037fbc     MSVCRTD:stack.obj
+ 0003:00008fd4       $chain$1$_RTC_AllocaHelper 0000000180037fd4     MSVCRTD:stack.obj
+ 0003:00008fe8       $unwind$_RTC_Shutdown      0000000180037fe8     MSVCRTD:init.obj
+ 0003:00008ff0       $unwind$_RTC_InitBase      0000000180037ff0     MSVCRTD:init.obj
+ 0003:00008ff8       $unwind$__CheckForDebuggerJustMyCode 0000000180037ff8     MSVCRTD:debugger_jmc.obj
+ 0003:00009000       $unwind$__GSHandlerCheckCommon 0000000180038000     MSVCRTD:gshandler.obj
+ 0003:00009008       $unwind$__GSHandlerCheck   0000000180038008     MSVCRTD:gshandler.obj
+ 0003:00009010       $xdatasym                  0000000180038010     MSVCRTD:amdsecgs.obj
+ 0003:00009014       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 0000000180038014     MSVCRTD:dll_dllmain.obj
+ 0003:00009038       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180038038     MSVCRTD:dll_dllmain.obj
+ 0003:00009040       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 0000000180038040     MSVCRTD:dll_dllmain.obj
+ 0003:00009074       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180038074     MSVCRTD:dll_dllmain.obj
+ 0003:0000907c       $unwind$?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018003807c     MSVCRTD:dll_dllmain.obj
+ 0003:00009084       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180038084     MSVCRTD:dll_dllmain.obj
+ 0003:0000908c       $unwind$_CRT_INIT          000000018003808c     MSVCRTD:dll_dllmain.obj
+ 0003:00009094       $unwind$?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180038094     MSVCRTD:dll_dllmain.obj
+ 0003:0000909c       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018003809c     MSVCRTD:dll_dllmain.obj
+ 0003:000090c0       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 00000001800380c0     MSVCRTD:dll_dllmain.obj
+ 0003:000090c8       $unwind$_DllMainCRTStartup 00000001800380c8     MSVCRTD:dll_dllmain.obj
+ 0003:000090d0       $unwind$_RTC_UninitUse     00000001800380d0     MSVCRTD:error.obj
+ 0003:000090ec       $unwind$?_RTC_StackFailure@@YAXPEAXPEBD@Z 00000001800380ec     MSVCRTD:error.obj
+ 0003:0000910c       $unwind$?_RTC_AllocaFailure@@YAXPEAXPEAU_RTC_ALLOCA_NODE@@H@Z 000000018003810c     MSVCRTD:error.obj
+ 0003:00009128       $chain$0$?_RTC_AllocaFailure@@YAXPEAXPEAU_RTC_ALLOCA_NODE@@H@Z 0000000180038128     MSVCRTD:error.obj
+ 0003:00009140       $chain$1$?_RTC_AllocaFailure@@YAXPEAXPEAU_RTC_ALLOCA_NODE@@H@Z 0000000180038140     MSVCRTD:error.obj
+ 0003:00009154       $unwind$_vsprintf_s_l      0000000180038154     MSVCRTD:error.obj
+ 0003:0000916c       $unwind$sprintf_s          000000018003816c     MSVCRTD:error.obj
+ 0003:00009174       $unwind$?notify_debugger@@YAXAEBUtagEXCEPTION_VISUALCPP_DEBUG_INFO@@@Z 0000000180038174     MSVCRTD:error.obj
+ 0003:00009198       $unwind$?filt$0@?0??notify_debugger@@YAXAEBUtagEXCEPTION_VISUALCPP_DEBUG_INFO@@@Z@4HA 0000000180038198     MSVCRTD:error.obj
+ 0003:000091a0       $unwind$?DebuggerProbe@@YA_NK@Z 00000001800381a0     MSVCRTD:error.obj
+ 0003:000091a8       $unwind$?DebuggerRuntime@@YA_NKHPEAXPEB_W@Z 00000001800381a8     MSVCRTD:error.obj
+ 0003:000091b0       $unwind$?failwithmessage@@YAXPEAXHHPEBD@Z 00000001800381b0     MSVCRTD:error.obj
+ 0003:000091d8       $unwind$?_getMemBlockDataString@@YAXPEAD0PEBD_K@Z 00000001800381d8     MSVCRTD:error.obj
+ 0003:000091ec       $chain$3$?_getMemBlockDataString@@YAXPEAD0PEBD_K@Z 00000001800381ec     MSVCRTD:error.obj
+ 0003:00009210       $chain$4$?_getMemBlockDataString@@YAXPEAD0PEBD_K@Z 0000000180038210     MSVCRTD:error.obj
+ 0003:00009224       $unwind$__report_securityfailure 0000000180038224     MSVCRTD:gs_report.obj
+ 0003:0000922c       $unwind$__report_securityfailureEx 000000018003822c     MSVCRTD:gs_report.obj
+ 0003:00009234       $unwind$__report_rangecheckfailure 0000000180038234     MSVCRTD:gs_report.obj
+ 0003:0000923c       $unwind$__report_gsfailure 000000018003823c     MSVCRTD:gs_report.obj
+ 0003:00009244       $unwind$capture_current_context 0000000180038244     MSVCRTD:gs_report.obj
+ 0003:0000924c       $unwind$capture_previous_context 000000018003824c     MSVCRTD:gs_report.obj
+ 0003:00009254       $unwind$__raise_securityfailure 0000000180038254     MSVCRTD:gs_report.obj
+ 0003:0000925c       $unwind$__security_init_cookie 000000018003825c     MSVCRTD:gs_support.obj
+ 0003:00009264       $unwind$__get_entropy      0000000180038264     MSVCRTD:gs_support.obj
+ 0003:0000926c       $unwind$?__scrt_initialize_type_info@@YAXXZ 000000018003826c     MSVCRTD:tncleanup.obj
+ 0003:00009274       $unwind$?__scrt_uninitialize_type_info@@YAXXZ 0000000180038274     MSVCRTD:tncleanup.obj
+ 0003:0000927c       $unwind$__scrt_initialize_default_local_stdio_options 000000018003827c     MSVCRTD:default_local_stdio_options.obj
+ 0003:00009284       $unwind$atexit             0000000180038284     MSVCRTD:utility.obj
+ 0003:0000928c       $unwind$_onexit            000000018003828c     MSVCRTD:utility.obj
+ 0003:00009294       $unwind$at_quick_exit      0000000180038294     MSVCRTD:utility.obj
+ 0003:0000929c       $unwind$__scrt_is_nonwritable_in_current_image 000000018003829c     MSVCRTD:utility.obj
+ 0003:000092c0       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 00000001800382c0     MSVCRTD:utility.obj
+ 0003:000092c8       $unwind$__scrt_acquire_startup_lock 00000001800382c8     MSVCRTD:utility.obj
+ 0003:000092d0       $unwind$__scrt_release_startup_lock 00000001800382d0     MSVCRTD:utility.obj
+ 0003:000092d8       $unwind$__scrt_initialize_crt 00000001800382d8     MSVCRTD:utility.obj
+ 0003:000092e0       $unwind$__scrt_uninitialize_crt 00000001800382e0     MSVCRTD:utility.obj
+ 0003:000092e8       $unwind$__scrt_initialize_onexit_tables 00000001800382e8     MSVCRTD:utility.obj
+ 0003:000092f8       $unwind$__scrt_dllmain_exception_filter 00000001800382f8     MSVCRTD:utility.obj
+ 0003:00009300       $unwind$__scrt_dllmain_before_initialize_c 0000000180038300     MSVCRTD:utility.obj
+ 0003:00009308       $unwind$__scrt_dllmain_after_initialize_c 0000000180038308     MSVCRTD:utility.obj
+ 0003:00009310       $unwind$__scrt_dllmain_uninitialize_c 0000000180038310     MSVCRTD:utility.obj
+ 0003:00009318       $unwind$__scrt_dllmain_uninitialize_critical 0000000180038318     MSVCRTD:utility.obj
+ 0003:00009320       $unwind$__scrt_dllmain_crt_thread_attach 0000000180038320     MSVCRTD:utility.obj
+ 0003:00009328       $unwind$__scrt_dllmain_crt_thread_detach 0000000180038328     MSVCRTD:utility.obj
+ 0003:00009330       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000180038330     MSVCRTD:utility.obj
+ 0003:00009338       $unwind$?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 0000000180038338     MSVCRTD:utility.obj
+ 0003:00009340       $unwind$?is_potentially_valid_image_base@@YA_NQEAX@Z 0000000180038340     MSVCRTD:utility.obj
+ 0003:00009348       $unwind$?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 0000000180038348     MSVCRTD:utility.obj
+ 0003:00009350       $unwind$__scrt_get_show_window_mode 0000000180038350     MSVCRTD:utility_desktop.obj
+ 0003:00009360       $unwind$__scrt_is_managed_app 0000000180038360     MSVCRTD:utility_desktop.obj
+ 0003:00009368       $unwind$__scrt_initialize_mta 0000000180038368     MSVCRTD:utility_desktop.obj
+ 0003:00009370       $unwind$__scrt_set_unhandled_exception_filter 0000000180038370     MSVCRTD:utility_desktop.obj
+ 0003:00009378       $unwind$__scrt_fastfail    0000000180038378     MSVCRTD:utility_desktop.obj
+ 0003:00009388       $unwind$__scrt_unhandled_exception_filter 0000000180038388     MSVCRTD:utility_desktop.obj
+ 0003:00009390       $unwind$_RTC_Initialize    0000000180038390     MSVCRTD:initsect.obj
+ 0003:000093a0       $unwind$_RTC_Terminate     00000001800383a0     MSVCRTD:initsect.obj
+ 0003:000093b0       $unwind$ReadNoFence64      00000001800383b0     MSVCRTD:guard_support.obj
+ 0003:000093b8       $unwind$ReadPointerNoFence 00000001800383b8     MSVCRTD:guard_support.obj
+ 0003:000093c0       $unwind$_guard_icall_checks_enforced 00000001800383c0     MSVCRTD:guard_support.obj
+ 0003:000093c8       $unwind$__castguard_compat_check 00000001800383c8     MSVCRTD:guard_support.obj
+ 0003:000093d0       $unwind$__castguard_check_failure_debugbreak 00000001800383d0     MSVCRTD:guard_support.obj
+ 0003:000093d8       $unwind$__castguard_check_failure_fastfail 00000001800383d8     MSVCRTD:guard_support.obj
+ 0003:000093e0       $unwind$__castguard_check_failure_os_handled 00000001800383e0     MSVCRTD:guard_support.obj
+ 0003:000093e8       $unwind$__castguard_slow_path_compat_check 00000001800383e8     MSVCRTD:guard_support.obj
+ 0003:000093f0       $unwind$__castguard_slow_path_check_debugbreak 00000001800383f0     MSVCRTD:guard_support.obj
+ 0003:000093f8       $unwind$__castguard_slow_path_check_fastfail 00000001800383f8     MSVCRTD:guard_support.obj
+ 0003:00009400       $unwind$__castguard_slow_path_check_os_handled 0000000180038400     MSVCRTD:guard_support.obj
+ 0003:00009408       $unwind$?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z 0000000180038408     MSVCRTD:pdblkup.obj
+ 0003:00009424       $unwind$?GetPdbDllFromInstallPath@@YAPEAUHINSTANCE__@@XZ 0000000180038424     MSVCRTD:pdblkup.obj
+ 0003:0000944c       $unwind$?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z 000000018003844c     MSVCRTD:pdblkup.obj
+ 0003:00009468       $unwind$?GetPdbDll@@YAPEAUHINSTANCE__@@XZ 0000000180038468     MSVCRTD:pdblkup.obj
+ 0003:0000947c       $unwind$__isa_available_init 000000018003847c     MSVCRTD:cpu_disp.obj
+ 0003:00009490       $unwind$__scrt_is_ucrt_dll_in_use 0000000180038490     MSVCRTD:ucrt_detection.obj
+ 0003:00009498       $xdatasym                  0000000180038498     MSVCRTD:guard_dispatch.obj
+ 0003:000094a0       $xdatasym                  00000001800384a0     MSVCRTD:guard_xfg_dispatch.obj
+ 0003:00009780       .edata                     0000000180038780     STUHFL.exp
+ 0003:000097a8       rgpv                       00000001800387a8     STUHFL.exp
+ 0003:00009990       rgszName                   0000000180038990     STUHFL.exp
+ 0003:00009b78       rgwOrd                     0000000180038b78     STUHFL.exp
+ 0003:00009c6c       szName                     0000000180038c6c     STUHFL.exp
+ 0003:00009c77       $N00001                    0000000180038c77     STUHFL.exp
+ 0003:00009c7f       $N00002                    0000000180038c7f     STUHFL.exp
+ 0003:00009c8a       $N00003                    0000000180038c8a     STUHFL.exp
+ 0003:00009c9a       $N00004                    0000000180038c9a     STUHFL.exp
+ 0003:00009ca8       $N00005                    0000000180038ca8     STUHFL.exp
+ 0003:00009cba       $N00006                    0000000180038cba     STUHFL.exp
+ 0003:00009cc7       $N00007                    0000000180038cc7     STUHFL.exp
+ 0003:00009cd4       $N00008                    0000000180038cd4     STUHFL.exp
+ 0003:00009ce1       $N00009                    0000000180038ce1     STUHFL.exp
+ 0003:00009cee       $N00010                    0000000180038cee     STUHFL.exp
+ 0003:00009cfc       $N00011                    0000000180038cfc     STUHFL.exp
+ 0003:00009d0c       $N00012                    0000000180038d0c     STUHFL.exp
+ 0003:00009d1c       $N00013                    0000000180038d1c     STUHFL.exp
+ 0003:00009d2b       $N00014                    0000000180038d2b     STUHFL.exp
+ 0003:00009d35       $N00015                    0000000180038d35     STUHFL.exp
+ 0003:00009d3f       $N00016                    0000000180038d3f     STUHFL.exp
+ 0003:00009d55       $N00017                    0000000180038d55     STUHFL.exp
+ 0003:00009d5f       $N00018                    0000000180038d5f     STUHFL.exp
+ 0003:00009d6b       $N00019                    0000000180038d6b     STUHFL.exp
+ 0003:00009d76       $N00020                    0000000180038d76     STUHFL.exp
+ 0003:00009d86       $N00021                    0000000180038d86     STUHFL.exp
+ 0003:00009d93       $N00022                    0000000180038d93     STUHFL.exp
+ 0003:00009da3       $N00023                    0000000180038da3     STUHFL.exp
+ 0003:00009db2       $N00024                    0000000180038db2     STUHFL.exp
+ 0003:00009dbd       $N00025                    0000000180038dbd     STUHFL.exp
+ 0003:00009dc8       $N00026                    0000000180038dc8     STUHFL.exp
+ 0003:00009ddb       $N00027                    0000000180038ddb     STUHFL.exp
+ 0003:00009de7       $N00028                    0000000180038de7     STUHFL.exp
+ 0003:00009dfd       $N00029                    0000000180038dfd     STUHFL.exp
+ 0003:00009e14       $N00030                    0000000180038e14     STUHFL.exp
+ 0003:00009e2a       $N00031                    0000000180038e2a     STUHFL.exp
+ 0003:00009e3e       $N00032                    0000000180038e3e     STUHFL.exp
+ 0003:00009e51       $N00033                    0000000180038e51     STUHFL.exp
+ 0003:00009e60       $N00034                    0000000180038e60     STUHFL.exp
+ 0003:00009e6a       $N00035                    0000000180038e6a     STUHFL.exp
+ 0003:00009e76       $N00036                    0000000180038e76     STUHFL.exp
+ 0003:00009e8a       $N00037                    0000000180038e8a     STUHFL.exp
+ 0003:00009e94       $N00038                    0000000180038e94     STUHFL.exp
+ 0003:00009e9e       $N00039                    0000000180038e9e     STUHFL.exp
+ 0003:00009eac       $N00040                    0000000180038eac     STUHFL.exp
+ 0003:00009ec0       $N00041                    0000000180038ec0     STUHFL.exp
+ 0003:00009ed3       $N00042                    0000000180038ed3     STUHFL.exp
+ 0003:00009ede       $N00043                    0000000180038ede     STUHFL.exp
+ 0003:00009ef3       $N00044                    0000000180038ef3     STUHFL.exp
+ 0003:00009f07       $N00045                    0000000180038f07     STUHFL.exp
+ 0003:00009f0e       $N00046                    0000000180038f0e     STUHFL.exp
+ 0003:00009f1f       $N00047                    0000000180038f1f     STUHFL.exp
+ 0003:00009f33       $N00048                    0000000180038f33     STUHFL.exp
+ 0003:00009f47       $N00049                    0000000180038f47     STUHFL.exp
+ 0003:00009f5a       $N00050                    0000000180038f5a     STUHFL.exp
+ 0003:00009f71       $N00051                    0000000180038f71     STUHFL.exp
+ 0003:00009f8a       $N00052                    0000000180038f8a     STUHFL.exp
+ 0003:00009f9e       $N00053                    0000000180038f9e     STUHFL.exp
+ 0003:00009fb5       $N00054                    0000000180038fb5     STUHFL.exp
+ 0003:00009fd0       $N00055                    0000000180038fd0     STUHFL.exp
+ 0003:00009fe6       $N00056                    0000000180038fe6     STUHFL.exp
+ 0003:00009ffc       $N00057                    0000000180038ffc     STUHFL.exp
+ 0003:0000a012       $N00058                    0000000180039012     STUHFL.exp
+ 0003:0000a028       $N00059                    0000000180039028     STUHFL.exp
+ 0003:0000a03f       $N00060                    000000018003903f     STUHFL.exp
+ 0003:0000a058       $N00061                    0000000180039058     STUHFL.exp
+ 0003:0000a071       $N00062                    0000000180039071     STUHFL.exp
+ 0003:0000a089       $N00063                    0000000180039089     STUHFL.exp
+ 0003:0000a09c       $N00064                    000000018003909c     STUHFL.exp
+ 0003:0000a0af       $N00065                    00000001800390af     STUHFL.exp
+ 0003:0000a0ce       $N00066                    00000001800390ce     STUHFL.exp
+ 0003:0000a0e1       $N00067                    00000001800390e1     STUHFL.exp
+ 0003:0000a0f6       $N00068                    00000001800390f6     STUHFL.exp
+ 0003:0000a10a       $N00069                    000000018003910a     STUHFL.exp
+ 0003:0000a11a       $N00070                    000000018003911a     STUHFL.exp
+ 0003:0000a12b       $N00071                    000000018003912b     STUHFL.exp
+ 0003:0000a142       $N00072                    0000000180039142     STUHFL.exp
+ 0003:0000a15d       $N00073                    000000018003915d     STUHFL.exp
+ 0003:0000a16f       $N00074                    000000018003916f     STUHFL.exp
+ 0003:0000a185       $N00075                    0000000180039185     STUHFL.exp
+ 0003:0000a199       $N00076                    0000000180039199     STUHFL.exp
+ 0003:0000a1ad       $N00077                    00000001800391ad     STUHFL.exp
+ 0003:0000a1c4       $N00078                    00000001800391c4     STUHFL.exp
+ 0003:0000a1da       $N00079                    00000001800391da     STUHFL.exp
+ 0003:0000a1f7       $N00080                    00000001800391f7     STUHFL.exp
+ 0003:0000a20a       $N00081                    000000018003920a     STUHFL.exp
+ 0003:0000a21c       $N00082                    000000018003921c     STUHFL.exp
+ 0003:0000a22e       $N00083                    000000018003922e     STUHFL.exp
+ 0003:0000a244       $N00084                    0000000180039244     STUHFL.exp
+ 0003:0000a25a       $N00085                    000000018003925a     STUHFL.exp
+ 0003:0000a26a       $N00086                    000000018003926a     STUHFL.exp
+ 0003:0000a282       $N00087                    0000000180039282     STUHFL.exp
+ 0003:0000a291       $N00088                    0000000180039291     STUHFL.exp
+ 0003:0000a2a2       $N00089                    00000001800392a2     STUHFL.exp
+ 0003:0000a2bd       $N00090                    00000001800392bd     STUHFL.exp
+ 0003:0000a2cf       $N00091                    00000001800392cf     STUHFL.exp
+ 0003:0000a2de       $N00092                    00000001800392de     STUHFL.exp
+ 0003:0000a2f1       $N00093                    00000001800392f1     STUHFL.exp
+ 0003:0000a2ff       $N00094                    00000001800392ff     STUHFL.exp
+ 0003:0000a310       $N00095                    0000000180039310     STUHFL.exp
+ 0003:0000a320       $N00096                    0000000180039320     STUHFL.exp
+ 0003:0000a32f       $N00097                    000000018003932f     STUHFL.exp
+ 0003:0000a33e       $N00098                    000000018003933e     STUHFL.exp
+ 0003:0000a349       $N00099                    0000000180039349     STUHFL.exp
+ 0003:0000a354       $N00100                    0000000180039354     STUHFL.exp
+ 0003:0000a363       $N00101                    0000000180039363     STUHFL.exp
+ 0003:0000a37c       $N00102                    000000018003937c     STUHFL.exp
+ 0003:0000a393       $N00103                    0000000180039393     STUHFL.exp
+ 0003:0000a3a9       $N00104                    00000001800393a9     STUHFL.exp
+ 0003:0000a3bd       $N00105                    00000001800393bd     STUHFL.exp
+ 0003:0000a3d0       $N00106                    00000001800393d0     STUHFL.exp
+ 0003:0000a3df       $N00107                    00000001800393df     STUHFL.exp
+ 0003:0000a3e9       $N00108                    00000001800393e9     STUHFL.exp
+ 0003:0000a3f5       $N00109                    00000001800393f5     STUHFL.exp
+ 0003:0000a409       $N00110                    0000000180039409     STUHFL.exp
+ 0003:0000a413       $N00111                    0000000180039413     STUHFL.exp
+ 0003:0000a41d       $N00112                    000000018003941d     STUHFL.exp
+ 0003:0000a42b       $N00113                    000000018003942b     STUHFL.exp
+ 0003:0000a441       $N00114                    0000000180039441     STUHFL.exp
+ 0003:0000a455       $N00115                    0000000180039455     STUHFL.exp
+ 0003:0000a469       $N00116                    0000000180039469     STUHFL.exp
+ 0003:0000a482       $N00117                    0000000180039482     STUHFL.exp
+ 0003:0000a48d       $N00118                    000000018003948d     STUHFL.exp
+ 0003:0000a492       $N00119                    0000000180039492     STUHFL.exp
+ 0003:0000a49e       $N00120                    000000018003949e     STUHFL.exp
+ 0003:0000a4ac       $N00121                    00000001800394ac     STUHFL.exp
+ 0003:0000a4b9       $N00122                    00000001800394b9     STUHFL.exp
+ 0004:00000000       rdComTimeout               000000018003a000     stuhfl_bl_win32.obj
+ 0004:00000004       wrComTimeout               000000018003a004     stuhfl_bl_win32.obj
+ 0004:00000010       inventoryThread            000000018003a010     stuhfl_al.obj
+ 0004:0000001c       br                         000000018003a01c     stuhfl_dl.obj
+ 0004:00000020       gIgnoreInventoryData       000000018003a020     stuhfl_dl.obj
+ 0004:000001a0       gCallerCtxPointer          000000018003a1a0     stuhfl_al.obj
+ 0004:000001a8       gActionCycleCallback       000000018003a1a8     stuhfl_al.obj
+ 0004:000001b0       gActionCycleCallbackOOP    000000018003a1b0     stuhfl_al.obj
+ 0004:000001b8       gActionFinishedCallback    000000018003a1b8     stuhfl_al.obj
+ 0004:000001c0       gActionFinishedCallbackOOP 000000018003a1c0     stuhfl_al.obj
+ 0004:000001c8       gActionCycleData           000000018003a1c8     stuhfl_al.obj
+ 0004:000001d0       requestedRoundCnt          000000018003a1d0     stuhfl_al.obj
+ 0004:000001e0       deviceCtx                  000000018003a1e0     stuhfl_dl.obj
+ 0004:000001e8       comPort                    000000018003a1e8     stuhfl_dl.obj
+ 0004:00000220       gCallerCtxPointer          000000018003a220     stuhfl_log.obj
+ 0004:00000228       gLogCallBack               000000018003a228     stuhfl_log.obj
+ 0004:00000230       gLogCallBackOOP            000000018003a230     stuhfl_log.obj
+ 0004:00000238       gLogId                     000000018003a238     stuhfl_log.obj
+ 0004:00000240       gLogOptions                000000018003a240     stuhfl_log.obj
+ 0004:000002b0       gLogData                   000000018003a2b0     stuhfl_log.obj
+ 0004:00000410       snd                        000000018003a410     stuhfl_pl.obj
+ 0004:00000418       gSndMaxLen                 000000018003a418     stuhfl_pl.obj
+ 0004:0000041c       gRcvMaxLen                 000000018003a41c     stuhfl_pl.obj
+ 0004:00000420       rcv                        000000018003a420     stuhfl_pl.obj
+ 0004:00000428       STUHFL_F_PlatformReset     000000018003a428     stuhfl_pl.obj
+ 0004:00000430       STUHFL_F_PlatformDisconnect 000000018003a430     stuhfl_pl.obj
+ 0004:00000438       STUHFL_F_PlatformSndRaw    000000018003a438     stuhfl_pl.obj
+ 0004:00000440       STUHFL_F_PlatformRcvRaw    000000018003a440     stuhfl_pl.obj
+ 0004:00000448       STUHFL_F_PlatformSetDTR    000000018003a448     stuhfl_pl.obj
+ 0004:00000450       STUHFL_F_PlatformGetDTR    000000018003a450     stuhfl_pl.obj
+ 0004:00000458       STUHFL_F_PlatformSetRTS    000000018003a458     stuhfl_pl.obj
+ 0004:00000460       STUHFL_F_PlatformGetRTS    000000018003a460     stuhfl_pl.obj
+ 0004:00000468       STUHFL_F_PlatformSetTimeouts 000000018003a468     stuhfl_pl.obj
+ 0004:00000470       STUHFL_F_PlatformGetTimeouts 000000018003a470     stuhfl_pl.obj
+ 0004:0000048e       ?init@?1??_RTC_InitBase@@9@4_NA 000000018003a48e     MSVCRTD:init.obj
+ 0004:00000490       ?__proc_attached@@3HA      000000018003a490     MSVCRTD:dll_dllmain.obj
+ 0004:000004a8       ?_RTC_ErrorReportFunc@@3P6AHHPEBDH00ZZEA 000000018003a4a8     MSVCRTD:userapi.obj
+ 0004:000004b0       ?_RTC_ErrorReportFuncW@@3P6AHHPEB_WH00ZZEA 000000018003a4b0     MSVCRTD:userapi.obj
+ 0004:000004c0       GS_ExceptionRecord         000000018003a4c0     MSVCRTD:gs_report.obj
+ 0004:00000560       GS_ContextRecord           000000018003a560     MSVCRTD:gs_report.obj
+ 0004:00000b88       ?is_initialized_as_dll@@3_NA 000000018003ab88     MSVCRTD:utility.obj
+ 0004:00000b89       ?module_local_atexit_table_initialized@@3_NA 000000018003ab89     MSVCRTD:utility.obj
+ 0004:00000b90       ?module_local_atexit_table@@3U_onexit_table_t@@A 000000018003ab90     MSVCRTD:utility.obj
+ 0004:00000ba8       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 000000018003aba8     MSVCRTD:utility.obj
+ 0004:00000be8       ?mspdb@@3PEAUHINSTANCE__@@EA 000000018003abe8     MSVCRTD:pdblkup.obj
+ 0004:00000bf1       ?alreadyTried@?1??GetPdbDll@@YAPEAUHINSTANCE__@@XZ@4_NA 000000018003abf1     MSVCRTD:pdblkup.obj
+ 0004:00000bf2       ?PDBOK@?1??_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z@4_NA 000000018003abf2     MSVCRTD:pdblkup.obj
+ 0006:0000090a       .idata$6                   000000018004090a     kernel32:KERNEL32.dll
+ 0006:00000a06       .idata$6                   0000000180040a06     vcruntimed:VCRUNTIME140D.dll
+ 0006:00000bb0       .idata$6                   0000000180040bb0     ucrtd:ucrtbased.dll
+ 0007:00000000       __F66CEB67_corecrt_stdio_config@h 0000000180041000     stuhfl_bl_win32.obj
+ 0007:00000001       __101834BA_corecrt_wstdio@h 0000000180041001     stuhfl_bl_win32.obj
+ 0007:00000002       __AD6A91B7_stdio@h         0000000180041002     stuhfl_bl_win32.obj
+ 0007:00000003       __367CC694_corecrt_memcpy_s@h 0000000180041003     stuhfl_bl_win32.obj
+ 0007:00000004       __DC9673E3_corecrt_wstring@h 0000000180041004     stuhfl_bl_win32.obj
+ 0007:00000005       __A29A7DFB_string@h        0000000180041005     stuhfl_bl_win32.obj
+ 0007:00000006       __7242C389_ctype@h         0000000180041006     stuhfl_bl_win32.obj
+ 0007:00000007       __90A1F774_basetsd@h       0000000180041007     stuhfl_bl_win32.obj
+ 0007:00000008       __AF541008_winnt@h         0000000180041008     stuhfl_bl_win32.obj
+ 0007:00000009       __0D001789_processthreadsapi@h 0000000180041009     stuhfl_bl_win32.obj
+ 0007:0000000a       __F972325D_memoryapi@h     000000018004100a     stuhfl_bl_win32.obj
+ 0007:0000000b       __76CD430D_winerror@h      000000018004100b     stuhfl_bl_win32.obj
+ 0007:0000000c       __737D49DB_winbase@h       000000018004100c     stuhfl_bl_win32.obj
+ 0007:0000000d       __0396F1A5_stralign@h      000000018004100d     stuhfl_bl_win32.obj
+ 0007:0000000e       __DE5A38B8_stuhfl_bl_win32@c 000000018004100e     stuhfl_bl_win32.obj
+ 0007:00000012       __7242C389_ctype@h         0000000180041012     stuhfl_platform.obj
+ 0007:00000013       __90A1F774_basetsd@h       0000000180041013     stuhfl_platform.obj
+ 0007:00000014       __367CC694_corecrt_memcpy_s@h 0000000180041014     stuhfl_platform.obj
+ 0007:00000015       __DC9673E3_corecrt_wstring@h 0000000180041015     stuhfl_platform.obj
+ 0007:00000016       __A29A7DFB_string@h        0000000180041016     stuhfl_platform.obj
+ 0007:00000017       __AF541008_winnt@h         0000000180041017     stuhfl_platform.obj
+ 0007:00000018       __0D001789_processthreadsapi@h 0000000180041018     stuhfl_platform.obj
+ 0007:00000019       __F972325D_memoryapi@h     0000000180041019     stuhfl_platform.obj
+ 0007:0000001a       __76CD430D_winerror@h      000000018004101a     stuhfl_platform.obj
+ 0007:0000001b       __737D49DB_winbase@h       000000018004101b     stuhfl_platform.obj
+ 0007:0000001c       __0396F1A5_stralign@h      000000018004101c     stuhfl_platform.obj
+ 0007:0000001d       __D4D0FF0F_stuhfl_platform@c 000000018004101d     stuhfl_platform.obj
+ 0007:00000020       __367CC694_corecrt_memcpy_s@h 0000000180041020     stuhfl.obj
+ 0007:00000021       __DC9673E3_corecrt_wstring@h 0000000180041021     stuhfl.obj
+ 0007:00000022       __A29A7DFB_string@h        0000000180041022     stuhfl.obj
+ 0007:00000023       __F66CEB67_corecrt_stdio_config@h 0000000180041023     stuhfl.obj
+ 0007:00000024       __101834BA_corecrt_wstdio@h 0000000180041024     stuhfl.obj
+ 0007:00000025       __AD6A91B7_stdio@h         0000000180041025     stuhfl.obj
+ 0007:00000026       __7242C389_ctype@h         0000000180041026     stuhfl.obj
+ 0007:00000027       __90A1F774_basetsd@h       0000000180041027     stuhfl.obj
+ 0007:00000028       __AF541008_winnt@h         0000000180041028     stuhfl.obj
+ 0007:00000029       __0D001789_processthreadsapi@h 0000000180041029     stuhfl.obj
+ 0007:0000002a       __F972325D_memoryapi@h     000000018004102a     stuhfl.obj
+ 0007:0000002b       __76CD430D_winerror@h      000000018004102b     stuhfl.obj
+ 0007:0000002c       __737D49DB_winbase@h       000000018004102c     stuhfl.obj
+ 0007:0000002d       __0396F1A5_stralign@h      000000018004102d     stuhfl.obj
+ 0007:0000002e       __AA694E55_stuhfl@c        000000018004102e     stuhfl.obj
+ 0007:00000032       __367CC694_corecrt_memcpy_s@h 0000000180041032     stuhfl_al.obj
+ 0007:00000033       __DC9673E3_corecrt_wstring@h 0000000180041033     stuhfl_al.obj
+ 0007:00000034       __A29A7DFB_string@h        0000000180041034     stuhfl_al.obj
+ 0007:00000035       __F66CEB67_corecrt_stdio_config@h 0000000180041035     stuhfl_al.obj
+ 0007:00000036       __101834BA_corecrt_wstdio@h 0000000180041036     stuhfl_al.obj
+ 0007:00000037       __AD6A91B7_stdio@h         0000000180041037     stuhfl_al.obj
+ 0007:00000038       __7242C389_ctype@h         0000000180041038     stuhfl_al.obj
+ 0007:00000039       __90A1F774_basetsd@h       0000000180041039     stuhfl_al.obj
+ 0007:0000003a       __AF541008_winnt@h         000000018004103a     stuhfl_al.obj
+ 0007:0000003b       __0D001789_processthreadsapi@h 000000018004103b     stuhfl_al.obj
+ 0007:0000003c       __F972325D_memoryapi@h     000000018004103c     stuhfl_al.obj
+ 0007:0000003d       __76CD430D_winerror@h      000000018004103d     stuhfl_al.obj
+ 0007:0000003e       __737D49DB_winbase@h       000000018004103e     stuhfl_al.obj
+ 0007:0000003f       __0396F1A5_stralign@h      000000018004103f     stuhfl_al.obj
+ 0007:00000040       __C0295DF8_stuhfl_al@c     0000000180041040     stuhfl_al.obj
+ 0007:00000044       __367CC694_corecrt_memcpy_s@h 0000000180041044     stuhfl_dl.obj
+ 0007:00000045       __DC9673E3_corecrt_wstring@h 0000000180041045     stuhfl_dl.obj
+ 0007:00000046       __A29A7DFB_string@h        0000000180041046     stuhfl_dl.obj
+ 0007:00000047       __F66CEB67_corecrt_stdio_config@h 0000000180041047     stuhfl_dl.obj
+ 0007:00000048       __101834BA_corecrt_wstdio@h 0000000180041048     stuhfl_dl.obj
+ 0007:00000049       __AD6A91B7_stdio@h         0000000180041049     stuhfl_dl.obj
+ 0007:0000004a       __7242C389_ctype@h         000000018004104a     stuhfl_dl.obj
+ 0007:0000004b       __90A1F774_basetsd@h       000000018004104b     stuhfl_dl.obj
+ 0007:0000004c       __AF541008_winnt@h         000000018004104c     stuhfl_dl.obj
+ 0007:0000004d       __0D001789_processthreadsapi@h 000000018004104d     stuhfl_dl.obj
+ 0007:0000004e       __F972325D_memoryapi@h     000000018004104e     stuhfl_dl.obj
+ 0007:0000004f       __76CD430D_winerror@h      000000018004104f     stuhfl_dl.obj
+ 0007:00000050       __737D49DB_winbase@h       0000000180041050     stuhfl_dl.obj
+ 0007:00000051       __0396F1A5_stralign@h      0000000180041051     stuhfl_dl.obj
+ 0007:00000052       __F7F7ADCA_stuhfl_dl@c     0000000180041052     stuhfl_dl.obj
+ 0007:00000056       __367CC694_corecrt_memcpy_s@h 0000000180041056     stuhfl_evalAPI_host.obj
+ 0007:00000057       __DC9673E3_corecrt_wstring@h 0000000180041057     stuhfl_evalAPI_host.obj
+ 0007:00000058       __A29A7DFB_string@h        0000000180041058     stuhfl_evalAPI_host.obj
+ 0007:00000059       __F66CEB67_corecrt_stdio_config@h 0000000180041059     stuhfl_evalAPI_host.obj
+ 0007:0000005a       __101834BA_corecrt_wstdio@h 000000018004105a     stuhfl_evalAPI_host.obj
+ 0007:0000005b       __AD6A91B7_stdio@h         000000018004105b     stuhfl_evalAPI_host.obj
+ 0007:0000005c       __7242C389_ctype@h         000000018004105c     stuhfl_evalAPI_host.obj
+ 0007:0000005d       __90A1F774_basetsd@h       000000018004105d     stuhfl_evalAPI_host.obj
+ 0007:0000005e       __AF541008_winnt@h         000000018004105e     stuhfl_evalAPI_host.obj
+ 0007:0000005f       __0D001789_processthreadsapi@h 000000018004105f     stuhfl_evalAPI_host.obj
+ 0007:00000060       __F972325D_memoryapi@h     0000000180041060     stuhfl_evalAPI_host.obj
+ 0007:00000061       __76CD430D_winerror@h      0000000180041061     stuhfl_evalAPI_host.obj
+ 0007:00000062       __737D49DB_winbase@h       0000000180041062     stuhfl_evalAPI_host.obj
+ 0007:00000063       __0396F1A5_stralign@h      0000000180041063     stuhfl_evalAPI_host.obj
+ 0007:00000064       __0637E9F1_stuhfl_evalAPI_host@c 0000000180041064     stuhfl_evalAPI_host.obj
+ 0007:00000068       __367CC694_corecrt_memcpy_s@h 0000000180041068     stuhfl_helpers.obj
+ 0007:00000069       __DC9673E3_corecrt_wstring@h 0000000180041069     stuhfl_helpers.obj
+ 0007:0000006a       __A29A7DFB_string@h        000000018004106a     stuhfl_helpers.obj
+ 0007:0000006b       __F66CEB67_corecrt_stdio_config@h 000000018004106b     stuhfl_helpers.obj
+ 0007:0000006c       __101834BA_corecrt_wstdio@h 000000018004106c     stuhfl_helpers.obj
+ 0007:0000006d       __AD6A91B7_stdio@h         000000018004106d     stuhfl_helpers.obj
+ 0007:0000006e       __7242C389_ctype@h         000000018004106e     stuhfl_helpers.obj
+ 0007:0000006f       __90A1F774_basetsd@h       000000018004106f     stuhfl_helpers.obj
+ 0007:00000070       __AF541008_winnt@h         0000000180041070     stuhfl_helpers.obj
+ 0007:00000071       __0D001789_processthreadsapi@h 0000000180041071     stuhfl_helpers.obj
+ 0007:00000072       __F972325D_memoryapi@h     0000000180041072     stuhfl_helpers.obj
+ 0007:00000073       __76CD430D_winerror@h      0000000180041073     stuhfl_helpers.obj
+ 0007:00000074       __737D49DB_winbase@h       0000000180041074     stuhfl_helpers.obj
+ 0007:00000075       __0396F1A5_stralign@h      0000000180041075     stuhfl_helpers.obj
+ 0007:00000076       __4190A03A_stuhfl_helpers@c 0000000180041076     stuhfl_helpers.obj
+ 0007:0000007a       __367CC694_corecrt_memcpy_s@h 000000018004107a     stuhfl_log.obj
+ 0007:0000007b       __DC9673E3_corecrt_wstring@h 000000018004107b     stuhfl_log.obj
+ 0007:0000007c       __A29A7DFB_string@h        000000018004107c     stuhfl_log.obj
+ 0007:0000007d       __F66CEB67_corecrt_stdio_config@h 000000018004107d     stuhfl_log.obj
+ 0007:0000007e       __101834BA_corecrt_wstdio@h 000000018004107e     stuhfl_log.obj
+ 0007:0000007f       __AD6A91B7_stdio@h         000000018004107f     stuhfl_log.obj
+ 0007:00000080       __7242C389_ctype@h         0000000180041080     stuhfl_log.obj
+ 0007:00000081       __90A1F774_basetsd@h       0000000180041081     stuhfl_log.obj
+ 0007:00000082       __AF541008_winnt@h         0000000180041082     stuhfl_log.obj
+ 0007:00000083       __0D001789_processthreadsapi@h 0000000180041083     stuhfl_log.obj
+ 0007:00000084       __F972325D_memoryapi@h     0000000180041084     stuhfl_log.obj
+ 0007:00000085       __76CD430D_winerror@h      0000000180041085     stuhfl_log.obj
+ 0007:00000086       __737D49DB_winbase@h       0000000180041086     stuhfl_log.obj
+ 0007:00000087       __0396F1A5_stralign@h      0000000180041087     stuhfl_log.obj
+ 0007:00000088       __B7A48FC9_stuhfl_log@c    0000000180041088     stuhfl_log.obj
+ 0007:0000008c       __367CC694_corecrt_memcpy_s@h 000000018004108c     stuhfl_pl.obj
+ 0007:0000008d       __DC9673E3_corecrt_wstring@h 000000018004108d     stuhfl_pl.obj
+ 0007:0000008e       __A29A7DFB_string@h        000000018004108e     stuhfl_pl.obj
+ 0007:0000008f       __F66CEB67_corecrt_stdio_config@h 000000018004108f     stuhfl_pl.obj
+ 0007:00000090       __101834BA_corecrt_wstdio@h 0000000180041090     stuhfl_pl.obj
+ 0007:00000091       __AD6A91B7_stdio@h         0000000180041091     stuhfl_pl.obj
+ 0007:00000092       __7242C389_ctype@h         0000000180041092     stuhfl_pl.obj
+ 0007:00000093       __90A1F774_basetsd@h       0000000180041093     stuhfl_pl.obj
+ 0007:00000094       __AF541008_winnt@h         0000000180041094     stuhfl_pl.obj
+ 0007:00000095       __0D001789_processthreadsapi@h 0000000180041095     stuhfl_pl.obj
+ 0007:00000096       __F972325D_memoryapi@h     0000000180041096     stuhfl_pl.obj
+ 0007:00000097       __76CD430D_winerror@h      0000000180041097     stuhfl_pl.obj
+ 0007:00000098       __737D49DB_winbase@h       0000000180041098     stuhfl_pl.obj
+ 0007:00000099       __0396F1A5_stralign@h      0000000180041099     stuhfl_pl.obj
+ 0007:0000009a       __288C6D02_stuhfl_pl@c     000000018004109a     stuhfl_pl.obj
+ 0007:0000009e       __367CC694_corecrt_memcpy_s@h 000000018004109e     stuhfl_sl.obj
+ 0007:0000009f       __DC9673E3_corecrt_wstring@h 000000018004109f     stuhfl_sl.obj
+ 0007:000000a0       __A29A7DFB_string@h        00000001800410a0     stuhfl_sl.obj
+ 0007:000000a1       __F66CEB67_corecrt_stdio_config@h 00000001800410a1     stuhfl_sl.obj
+ 0007:000000a2       __101834BA_corecrt_wstdio@h 00000001800410a2     stuhfl_sl.obj
+ 0007:000000a3       __AD6A91B7_stdio@h         00000001800410a3     stuhfl_sl.obj
+ 0007:000000a4       __7242C389_ctype@h         00000001800410a4     stuhfl_sl.obj
+ 0007:000000a5       __90A1F774_basetsd@h       00000001800410a5     stuhfl_sl.obj
+ 0007:000000a6       __AF541008_winnt@h         00000001800410a6     stuhfl_sl.obj
+ 0007:000000a7       __0D001789_processthreadsapi@h 00000001800410a7     stuhfl_sl.obj
+ 0007:000000a8       __F972325D_memoryapi@h     00000001800410a8     stuhfl_sl.obj
+ 0007:000000a9       __76CD430D_winerror@h      00000001800410a9     stuhfl_sl.obj
+ 0007:000000aa       __737D49DB_winbase@h       00000001800410aa     stuhfl_sl.obj
+ 0007:000000ab       __0396F1A5_stralign@h      00000001800410ab     stuhfl_sl.obj
+ 0007:000000ac       __3A39C2EC_stuhfl_sl@c     00000001800410ac     stuhfl_sl.obj
+ 0009:00000170       $R000000                   0000000180043170     * linker generated manifest res *

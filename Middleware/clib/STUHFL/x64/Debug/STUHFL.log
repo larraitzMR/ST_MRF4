@@ -1,0 +1,13 @@
+﻿  stuhfl_bl_win32.c
+  stuhfl_platform.c
+  stuhfl.c
+  stuhfl_al.c
+  stuhfl_dl.c
+  stuhfl_evalAPI_host.c
+  stuhfl_helpers.c
+  stuhfl_log.c
+  stuhfl_pl.c
+  stuhfl_sl.c
+  Generando código...
+     Creando biblioteca C:\Users\Larraitz\source\repos\STUHFL_demo\x64\Debug\STUHFL.lib y objeto C:\Users\Larraitz\source\repos\STUHFL_demo\x64\Debug\STUHFL.exp
+  STUHFL.vcxproj -> C:\Users\Larraitz\source\repos\STUHFL_demo\x64\Debug\STUHFL.dll
