@@ -1,3 +1,2 @@
 ﻿  main.c
-STUHFL_demo.obj : error LNK2005: ya se definió main en main.obj
-C:\Users\Larraitz\source\repos\STUHFL_demo\x64\Debug\STUHFL_demo.exe : fatal error LNK1169: se encontraron uno o más símbolos definidos simultáneamente
+  STUHFL_demo.vcxproj -> C:\Users\Larraitz\Documents\GitHub\ST_MRF4\STUHFL_demo\x64\Debug\STUHFL_demo.exe

@@ -15,30 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="STUHFL_demo.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="STUHFL_demoEvalAPI.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="STUHFL_demoInventoryRunner.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="STUHFL_demoBasic.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="STUHFL_demoPlayground.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="STUHFL_demoInteractive.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="STUHFL_demo.h">
+    <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

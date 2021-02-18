@@ -160,15 +160,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
-    <ClCompile Include="STUHFL_demo.c" />
-    <ClCompile Include="STUHFL_demoInteractive.c" />
-    <ClCompile Include="STUHFL_demoInventoryRunner.c" />
-    <ClCompile Include="STUHFL_demoEvalAPI.c" />
-    <ClCompile Include="STUHFL_demoBasic.c" />
-    <ClCompile Include="STUHFL_demoPlayground.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="STUHFL_demo.h" />
+    <ClInclude Include="main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
