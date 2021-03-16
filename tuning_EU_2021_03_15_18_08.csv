@@ -1,0 +1,6 @@
+# Tuning file for ST25RU3993
+# Frequency;TuneEnableAntenna1;Cin1;Clen1;Cout1;i*i+q*q;ReflectedPower1;TuneEnableAntenna2;Cin2;Clen2;Cout2;i*i+q*q;ReflectedPower2 
+865700;1;12;12;14;4;-34.8073;0;0;0;0;0;0
+866300;1;12;12;14;4;-34.8073;0;0;0;0;0;0
+866900;1;12;12;14;4;-34.8073;0;0;0;0;0;0
+867500;1;12;12;14;4;-34.8073;0;0;0;0;0;0
