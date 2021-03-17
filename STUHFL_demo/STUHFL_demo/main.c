@@ -120,21 +120,9 @@ void setupGen2Config(bool singleTag, bool freqHopping, int antenna)
     SetFreqLBT(&freqLBT);
 
     STUHFL_T_ST25RU3993_Freq_Profile freqProfile = STUHFL_O_ST25RU3993_FREQ_PROFILE_INIT();          // Set to FW default values
-    if (useNewTuningMechanism) {
-        STUHFL_T_ST25RU3993_ChannelList         channelList = STUHFL_O_ST25RU3993_CHANNELLIST_INIT();
-        channelList.antenna = (uint8_t)antenna;
-        channelList.persistent = false;
-        channelList.currentChannelListIdx = 0;
-        channelList = STUHFL_O_ST25RU3993_CHANNELLIST_EUROPE_INIT();
-        SetChannelList(&channelList);
 
-        freqProfile.profile = PROFILE_NEWTUNING;    // Profile is now only used to switch to new mechanism
-        SetFreqProfile(&freqProfile);
-    }
-    else {
-        freqProfile.profile = PROFILE_EUROPE;
-        SetFreqProfile(&freqProfile);
-    }
+    freqProfile.profile = PROFILE_EUROPE;
+    SetFreqProfile(&freqProfile);
 
     STUHFL_T_ST25RU3993_Freq_Hop freqHop = STUHFL_O_ST25RU3993_FREQ_HOP_INIT();              // Set to FW default values
     SetFreqHop(&freqHop);
@@ -144,9 +132,37 @@ void setupGen2Config(bool singleTag, bool freqHopping, int antenna)
     Gen2_Select(&Gen2Select);
 
     printf("Tuning Profile frequencies: algo: TUNING_ALGO_SLOW\n");
-    STUHFL_T_ST25RU3993_Tune                tune = STUHFL_O_ST25RU3993_TUNE_INIT();
-    tune.algo = TUNING_ALGO_SLOW;
-    Tune(&tune);
+
+    // Get freq profile + number of frequencies
+    STUHFL_T_ST25RU3993_Freq_Profile_Info   freqProfileInfo = STUHFL_O_ST25RU3993_FREQ_PROFILE_INFO_INIT();
+    GetFreqProfileInfo(&freqProfileInfo);
+
+    // Tune for each freq
+    for (uint8_t i = 0; i < freqProfileInfo.numFrequencies; i++) {
+        STUHFL_T_ST25RU3993_TuningTableEntry    tuningTableEntry = STUHFL_O_ST25RU3993_TUNINGTABLEENTRY_INIT();
+        STUHFL_T_ST25RU3993_Antenna_Power       antPwr = STUHFL_O_ST25RU3993_ANTENNA_POWER_INIT();
+        STUHFL_T_ST25RU3993_Tune                tune = STUHFL_O_ST25RU3993_TUNE_INIT();
+
+        tuningTableEntry.entry = i;
+        GetTuningTableEntry(&tuningTableEntry);               // Retrieve frequency related to this entry
+
+        tuningTableEntry.entry = i;
+        memset(tuningTableEntry.applyCapValues, false, MAX_ANTENNA);    // Do not apply caps, only set entry
+        SetTuningTableEntry(&tuningTableEntry);
+
+        antPwr.mode = ANTENNA_POWER_MODE_ON;
+        antPwr.timeout = 0;
+        antPwr.frequency = tuningTableEntry.freq;
+        SetAntennaPower(&antPwr);
+
+        tune.algo = TUNING_ALGO_SLOW;
+        Tune(&tune);
+
+        antPwr.mode = ANTENNA_POWER_MODE_OFF;
+        antPwr.timeout = 0;
+        antPwr.frequency = tuningTableEntry.freq;
+        SetAntennaPower(&antPwr);
+    }
 }
 
 
@@ -248,76 +264,6 @@ void log2Screen(bool clearScreen, bool flush, const char* format, ...)
         printf(logBuf);
         logBufPos = 0;
     }
-}
-
-/**
-  * @brief          Inventory demo.<br>
-  *                 Launch a Gen2 inventory and outputs all detected tags
-  *
-  * @param[in]      invOption: Gen2 inventory options
-  * @param[in]      invData: Gen2 inventory data
-  * @param[out]     None
-  *
-  * @retval         None
-  */
-
-void printTagList(STUHFL_T_Inventory_Option * invOption, STUHFL_T_Inventory_Data * invData)
-{
-    char mensaje[50];
-    char epcbin[24];
-    char epc[24];
-
-    memset(epc, 0, sizeof(epc));
-    memset(mensaje, 0, sizeof(mensaje));
-    //
-    log2Screen(false, false, "\n\n--- Gen2_Inventory Option ---\n");
-    log2Screen(false, false, "rssiMode    : %d\n", invOption->rssiMode);
-    log2Screen(false, false, "reportMode  : %d\n", invOption->reportOptions);
-    log2Screen(false, false, "\n");
-
-    log2Screen(false, false, "--- Round Info ---\n");
-    log2Screen(false, false, "tuningStatus: %s\n", invData->statistics.tuningStatus == TUNING_STATUS_UNTUNED ? "UNTUNED" : (invData->statistics.tuningStatus == TUNING_STATUS_TUNING ? "TUNING" : "TUNED"));
-    log2Screen(false, false, "roundCnt    : %d\n", invData->statistics.roundCnt);
-    log2Screen(false, false, "sensitivity : %d\n", invData->statistics.sensitivity);
-    log2Screen(false, false, "Q           : %d\n", invData->statistics.Q);
-    log2Screen(false, false, "adc         : %d\n", invData->statistics.adc);
-    log2Screen(false, false, "frequency   : %d\n", invData->statistics.frequency);
-    log2Screen(false, false, "tagCnt      : %d\n", invData->statistics.tagCnt);
-    log2Screen(false, false, "empty Slots : %d\n", invData->statistics.emptySlotCnt);
-    log2Screen(false, false, "collisions  : %d\n", invData->statistics.collisionCnt);
-    log2Screen(false, false, "preampleErr : %d\n", invData->statistics.preambleErrCnt);
-    log2Screen(false, false, "crcErr      : %d\n\n", invData->statistics.crcErrCnt);
-
-    // print transponder information for TagList
-    for (int tagIdx = 0; tagIdx < invData->tagListSize; tagIdx++) {
-        log2Screen(false, false, "\n\n--- %03d ---\n", tagIdx + 1);
-        log2Screen(false, false, "agc         : %d\n", invData->tagList[tagIdx].agc);
-        log2Screen(false, false, "rssiLogI    : %d\n", invData->tagList[tagIdx].rssiLogI);
-        log2Screen(false, false, "rssiLogQ    : %d\n", invData->tagList[tagIdx].rssiLogQ);
-        log2Screen(false, false, "rssiLinI    : %d\n", invData->tagList[tagIdx].rssiLinI);
-        log2Screen(false, false, "rssiLinQ    : %d\n", invData->tagList[tagIdx].rssiLinQ);
-        log2Screen(false, false, "pc          : ");
-        for (int i = 0; i < MAX_PC_LENGTH; i++) {
-            log2Screen(false, false, "%02x ", invData->tagList[tagIdx].pc[i]);
-        }
-        log2Screen(false, false, "\nepcLen      : %d\n", invData->tagList[tagIdx].epc.len);
-        log2Screen(false, false, "epc         : ");
-        for (int i = 0; i < invData->tagList[tagIdx].epc.len; i++) {
-            log2Screen(false, false, "%02x ", invData->tagList[tagIdx].epc.data[i]);
-            sprintf(epcbin, "%02x", invData->tagList[tagIdx].epc.data[i]);
-            //printf(epcbin);
-            strcat(epc, epcbin);
-            printf(epc);
-        }
-        log2Screen(false, false, "\ntidLen      : %d\n", invData->tagList[tagIdx].tid.len);
-        log2Screen(false, false, "tid         : ");
-        for (int i = 0; i < invData->tagList[tagIdx].tid.len; i++) {
-            log2Screen(false, false, "%02x ", invData->tagList[tagIdx].tid.data[i]);
-        }
-        sprintf(mensaje, "$%s#", epc);
-        //send(clientRead, mensaje, strlen(mensaje), 0);
-    }
-    log2Screen(false, true, "\n");
 }
 
 
@@ -590,6 +536,13 @@ int main (int argc, char * argv[])
        
             printf("msg: %s\n", msg);
 
+            char mensaje[50];
+            char epcbin[4];
+            char epc[24];
+
+            memset(epc, 0, sizeof(epc));
+            memset(mensaje, 0, sizeof(mensaje));
+
             setupGen2Config(false, true, ANTENNA_1);
             // apply data storage location, where the found TAGs shall be stored
             STUHFL_T_Inventory_Tag tagData[MAX_TAGS_PER_ROUND];
@@ -601,42 +554,29 @@ int main (int argc, char * argv[])
             STUHFL_T_Inventory_Option invOption = STUHFL_O_INVENTORY_OPTION_INIT();
 
             Gen2_Inventory(&invOption, &invData);
-
-            char mensaje[50];
-            char epcbin[24];
-            char epc[24];
-
-            memset(epc, 0, sizeof(epc));
-            memset(mensaje, 0, sizeof(mensaje));
+           // printTagList(&invOption, &invData);
 
             // print transponder information for TagList
-            if (invData.tagListSize > 0) {
+            if (invData.tagListSize > 0) { 
                 printf("TagListSize: %d\n",invData.tagListSize);
                 for (int tagIdx = 0; tagIdx < invData.tagListSize; tagIdx++) {
-                    log2Screen(false, false, "%d", tagIdx);
-                    printf("tagIdx: %d len: %d\n", tagIdx, invData.tagList[tagIdx].epc.len);
-                   
+                  //printf("tagIdx: %d len: %d\n", tagIdx, invData.tagList[tagIdx].epc.len);              
                     for (int i = 0; i < invData.tagList[tagIdx].epc.len; i++) {
-                        //log2Screen(false, false, "%02x ", invData.tagList[tagIdx].epc.data[i]);
-                        //log2Screen(false, false, "%02x ", invData->tagList[tagIdx].epc.data[i]);
                         sprintf(epcbin, "%02x", invData.tagList[tagIdx].epc.data[i]);
                         //printf(epcbin);
                         strcat(epc, epcbin);
                     }
                     //printf("epc: %s\n",epc);
                     sprintf(mensaje, "$%s#", epc);
-                    printf(mensaje);
+                    printf("tag para enviar: %s\n",mensaje);
+                    memset(epc, 0, sizeof(epc));
                     send(clientRead, mensaje, strlen(mensaje), 0);
                 }
             }
             else {
                 send(clientRead, "$#", 2, 0);
             }
-           
-           //log2Screen(false, true, "\n");
-            //printTagList(&invOption, &invData);
-
-           // send(client, &invData, sizeof(invData), 0);
+          
             send(client, "OK#", 3, 0);
         }
         else if (strncmp(msg, "STOP_READING", 13) == 0) {
@@ -662,3 +602,79 @@ int main (int argc, char * argv[])
 }
 
 
+/**
+  * @brief          Inventory demo.<br>
+  *                 Launch a Gen2 inventory and outputs all detected tags
+  *
+  * @param[in]      invOption: Gen2 inventory options
+  * @param[in]      invData: Gen2 inventory data
+  * @param[out]     None
+  *
+  * @retval         None
+  */
+
+void printTagList(STUHFL_T_Inventory_Option* invOption, STUHFL_T_Inventory_Data* invData)
+{
+    char mensaje[50];
+    char epcbin[24];
+    char epc[24];
+
+    memset(epc, 0, sizeof(epc));
+    memset(epcbin, 0, sizeof(epcbin));
+    memset(mensaje, 0, sizeof(mensaje));
+    //
+    log2Screen(false, false, "\n\n--- Gen2_Inventory Option ---\n");
+    log2Screen(false, false, "rssiMode    : %d\n", invOption->rssiMode);
+    log2Screen(false, false, "reportMode  : %d\n", invOption->reportOptions);
+    log2Screen(false, false, "\n");
+
+    log2Screen(false, false, "--- Round Info ---\n");
+    log2Screen(false, false, "tuningStatus: %s\n", invData->statistics.tuningStatus == TUNING_STATUS_UNTUNED ? "UNTUNED" : (invData->statistics.tuningStatus == TUNING_STATUS_TUNING ? "TUNING" : "TUNED"));
+    log2Screen(false, false, "roundCnt    : %d\n", invData->statistics.roundCnt);
+    log2Screen(false, false, "sensitivity : %d\n", invData->statistics.sensitivity);
+    log2Screen(false, false, "Q           : %d\n", invData->statistics.Q);
+    log2Screen(false, false, "adc         : %d\n", invData->statistics.adc);
+    log2Screen(false, false, "frequency   : %d\n", invData->statistics.frequency);
+    log2Screen(false, false, "tagCnt      : %d\n", invData->statistics.tagCnt);
+    log2Screen(false, false, "empty Slots : %d\n", invData->statistics.emptySlotCnt);
+    log2Screen(false, false, "collisions  : %d\n", invData->statistics.collisionCnt);
+    log2Screen(false, false, "preampleErr : %d\n", invData->statistics.preambleErrCnt);
+    log2Screen(false, false, "crcErr      : %d\n\n", invData->statistics.crcErrCnt);
+
+    printf("tagListSize: %d\n", invData->tagListSize);
+    // print transponder information for TagList
+    for (int tagIdx = 0; tagIdx < invData->tagListSize; tagIdx++) {
+        log2Screen(false, false, "\n\n--- %03d ---\n", tagIdx + 1);
+        log2Screen(false, false, "agc         : %d\n", invData->tagList[tagIdx].agc);
+        log2Screen(false, false, "rssiLogI    : %d\n", invData->tagList[tagIdx].rssiLogI);
+        log2Screen(false, false, "rssiLogQ    : %d\n", invData->tagList[tagIdx].rssiLogQ);
+        log2Screen(false, false, "rssiLinI    : %d\n", invData->tagList[tagIdx].rssiLinI);
+        log2Screen(false, false, "rssiLinQ    : %d\n", invData->tagList[tagIdx].rssiLinQ);
+        log2Screen(false, false, "pc          : ");
+        for (int i = 0; i < MAX_PC_LENGTH; i++) {
+            log2Screen(false, false, "%02x ", invData->tagList[tagIdx].pc[i]); 
+        }
+        log2Screen(false, false, "\nepcLen      : %d\n", invData->tagList[tagIdx].epc.len);
+        log2Screen(false, false, "epc         : ");
+        //printf("tagIdx: %d\n", tagIdx);
+        for (int i = 0; i < invData->tagList[tagIdx].epc.len; i++) {
+            printf("tagIdx: %d i: %d\n", tagIdx, i);
+            log2Screen(false, false, "%02x ", invData->tagList[tagIdx].epc.data[i]);
+            printf("%02x ", invData->tagList[tagIdx].epc.data[i]);
+            sprintf(epcbin, "%02x", invData->tagList[tagIdx].epc.data[i]);
+            //printf(epcbin);
+            strcat(epc, epcbin);
+            /*printf(epc);*/
+        }
+        //printf(epc);
+        log2Screen(false, false, "\ntidLen      : %d\n", invData->tagList[tagIdx].tid.len);
+        log2Screen(false, false, "tid         : ");
+        for (int i = 0; i < invData->tagList[tagIdx].tid.len; i++) {
+            log2Screen(false, false, "%02x ", invData->tagList[tagIdx].tid.data[i]);
+        }
+        sprintf(mensaje, "$%s#", epc);
+        memset(epc, 0, sizeof(epc));
+        //send(clientRead, mensaje, strlen(mensaje), 0);
+    }
+    log2Screen(false, true, "\n");
+}
